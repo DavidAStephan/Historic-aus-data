@@ -34,6 +34,7 @@ Both were printed monthly for November 1974 – June 1975.
 | `data-raw/ba_raw.tsv` | Dec 1962, 1965, 1966 issues: private, government and total, Jan 1960 – Dec 1966 (wide, with printed year totals) |
 | `data-raw/ba_long.tsv` | Jun 1967 – Dec 1985 issues: one row per issue × month, private and total, original and SA as printed; `basis` = combined/new; `note` = `thousands_1dp` where the issue printed '000 to one decimal (Dec 1976, Dec 1977 issues) |
 | `data-raw/abs_dwellings_approved.tsv` | ABS 8731.0 Table 6, Australia, Jul 1983 – Sep 2026 |
+| `data-raw/rba_h3_private_approvals_sa.tsv` | RBA table H3: private dwelling approvals, SA, Jan 1965 – Dec 1990 (for the cross-check) |
 | `tools/check_ba_raw.py` | sum and cross-issue checks for `ba_raw.tsv` (all pass) |
 | `output/dwelling_approvals_spliced_monthly.csv` | the spliced monthly series with source issue/page, SA method and band |
 | `output/dwelling_approvals_splice_check.png` | the three sources over their overlaps |
@@ -53,3 +54,23 @@ Both were printed monthly for November 1974 – June 1975.
   are consistent with each other where they overlap.
 - Sharp one-month spikes in the 1960s (e.g. June 1964, a large month of public housing)
   are as printed, not transcription errors.
+
+## Cross-check against RBA table H3
+
+The RBA's statistical table H3 carries the ABS's seasonally adjusted private dwelling
+approvals back to January 1965 (series GISPSDA). `R/check_vs_rba_h3.R` compares it with our
+private series; results are in `check_vs_rba/`.
+
+| Period | Ours / RBA H3 (annual) | Note |
+|---|---|---|
+| 1975 – Jun 1983 (bulletins, new-dwellings basis) | 0.996 – 1.010 | Independent sources agree within 1% a year |
+| Jul 1983 – 1990 (ABS 8731.0) | 1.000 | Same source |
+| 1965 – Oct 1974 | 0.93 | H3 is **not** adjusted for the 1974-75 definition change |
+
+Before November 1974 the H3 series stays on the old, broader definition (it includes
+dwellings created by alterations and additions), so it steps down by about 7% when the
+definition changes. Removing our 0.931 private-sector adjustment, our pre-1974 figures are
+within 0.5% of H3 on average (ratio 1.005), which confirms the transcriptions; the 7% gap is
+the definition adjustment, not a data difference.
+
+![Ours vs RBA H3](check_vs_rba/approvals_vs_rba_h3.png)
