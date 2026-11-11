@@ -249,6 +249,59 @@ cat(sprintf("Trading bank lending vs total credit growth, years to June %d-%d: c
             min(gchk$year_ended_june), max(gchk$year_ended_june), cor(gchk$g_bank, gchk$credit_growth),
             mean(gchk$g_bank), mean(gchk$credit_growth)))
 
+# ---- 4c. Break-even inflation and inflation expectations, 1985 - 2026 ----------------------
+# The RBA's current files show only part of this history: table G3 has break-even inflation from
+# 2015 and consumer expectations from 2022 only, and F2's indexed bond yield is missing Jun 2013
+# - Oct 2014. The history is rebuilt from the RBA's historical F2 file (1986 - May 2013), copies
+# of f02hist.xls and g03hist.xls archived by the Internet Archive (2015 - 2023), and the current
+# files. data-raw records the file each value came from.
+ib <- read_csv("data-raw/rba_f2_indexed_bond_monthly.csv", show_col_types = FALSE) |> mutate(t = mi(month))
+g3 <- read_csv("data-raw/rba_g3_inflation_expectations.csv", show_col_types = FALSE) |> mutate(t = mi(quarter_end_month))
+gs <- function(id) g3 |> filter(series_id == id) |> select(t, value)
+rbe <- gs("GBONYLD") |> rename(rbe = value)          # RBA break-even, end-quarter month
+# Monthly break-even = 10-year nominal less indexed bond yield (the RBA's definition). The F2
+# indexed series changed in Nov 2014 (the old series is 0.3-0.5 points higher where they overlap),
+# and the RBA revised its quarterly history in 2016. So the monthly differences are benchmarked
+# to the RBA's quarterly series: the gap at each quarter-end month is interpolated linearly
+# across the months between.
+be <- ib |> transmute(t, bond_10y, indexed = if_else(t >= mi("2014-11"), indexed_bond_new, indexed_bond_old),
+                      indexed_basis = if_else(t >= mi("2014-11"), "new", "old"), be_raw = bond_10y - indexed) |>
+  full_join(rbe, by = "t") |> arrange(t)
+# (interpolated within each indexed series, so no gap is spread across the Nov 2014 change)
+kq <- !is.na(be$rbe) & !is.na(be$be_raw)
+be$adj <- NA_real_
+for (b in c("old", "new")) {
+  k <- which(be$indexed_basis == b)
+  kk <- k[kq[k]]
+  be$adj[k] <- approx(be$t[kk], (be$rbe - be$be_raw)[kk], xout = be$t[k], rule = 2)$y
+}
+be <- be |> mutate(breakeven_10y = coalesce(be_raw + adj, rbe),
+                   be_source = case_when(!is.na(be_raw) ~ "Monthly F2 yields, benchmarked to RBA quarterly G3",
+                                         !is.na(rbe) ~ "RBA G3 quarterly only"),
+                   real_bond_10y_indexed = bond_10y - breakeven_10y)
+ckq <- be |> filter(kq)
+cat(sprintf("Break-even: RBA quarterly %s - %s (%d of %d quarters); monthly F2 from %s\n",
+            lab(min(rbe$t)), lab(max(rbe$t)), nrow(rbe), (max(rbe$t) - min(rbe$t)) / 3 + 1, lab(min(ib$t))))
+cat(sprintf("Monthly nominal less indexed vs RBA quarterly break-even, mean abs gap: old indexed series %.2f, new series (Nov 2014 -) %.2f points\n",
+            mean(abs(ckq$adj[ckq$indexed_basis == "old"])), mean(abs(ckq$adj[ckq$indexed_basis == "new"]))))
+# quarterly expectations table (end-quarter months)
+ie <- tibble(t = seq(mi("1985-12"), max(g3$t), by = 3L)) |>
+  left_join(be |> select(t, breakeven_10y, real_bond_10y_indexed), by = "t") |>
+  left_join(gs("GCONEXP") |> rename(consumer_1y = value), by = "t") |>
+  left_join(gs("GBUSEXP") |> rename(business_3m_annualised = value), by = "t") |>
+  left_join(gs("GMAREXPY") |> rename(market_economists_1y = value), by = "t") |>
+  left_join(gs("GMAREXPYY") |> rename(market_economists_2y = value), by = "t") |>
+  left_join(gs("GUNIEXPY") |> rename(union_officials_1y = value), by = "t") |>
+  left_join(gs("GUNIEXPYY") |> rename(union_officials_2y = value), by = "t") |>
+  left_join(cpi |> select(t, cpi_inflation_ye = infl_ye), by = "t")
+# annual: break-even and the real 10-year yield it implies (ex ante), years ended June
+be_fy <- fy_avg(be$t[!is.na(be$be_raw)], be$breakeven_10y[!is.na(be$be_raw)]) |> rename(year_ended_june = fy, breakeven_10y = v)
+lr <- lr |> left_join(be_fy, by = "year_ended_june") |> mutate(real_bond_10y_exante = bond_10y - breakeven_10y)
+ov4 <- lr |> filter(!is.na(breakeven_10y))
+cat(sprintf("Years to June %d-%d: break-even averages %.1f%%, CPI inflation %.1f%%; ex-ante real bond %.1f%% vs ex-post %.1f%%\n",
+            min(ov4$year_ended_june), max(ov4$year_ended_june), mean(ov4$breakeven_10y), mean(ov4$inflation),
+            mean(ov4$real_bond_10y_exante), mean(ov4$real_bond_10y)))
+
 # ---- 5. Outputs --------------------------------------------------------------------------
 dir.create("output", showWarnings = FALSE)
 r2 <- function(x) round(x, 2)
@@ -271,13 +324,25 @@ write_csv(q |> transmute(quarter = lab(t), credit_pct_gdp = round(credit_pct_gdp
 write_csv(lr |> transmute(year_ended_june, short_rate = r2(short_rate), short_rate_basis, bond_10y = r2(bond_10y),
                           bond_10y_basis, housing_rate = r2(housing_rate), business_rate = r2(business_rate),
                           business_rate_basis, inflation = r2(inflation), real_short_rate = r2(real_short_rate),
-                          real_bond_10y = r2(real_bond_10y), m3_growth = round(m3_growth, 1),
+                          real_bond_10y = r2(real_bond_10y), breakeven_10y = r2(breakeven_10y),
+                          real_bond_10y_exante = r2(real_bond_10y_exante), m3_growth = round(m3_growth, 1),
                           credit_growth = round(credit_growth, 1), m3_pct_gdp = round(m3_pct_gdp, 1),
                           credit_pct_gdp = round(credit_pct_gdp, 1), m3_m = round(m3), credit_total_m = round(credit_total),
                           nominal_gdp_m = round(gdp)),
           "output/long_run_annual.csv", na = "")
 write_csv(ar69 |> select(-source) |> mutate(spread = bond10_non_rebateable - bond10_rebateable),
           "output/bond_10y_quarterly_1966_69.csv", na = "")
+write_csv(be |> filter(!is.na(breakeven_10y)) |>
+            transmute(month = lab(t), bond_10y, indexed_bond_yield = indexed, indexed_series = indexed_basis,
+                      nominal_less_indexed = round(be_raw, 3), rba_breakeven_quarterly = rbe,
+                      breakeven_10y = round(breakeven_10y, 2), real_bond_10y_indexed = round(real_bond_10y_indexed, 2),
+                      source = be_source),
+          "output/breakeven_inflation_monthly.csv", na = "")
+write_csv(ie |> transmute(quarter = lab(t), breakeven_10y = round(breakeven_10y, 2),
+                          real_bond_10y_indexed = round(real_bond_10y_indexed, 2), consumer_1y = round(consumer_1y, 2),
+                          business_3m_annualised, market_economists_1y, market_economists_2y,
+                          union_officials_1y, union_officials_2y, cpi_inflation_ye = round(cpi_inflation_ye, 2)),
+          "output/inflation_expectations_quarterly.csv", na = "")
 write_csv(bank |> transmute(month = lab(t), trading_bank_lending_m = round(mtb_orig, 1),
                             trading_bank_lending_sa_m = round(mtb_sa, 1), sa_method,
                             trading_bank_lending_as_printed_m = round(mtb_orig_printed, 1), source_issue = issue,
@@ -350,4 +415,22 @@ p4 <- ggplot(gr, aes(dt(t), v, colour = s)) + geom_hline(yintercept = 0, colour 
        subtitle = "Trading bank loans, advances and bills discounted, seasonally adjusted, break-adjusted at Jul 1973",
        x = NULL, y = NULL, caption = "Sources: CBCS/ABS banking bulletins (ANU Open Research); RBA D1, OP8") + th
 ggsave("output/bank_lending_growth.png", p4, width = 9, height = 5, dpi = 150, bg = "white")
+
+# inflation expectations: break-even (monthly) and survey measures (quarterly), with CPI inflation
+ex <- bind_rows(
+  be |> filter(!is.na(breakeven_10y)) |> transmute(t, v = breakeven_10y, s = "10-year bond break-even"),
+  ie |> transmute(t, v = market_economists_1y, s = "Market economists, 1 year ahead"),
+  ie |> transmute(t, v = consumer_1y, s = "Consumers, 1 year ahead"),
+  ie |> transmute(t, v = business_3m_annualised, s = "Businesses, 3 months ahead (annualised)"),
+  cpi |> filter(t >= mi("1985-12")) |> transmute(t, v = infl_ye, s = "CPI inflation, year-ended")) |> filter(!is.na(v))
+ex$s <- factor(ex$s, unique(ex$s))
+p5 <- ggplot(ex, aes(dt(t), v, colour = s, linewidth = s)) + geom_hline(yintercept = c(2, 3), colour = "grey80") +
+  geom_line() + scale_colour_manual(values = c(pal[1], pal[4], pal[5], "#9467bd", pal[3]), name = NULL) +
+  scale_linewidth_manual(values = c(0.6, 0.45, 0.45, 0.35, 0.35), name = NULL) +
+  guides(colour = guide_legend(nrow = 2), linewidth = guide_legend(nrow = 2)) +
+  labs(title = "Inflation expectations in Australia, 1985 - 2026 (per cent)",
+       subtitle = paste0("Break-even: 10-year nominal less indexed bond yield, monthly from Jul 1986, quarterly before.\n",
+                         "Rebuilt from RBA F2 and G3 files, including copies archived 2015-2023. Grey lines: the 2-3 per cent target."),
+       x = NULL, y = NULL, caption = "Sources: RBA F2, G3 (NAB, Melbourne Institute, RBA survey), G1; Internet Archive") + th
+ggsave("output/inflation_expectations.png", p5, width = 9, height = 5.2, dpi = 150, bg = "white")
 cat("Done.\n")

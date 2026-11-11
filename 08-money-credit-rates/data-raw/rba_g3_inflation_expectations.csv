@@ -1,0 +1,821 @@
+series_id,quarter_end_month,value,source
+GBONYLD,1985-12,9.27,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,1986-03,7.14,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,1986-09,8.25,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,1986-12,7.48,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,1987-03,7.82,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,1987-06,7.56,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,1987-09,7.42,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,1987-12,7.72,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,1988-03,7.18,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,1988-06,7.29,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,1988-09,7.6,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,1988-12,8.68,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,1989-03,9.37,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,1989-06,9.02,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,1989-09,8.74,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,1989-12,8.04,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,1990-03,7.84,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,1990-06,8.01,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,1990-09,8.14,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,1990-12,6.46,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,1991-03,5.77,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,1991-06,5.46,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,1991-09,4.56,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,1991-12,3.78,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,1992-03,4.33,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,1992-06,3.76,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,1992-09,4.35,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,1992-12,4.41,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,1993-03,3.36,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,1993-06,3.31,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,1993-09,3.6,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,1993-12,3.11,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,1994-03,3.57,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,1994-06,4.61,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,1994-09,4.83,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,1994-12,4.46,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,1995-03,4.22,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,1995-06,4.22,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,1995-09,3.72,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,1995-12,3.39,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,1996-03,3.83,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,1996-06,3.48,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,1996-09,2.93,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,1996-12,2.91,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,1997-03,3.23,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,1997-06,2.4,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,1997-09,1.86,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,1997-12,1.87,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,1998-03,1.96,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,1998-06,2.08,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,1998-09,1.81,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,1998-12,1.66,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,1999-03,1.95,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,1999-06,2.64,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,1999-09,2.91,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,1999-12,3.42,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,2000-03,2.85,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,2000-06,2.92,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,2000-09,2.9,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,2000-12,2.27,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,2001-03,2.04,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,2001-06,2.58,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,2001-09,2.18,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,2001-12,2.53,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,2002-03,2.82,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,2002-06,2.65,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,2002-09,2.08,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,2002-12,1.99,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,2003-03,2.18,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,2003-06,2.15,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,2003-09,2.11,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,2003-12,2.18,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,2004-03,2.4,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,2004-06,2.66,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,2004-09,2.71,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,2004-12,2.61,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,2005-03,2.9,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,2005-06,2.52,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,2005-09,2.83,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,2005-12,3.02,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,2006-03,3.16,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,2006-06,3.31,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,2006-09,3.29,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,2006-12,3.16,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,2007-03,3.27,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,2007-06,3.42,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,2007-09,3.46,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,2007-12,3.53,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,2008-03,3.53,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,2008-06,3.88,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,2008-09,3.4,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,2008-12,1.5,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,2009-03,2.19,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,2009-06,2.5,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,2009-09,2.39,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,2009-12,2.82,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,2010-03,2.98,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,2010-06,2.59,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,2010-09,2.66,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,2010-12,2.88,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,2011-03,2.93,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,2011-06,2.87,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,2011-09,2.6,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,2011-12,2.54,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,2012-03,2.84,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,2012-06,2.41,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,2012-09,2.52,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,2012-12,2.62,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,2013-03,2.72,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,2013-06,2.37,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,2013-09,2.42,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,2013-12,2.63,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,2014-03,2.56,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,2014-06,2.52,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,2014-09,2.43,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,2014-12,2.26,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GBONYLD,2015-03,2.24,RBA G3 current file
+GBONYLD,2015-06,2.33,RBA G3 current file
+GBONYLD,2015-09,2.15,RBA G3 current file
+GBONYLD,2015-12,2.22,RBA G3 current file
+GBONYLD,2016-03,1.99,RBA G3 current file
+GBONYLD,2016-06,1.58,RBA G3 current file
+GBONYLD,2016-09,1.57,RBA G3 current file
+GBONYLD,2016-12,1.97,RBA G3 current file
+GBONYLD,2017-03,1.96,RBA G3 current file
+GBONYLD,2017-06,1.87,RBA G3 current file
+GBONYLD,2017-09,1.83,RBA G3 current file
+GBONYLD,2017-12,1.89,RBA G3 current file
+GBONYLD,2018-03,1.93,RBA G3 current file
+GBONYLD,2018-06,1.97,RBA G3 current file
+GBONYLD,2018-09,1.86,RBA G3 current file
+GBONYLD,2018-12,1.65,RBA G3 current file
+GBONYLD,2019-03,1.44,RBA G3 current file
+GBONYLD,2019-06,1.38,RBA G3 current file
+GBONYLD,2019-09,1.25,RBA G3 current file
+GBONYLD,2019-12,1.42,RBA G3 current file
+GBONYLD,2020-03,0.66,RBA G3 current file
+GBONYLD,2020-06,1.03,RBA G3 current file
+GBONYLD,2020-09,1.33,RBA G3 current file
+GBONYLD,2020-12,1.76,RBA G3 current file
+GBONYLD,2021-03,2.05,RBA G3 current file
+GBONYLD,2021-06,2.03,RBA G3 current file
+GBONYLD,2021-09,1.92,RBA G3 current file
+GBONYLD,2021-12,2.28,RBA G3 current file
+GBONYLD,2022-03,2.54,RBA G3 current file
+GBONYLD,2022-06,2.3,RBA G3 current file
+GBONYLD,2022-09,2.16,RBA G3 current file
+GBONYLD,2022-12,2.43,RBA G3 current file
+GBONYLD,2023-03,2.33,RBA G3 current file
+GBONYLD,2023-06,2.43,RBA G3 current file
+GBONYLD,2023-09,2.54,RBA G3 current file
+GBONYLD,2023-12,2.57,RBA G3 current file
+GBONYLD,2024-03,2.45,RBA G3 current file
+GBONYLD,2024-06,2.42,RBA G3 current file
+GBONYLD,2024-09,2.34,RBA G3 current file
+GBONYLD,2024-12,2.33,RBA G3 current file
+GBONYLD,2025-03,2.16,RBA G3 current file
+GBONYLD,2025-06,2.1,RBA G3 current file
+GBONYLD,2025-09,2.34,RBA G3 current file
+GBONYLD,2025-12,2.3,RBA G3 current file
+GBONYLD,2026-03,2.35,RBA G3 current file
+GBONYLD,2026-06,2.27,RBA G3 current file
+GBONYLD,2026-09,2.4,RBA G3 current file
+GBUSEXP,1989-09,4.76,RBA G3 current file
+GBUSEXP,1989-12,3.48,RBA G3 current file
+GBUSEXP,1990-03,4.56,RBA G3 current file
+GBUSEXP,1990-06,3.65,RBA G3 current file
+GBUSEXP,1990-09,3.9,RBA G3 current file
+GBUSEXP,1990-12,3.36,RBA G3 current file
+GBUSEXP,1991-03,2.42,RBA G3 current file
+GBUSEXP,1991-06,2.02,RBA G3 current file
+GBUSEXP,1991-09,1.69,RBA G3 current file
+GBUSEXP,1991-12,1.61,RBA G3 current file
+GBUSEXP,1992-03,1.89,RBA G3 current file
+GBUSEXP,1992-06,1.65,RBA G3 current file
+GBUSEXP,1992-09,2.06,RBA G3 current file
+GBUSEXP,1992-12,1.69,RBA G3 current file
+GBUSEXP,1993-03,1.81,RBA G3 current file
+GBUSEXP,1993-06,2.26,RBA G3 current file
+GBUSEXP,1993-09,2.38,RBA G3 current file
+GBUSEXP,1993-12,2.5,RBA G3 current file
+GBUSEXP,1994-03,2.3,RBA G3 current file
+GBUSEXP,1994-06,2.95,RBA G3 current file
+GBUSEXP,1994-09,3.16,RBA G3 current file
+GBUSEXP,1994-12,3.9,RBA G3 current file
+GBUSEXP,1995-03,4.02,RBA G3 current file
+GBUSEXP,1995-06,4.39,RBA G3 current file
+GBUSEXP,1995-09,3.28,RBA G3 current file
+GBUSEXP,1995-12,2.58,RBA G3 current file
+GBUSEXP,1996-03,2.26,RBA G3 current file
+GBUSEXP,1996-06,2.18,RBA G3 current file
+GBUSEXP,1996-09,1.81,RBA G3 current file
+GBUSEXP,1996-12,1.57,RBA G3 current file
+GBUSEXP,1997-03,1.93,RBA G3 current file
+GBUSEXP,1997-06,1.77,RBA G3 current file
+GBUSEXP,1997-09,1.49,RBA G3 current file
+GBUSEXP,1997-12,1.69,RBA G3 current file
+GBUSEXP,1998-03,2.06,RBA G3 current file
+GBUSEXP,1998-06,1.53,RBA G3 current file
+GBUSEXP,1998-09,1.49,RBA G3 current file
+GBUSEXP,1998-12,1.04,RBA G3 current file
+GBUSEXP,1999-03,1,RBA G3 current file
+GBUSEXP,1999-06,1.08,RBA G3 current file
+GBUSEXP,1999-09,1.21,RBA G3 current file
+GBUSEXP,1999-12,1.37,RBA G3 current file
+GBUSEXP,2000-03,1.89,RBA G3 current file
+GBUSEXP,2000-06,3.47,RBA G3 current file
+GBUSEXP,2000-09,2.06,RBA G3 current file
+GBUSEXP,2000-12,2.64,RBA G3 current file
+GBUSEXP,2001-03,1.53,RBA G3 current file
+GBUSEXP,2001-06,2.29,RBA G3 current file
+GBUSEXP,2001-09,1.64,RBA G3 current file
+GBUSEXP,2001-12,1.32,RBA G3 current file
+GBUSEXP,2002-03,1.58,RBA G3 current file
+GBUSEXP,2002-06,1.87,RBA G3 current file
+GBUSEXP,2002-09,1.79,RBA G3 current file
+GBUSEXP,2002-12,1.53,RBA G3 current file
+GBUSEXP,2003-03,1.74,RBA G3 current file
+GBUSEXP,2003-06,1.18,RBA G3 current file
+GBUSEXP,2003-09,1.38,RBA G3 current file
+GBUSEXP,2003-12,1.2,RBA G3 current file
+GBUSEXP,2004-03,1.08,RBA G3 current file
+GBUSEXP,2004-06,1.93,RBA G3 current file
+GBUSEXP,2004-09,1.85,RBA G3 current file
+GBUSEXP,2004-12,1.48,RBA G3 current file
+GBUSEXP,2005-03,1.65,RBA G3 current file
+GBUSEXP,2005-06,1.91,RBA G3 current file
+GBUSEXP,2005-09,1.59,RBA G3 current file
+GBUSEXP,2005-12,1.56,RBA G3 current file
+GBUSEXP,2006-03,1.74,RBA G3 current file
+GBUSEXP,2006-06,2.44,RBA G3 current file
+GBUSEXP,2006-09,1.78,RBA G3 current file
+GBUSEXP,2006-12,1.86,RBA G3 current file
+GBUSEXP,2007-03,1.65,RBA G3 current file
+GBUSEXP,2007-06,2.09,RBA G3 current file
+GBUSEXP,2007-09,1.86,RBA G3 current file
+GBUSEXP,2007-12,2.28,RBA G3 current file
+GBUSEXP,2008-03,2.36,RBA G3 current file
+GBUSEXP,2008-06,3.38,RBA G3 current file
+GBUSEXP,2008-09,2.45,RBA G3 current file
+GBUSEXP,2008-12,1.94,RBA G3 current file
+GBUSEXP,2009-03,0.42,RBA G3 current file
+GBUSEXP,2009-06,0.85,RBA G3 current file
+GBUSEXP,2009-09,0.92,RBA G3 current file
+GBUSEXP,2009-12,1.12,RBA G3 current file
+GBUSEXP,2010-03,1.19,RBA G3 current file
+GBUSEXP,2010-06,2.1,RBA G3 current file
+GBUSEXP,2010-09,1.16,RBA G3 current file
+GBUSEXP,2010-12,1.31,RBA G3 current file
+GBUSEXP,2011-03,1.34,RBA G3 current file
+GBUSEXP,2011-06,2.02,RBA G3 current file
+GBUSEXP,2011-09,1.04,RBA G3 current file
+GBUSEXP,2011-12,1.21,RBA G3 current file
+GBUSEXP,2012-03,0.98,RBA G3 current file
+GBUSEXP,2012-06,1.99,RBA G3 current file
+GBUSEXP,2012-09,0.78,RBA G3 current file
+GBUSEXP,2012-12,0.65,RBA G3 current file
+GBUSEXP,2013-03,0.72,RBA G3 current file
+GBUSEXP,2013-06,1.51,RBA G3 current file
+GBUSEXP,2013-09,1.13,RBA G3 current file
+GBUSEXP,2013-12,1.36,RBA G3 current file
+GBUSEXP,2014-03,1.12,RBA G3 current file
+GBUSEXP,2014-06,1.5,RBA G3 current file
+GBUSEXP,2014-09,0.75,RBA G3 current file
+GBUSEXP,2014-12,1.22,RBA G3 current file
+GBUSEXP,2015-03,1.37,RBA G3 current file
+GBUSEXP,2015-06,1.42,RBA G3 current file
+GBUSEXP,2015-09,0.91,RBA G3 current file
+GBUSEXP,2015-12,0.92,RBA G3 current file
+GBUSEXP,2016-03,0.82,RBA G3 current file
+GBUSEXP,2016-06,1.04,RBA G3 current file
+GBUSEXP,2016-09,0.8,RBA G3 current file
+GBUSEXP,2016-12,1.06,RBA G3 current file
+GBUSEXP,2017-03,1.09,RBA G3 current file
+GBUSEXP,2017-06,1.64,RBA G3 current file
+GBUSEXP,2017-09,0.82,RBA G3 current file
+GBUSEXP,2017-12,1.16,RBA G3 current file
+GBUSEXP,2018-03,1.41,RBA G3 current file
+GBUSEXP,2018-06,1.97,RBA G3 current file
+GBUSEXP,2018-09,1.13,RBA G3 current file
+GBUSEXP,2018-12,1.28,RBA G3 current file
+GBUSEXP,2019-03,1.01,RBA G3 current file
+GBUSEXP,2019-06,1.72,RBA G3 current file
+GBUSEXP,2019-09,0.98,RBA G3 current file
+GBUSEXP,2019-12,1.08,RBA G3 current file
+GBUSEXP,2020-03,0.71,RBA G3 current file
+GBUSEXP,2020-06,0.24,RBA G3 current file
+GBUSEXP,2020-09,0.19,RBA G3 current file
+GBUSEXP,2020-12,1.4,RBA G3 current file
+GBUSEXP,2021-03,1.51,RBA G3 current file
+GBUSEXP,2021-06,2.84,RBA G3 current file
+GBUSEXP,2021-09,2.08,RBA G3 current file
+GBUSEXP,2021-12,3.39,RBA G3 current file
+GBUSEXP,2022-03,3.55,RBA G3 current file
+GBUSEXP,2022-06,5.28,RBA G3 current file
+GBUSEXP,2022-09,3.81,RBA G3 current file
+GBUSEXP,2022-12,3.89,RBA G3 current file
+GBUSEXP,2023-03,3.18,RBA G3 current file
+GBUSEXP,2023-06,4.18,RBA G3 current file
+GBUSEXP,2023-09,2.19,RBA G3 current file
+GBUSEXP,2023-12,2.78,RBA G3 current file
+GBUSEXP,2024-03,2,RBA G3 current file
+GBUSEXP,2024-06,3.12,RBA G3 current file
+GBUSEXP,2024-09,1.72,RBA G3 current file
+GBUSEXP,2024-12,2.01,RBA G3 current file
+GBUSEXP,2025-03,1.71,RBA G3 current file
+GBUSEXP,2025-06,2.47,RBA G3 current file
+GBUSEXP,2025-09,1.65,RBA G3 current file
+GBUSEXP,2025-12,1.91,RBA G3 current file
+GBUSEXP,2026-03,1.99,RBA G3 current file
+GBUSEXP,2026-06,3.59,RBA G3 current file
+GBUSEXP,2026-09,2,RBA G3 current file
+GCONEXP,2010-03,4.5,RBA g03hist.xls archived 2015-04-25 (Internet Archive)
+GCONEXP,2010-06,4.7,RBA g03hist.xls archived 2015-04-25 (Internet Archive)
+GCONEXP,2010-09,4.4,RBA g03hist.xls archived 2015-04-25 (Internet Archive)
+GCONEXP,2010-12,4.7,RBA g03hist.xls archived 2015-04-25 (Internet Archive)
+GCONEXP,2011-03,5.5,RBA g03hist.xls archived 2015-09-20 (Internet Archive)
+GCONEXP,2011-06,5.3,RBA g03hist.xls archived 2015-09-20 (Internet Archive)
+GCONEXP,2011-09,4.3,RBA g03hist.xls archived 2015-09-20 (Internet Archive)
+GCONEXP,2011-12,4.4,RBA g03hist.xls archived 2015-09-20 (Internet Archive)
+GCONEXP,2012-03,4.6,RBA g03hist.xls archived 2017-03-21 (Internet Archive)
+GCONEXP,2012-06,4.1,RBA g03hist.xls archived 2017-03-21 (Internet Archive)
+GCONEXP,2012-09,4.2,RBA g03hist.xls archived 2017-03-21 (Internet Archive)
+GCONEXP,2012-12,3.9,RBA g03hist.xls archived 2017-03-21 (Internet Archive)
+GCONEXP,2013-03,3.7945908733347906,RBA g03hist.xls archived 2018-04-25 (Internet Archive)
+GCONEXP,2013-06,3.8916387833946704,RBA g03hist.xls archived 2018-04-25 (Internet Archive)
+GCONEXP,2013-09,2.83546367689372,RBA g03hist.xls archived 2018-04-25 (Internet Archive)
+GCONEXP,2013-12,3.2268417741712,RBA g03hist.xls archived 2018-04-25 (Internet Archive)
+GCONEXP,2014-03,3.7364249950994304,RBA g03hist.xls archived 2019-03-18 (Internet Archive)
+GCONEXP,2014-06,3.9509608800393696,RBA g03hist.xls archived 2019-03-18 (Internet Archive)
+GCONEXP,2014-09,3.49962486484615,RBA g03hist.xls archived 2019-03-18 (Internet Archive)
+GCONEXP,2014-12,3.40901498757881,RBA g03hist.xls archived 2019-03-18 (Internet Archive)
+GCONEXP,2015-03,3.19855804416045,RBA g03hist.xls archived 2019-03-18 (Internet Archive)
+GCONEXP,2015-06,3.00572709552513,RBA g03hist.xls archived 2019-03-18 (Internet Archive)
+GCONEXP,2015-09,3.24291174117474,RBA g03hist.xls archived 2019-03-18 (Internet Archive)
+GCONEXP,2015-12,3.95879597349134,RBA g03hist.xls archived 2019-03-18 (Internet Archive)
+GCONEXP,2016-03,3.437122464547214,RBA g03hist.xls archived 2021-03-16 (Internet Archive)
+GCONEXP,2016-06,3.457337640978201,RBA g03hist.xls archived 2021-03-16 (Internet Archive)
+GCONEXP,2016-09,3.337335260569507,RBA g03hist.xls archived 2021-03-16 (Internet Archive)
+GCONEXP,2016-12,3.383763858752846,RBA g03hist.xls archived 2021-03-16 (Internet Archive)
+GCONEXP,2017-03,3.994389265393069,RBA g03hist.xls archived 2022-01-20 (Internet Archive)
+GCONEXP,2017-06,3.6,RBA g03hist.xls archived 2022-01-20 (Internet Archive)
+GCONEXP,2017-09,3.8497976853622378,RBA g03hist.xls archived 2022-01-20 (Internet Archive)
+GCONEXP,2017-12,3.7,RBA g03hist.xls archived 2022-01-20 (Internet Archive)
+GCONEXP,2018-03,3.7038530015421376,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GCONEXP,2018-06,4.178372417170358,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GCONEXP,2018-09,4.046987900801777,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GCONEXP,2018-12,4.048386886875485,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GCONEXP,2019-03,4.1,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GCONEXP,2019-06,3.3,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GCONEXP,2019-09,3.1,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GCONEXP,2019-12,4,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GCONEXP,2020-03,4,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GCONEXP,2020-06,3.3,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GCONEXP,2020-09,3.1,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GCONEXP,2020-12,3.5,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GCONEXP,2021-03,4.1,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GCONEXP,2021-06,4.4,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GCONEXP,2021-09,4.4,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GCONEXP,2021-12,4.791806942491175,RBA g03hist.xls archived 2023-03-21 (Internet Archive)
+GCONEXP,2022-03,4.8984585230503,RBA G3 current file
+GCONEXP,2022-06,6.66111859710567,RBA G3 current file
+GCONEXP,2022-09,5.39019196980273,RBA G3 current file
+GCONEXP,2022-12,5.18859791446245,RBA G3 current file
+GCONEXP,2023-03,4.9941092228156,RBA G3 current file
+GCONEXP,2023-06,5.16717001099565,RBA G3 current file
+GCONEXP,2023-09,4.60772850999672,RBA G3 current file
+GCONEXP,2023-12,4.45811476858331,RBA G3 current file
+GCONEXP,2024-03,4.3484419594189,RBA G3 current file
+GCONEXP,2024-06,4.43148590491936,RBA G3 current file
+GCONEXP,2024-09,4.43283384254083,RBA G3 current file
+GCONEXP,2024-12,4.22306284494099,RBA G3 current file
+GCONEXP,2025-03,3.6375200500582,RBA G3 current file
+GCONEXP,2025-06,5.01562180199529,RBA G3 current file
+GCONEXP,2025-09,4.69719469674346,RBA G3 current file
+GCONEXP,2025-12,4.69764913459137,RBA G3 current file
+GCONEXP,2026-03,5.16910120656644,RBA G3 current file
+GCONEXP,2026-06,5.46812852583211,RBA G3 current file
+GCONEXP,2026-09,4.87506569551891,RBA G3 current file
+GMAREXPY,1993-09,3,RBA G3 current file
+GMAREXPY,1994-06,3,RBA G3 current file
+GMAREXPY,1994-09,3.4,RBA G3 current file
+GMAREXPY,1995-06,3.8,RBA G3 current file
+GMAREXPY,1995-09,3.6,RBA G3 current file
+GMAREXPY,1996-06,3,RBA G3 current file
+GMAREXPY,1996-09,2.5,RBA G3 current file
+GMAREXPY,1997-06,2.7,RBA G3 current file
+GMAREXPY,1997-09,1.8,RBA G3 current file
+GMAREXPY,1998-06,2.7,RBA G3 current file
+GMAREXPY,1998-09,2.6,RBA G3 current file
+GMAREXPY,1999-06,2.1,RBA G3 current file
+GMAREXPY,1999-09,2.2,RBA G3 current file
+GMAREXPY,2000-06,5.3,RBA G3 current file
+GMAREXPY,2000-09,5.5,RBA G3 current file
+GMAREXPY,2001-06,1.9,RBA G3 current file
+GMAREXPY,2001-09,2.3,RBA G3 current file
+GMAREXPY,2002-06,2.6,RBA G3 current file
+GMAREXPY,2002-09,2.4,RBA G3 current file
+GMAREXPY,2002-12,2.5,RBA G3 current file
+GMAREXPY,2003-03,2.6,RBA G3 current file
+GMAREXPY,2003-06,2.2,RBA G3 current file
+GMAREXPY,2003-09,2.3,RBA G3 current file
+GMAREXPY,2003-12,2.3,RBA G3 current file
+GMAREXPY,2004-03,2,RBA G3 current file
+GMAREXPY,2004-06,2.3,RBA G3 current file
+GMAREXPY,2004-09,2.4,RBA G3 current file
+GMAREXPY,2004-12,2.5,RBA G3 current file
+GMAREXPY,2005-03,2.5,RBA G3 current file
+GMAREXPY,2005-06,2.6,RBA G3 current file
+GMAREXPY,2005-09,2.7,RBA G3 current file
+GMAREXPY,2005-12,2.6,RBA G3 current file
+GMAREXPY,2006-03,2.8,RBA G3 current file
+GMAREXPY,2006-06,2.7,RBA G3 current file
+GMAREXPY,2006-09,2.7,RBA G3 current file
+GMAREXPY,2006-12,2.7,RBA G3 current file
+GMAREXPY,2007-03,2.5,RBA G3 current file
+GMAREXPY,2007-06,2.5,RBA G3 current file
+GMAREXPY,2007-09,2.7,RBA G3 current file
+GMAREXPY,2007-12,2.7,RBA G3 current file
+GMAREXPY,2008-03,3,RBA G3 current file
+GMAREXPY,2008-06,3,RBA G3 current file
+GMAREXPY,2008-09,3.3,RBA G3 current file
+GMAREXPY,2008-12,2.6,RBA G3 current file
+GMAREXPY,2009-03,2.5,RBA G3 current file
+GMAREXPY,2009-06,2.3,RBA G3 current file
+GMAREXPY,2009-09,2.3,RBA G3 current file
+GMAREXPY,2009-12,2.2,RBA G3 current file
+GMAREXPY,2010-03,2.3,RBA G3 current file
+GMAREXPY,2010-06,3,RBA G3 current file
+GMAREXPY,2010-09,3.2,RBA G3 current file
+GMAREXPY,2010-12,3.2,RBA G3 current file
+GMAREXPY,2011-03,3.3,RBA G3 current file
+GMAREXPY,2011-06,2.7,RBA G3 current file
+GMAREXPY,2011-09,2.6,RBA G3 current file
+GMAREXPY,2011-12,3.5,RBA G3 current file
+GMAREXPY,2012-03,3.2,RBA G3 current file
+GMAREXPY,2012-06,3.4,RBA G3 current file
+GMAREXPY,2012-09,3.4,RBA G3 current file
+GMAREXPY,2012-12,2.6,RBA G3 current file
+GMAREXPY,2013-03,2.6,RBA G3 current file
+GMAREXPY,2013-06,2.6,RBA G3 current file
+GMAREXPY,2013-09,2.6,RBA G3 current file
+GMAREXPY,2013-12,2.6,RBA G3 current file
+GMAREXPY,2014-03,2.5,RBA G3 current file
+GMAREXPY,2014-06,2.6,RBA G3 current file
+GMAREXPY,2014-09,2.4,RBA G3 current file
+GMAREXPY,2014-12,2.7,RBA G3 current file
+GMAREXPY,2015-03,2.3,RBA G3 current file
+GMAREXPY,2015-06,2.8,RBA G3 current file
+GMAREXPY,2015-09,2.6,RBA G3 current file
+GMAREXPY,2015-12,2.5,RBA G3 current file
+GMAREXPY,2016-03,2.2,RBA G3 current file
+GMAREXPY,2016-06,2.5,RBA G3 current file
+GMAREXPY,2016-09,2,RBA G3 current file
+GMAREXPY,2016-12,2.1,RBA G3 current file
+GMAREXPY,2017-03,2.2,RBA G3 current file
+GMAREXPY,2017-06,2.2,RBA G3 current file
+GMAREXPY,2017-09,2.4,RBA G3 current file
+GMAREXPY,2017-12,2.3,RBA G3 current file
+GMAREXPY,2018-03,2.3,RBA G3 current file
+GMAREXPY,2018-06,2.2,RBA G3 current file
+GMAREXPY,2018-09,2.2,RBA G3 current file
+GMAREXPY,2018-12,2.2,RBA G3 current file
+GMAREXPY,2019-03,2.2,RBA G3 current file
+GMAREXPY,2019-06,2,RBA G3 current file
+GMAREXPY,2019-09,1.9,RBA G3 current file
+GMAREXPY,2019-12,2,RBA G3 current file
+GMAREXPY,2020-03,1.9,RBA G3 current file
+GMAREXPY,2020-06,2.1,RBA G3 current file
+GMAREXPY,2020-09,2.4,RBA G3 current file
+GMAREXPY,2020-12,1.6,RBA G3 current file
+GMAREXPY,2021-03,1.6,RBA G3 current file
+GMAREXPY,2021-06,1.7,RBA G3 current file
+GMAREXPY,2021-09,1.9,RBA G3 current file
+GMAREXPY,2021-12,2.3,RBA G3 current file
+GMAREXPY,2022-03,3,RBA G3 current file
+GMAREXPY,2022-06,3.3,RBA G3 current file
+GMAREXPY,2022-09,5.2,RBA G3 current file
+GMAREXPY,2022-12,3.8,RBA G3 current file
+GMAREXPY,2023-03,4,RBA G3 current file
+GMAREXPY,2023-06,3.3,RBA G3 current file
+GMAREXPY,2023-09,3.6,RBA G3 current file
+GMAREXPY,2023-12,3.2,RBA G3 current file
+GMAREXPY,2024-03,3.1,RBA G3 current file
+GMAREXPY,2024-06,2.9,RBA G3 current file
+GMAREXPY,2024-09,2.7,RBA G3 current file
+GMAREXPY,2024-12,3.1,RBA G3 current file
+GMAREXPY,2025-03,3.1,RBA G3 current file
+GMAREXPY,2025-06,2.8,RBA G3 current file
+GMAREXPY,2025-09,2.8,RBA G3 current file
+GMAREXPY,2025-12,2.8,RBA G3 current file
+GMAREXPY,2026-03,3,RBA G3 current file
+GMAREXPY,2026-06,3,RBA G3 current file
+GMAREXPY,2026-09,3,RBA G3 current file
+GMAREXPY,2026-12,2.6,RBA G3 current file
+GMAREXPYY,1994-09,3.5,RBA G3 current file
+GMAREXPYY,1994-12,3.7,RBA G3 current file
+GMAREXPYY,1995-09,3.2,RBA G3 current file
+GMAREXPYY,1995-12,3.1,RBA G3 current file
+GMAREXPYY,1996-09,3.2,RBA G3 current file
+GMAREXPYY,1996-12,3,RBA G3 current file
+GMAREXPYY,1997-09,3.6,RBA G3 current file
+GMAREXPYY,1997-12,3.2,RBA G3 current file
+GMAREXPYY,1998-09,2.5,RBA G3 current file
+GMAREXPYY,1998-12,2.5,RBA G3 current file
+GMAREXPYY,1999-09,4.2,RBA G3 current file
+GMAREXPYY,1999-12,4.9,RBA G3 current file
+GMAREXPYY,2000-09,2.3,RBA G3 current file
+GMAREXPYY,2000-12,2.4,RBA G3 current file
+GMAREXPYY,2001-09,2.5,RBA G3 current file
+GMAREXPYY,2001-12,2.2,RBA G3 current file
+GMAREXPYY,2002-09,2.5,RBA G3 current file
+GMAREXPYY,2002-12,2.5,RBA G3 current file
+GMAREXPYY,2003-09,2.5,RBA G3 current file
+GMAREXPYY,2003-12,2.5,RBA G3 current file
+GMAREXPYY,2004-09,2.7,RBA G3 current file
+GMAREXPYY,2004-12,2.5,RBA G3 current file
+GMAREXPYY,2005-06,2.7,RBA G3 current file
+GMAREXPYY,2005-09,2.5,RBA G3 current file
+GMAREXPYY,2005-12,2.5,RBA G3 current file
+GMAREXPYY,2006-03,2.6,RBA G3 current file
+GMAREXPYY,2006-06,2.6,RBA G3 current file
+GMAREXPYY,2006-09,2.5,RBA G3 current file
+GMAREXPYY,2006-12,2.5,RBA G3 current file
+GMAREXPYY,2007-03,2.5,RBA G3 current file
+GMAREXPYY,2007-06,2.5,RBA G3 current file
+GMAREXPYY,2007-09,2.7,RBA G3 current file
+GMAREXPYY,2007-12,2.6,RBA G3 current file
+GMAREXPYY,2008-03,2.7,RBA G3 current file
+GMAREXPYY,2008-06,2.8,RBA G3 current file
+GMAREXPYY,2008-09,2.8,RBA G3 current file
+GMAREXPYY,2008-12,2.5,RBA G3 current file
+GMAREXPYY,2009-03,2.4,RBA G3 current file
+GMAREXPYY,2009-06,2.4,RBA G3 current file
+GMAREXPYY,2009-09,2.5,RBA G3 current file
+GMAREXPYY,2009-12,2.7,RBA G3 current file
+GMAREXPYY,2010-03,2.9,RBA G3 current file
+GMAREXPYY,2010-06,2.8,RBA G3 current file
+GMAREXPYY,2010-09,2.8,RBA G3 current file
+GMAREXPYY,2010-12,2.8,RBA G3 current file
+GMAREXPYY,2011-03,3.1,RBA G3 current file
+GMAREXPYY,2011-06,2.7,RBA G3 current file
+GMAREXPYY,2011-09,3.4,RBA G3 current file
+GMAREXPYY,2011-12,2.9,RBA G3 current file
+GMAREXPYY,2012-03,2.7,RBA G3 current file
+GMAREXPYY,2012-06,2.6,RBA G3 current file
+GMAREXPYY,2012-09,2.7,RBA G3 current file
+GMAREXPYY,2012-12,2.7,RBA G3 current file
+GMAREXPYY,2013-03,2.7,RBA G3 current file
+GMAREXPYY,2013-06,2.6,RBA G3 current file
+GMAREXPYY,2013-09,2.6,RBA G3 current file
+GMAREXPYY,2013-12,2.6,RBA G3 current file
+GMAREXPYY,2014-03,2.6,RBA G3 current file
+GMAREXPYY,2014-06,2.7,RBA G3 current file
+GMAREXPYY,2014-09,2.8,RBA G3 current file
+GMAREXPYY,2014-12,2.8,RBA G3 current file
+GMAREXPYY,2015-03,2.7,RBA G3 current file
+GMAREXPYY,2015-06,2.8,RBA G3 current file
+GMAREXPYY,2015-09,2.7,RBA G3 current file
+GMAREXPYY,2015-12,2.5,RBA G3 current file
+GMAREXPYY,2016-03,2.5,RBA G3 current file
+GMAREXPYY,2016-06,2.5,RBA G3 current file
+GMAREXPYY,2016-09,2.1,RBA G3 current file
+GMAREXPYY,2016-12,2.3,RBA G3 current file
+GMAREXPYY,2017-03,2.3,RBA G3 current file
+GMAREXPYY,2017-06,2.2,RBA G3 current file
+GMAREXPYY,2017-09,2.4,RBA G3 current file
+GMAREXPYY,2017-12,2.4,RBA G3 current file
+GMAREXPYY,2018-03,2.4,RBA G3 current file
+GMAREXPYY,2018-06,2.5,RBA G3 current file
+GMAREXPYY,2018-09,2.3,RBA G3 current file
+GMAREXPYY,2018-12,2.4,RBA G3 current file
+GMAREXPYY,2019-03,2.4,RBA G3 current file
+GMAREXPYY,2019-06,2.2,RBA G3 current file
+GMAREXPYY,2019-09,2,RBA G3 current file
+GMAREXPYY,2019-12,2.2,RBA G3 current file
+GMAREXPYY,2020-03,2.1,RBA G3 current file
+GMAREXPYY,2020-06,1.8,RBA G3 current file
+GMAREXPYY,2020-09,1.7,RBA G3 current file
+GMAREXPYY,2020-12,1.8,RBA G3 current file
+GMAREXPYY,2021-03,1.9,RBA G3 current file
+GMAREXPYY,2021-06,2,RBA G3 current file
+GMAREXPYY,2021-09,2.2,RBA G3 current file
+GMAREXPYY,2021-12,2.4,RBA G3 current file
+GMAREXPYY,2022-03,2.7,RBA G3 current file
+GMAREXPYY,2022-06,2.7,RBA G3 current file
+GMAREXPYY,2022-09,2.7,RBA G3 current file
+GMAREXPYY,2022-12,2.8,RBA G3 current file
+GMAREXPYY,2023-03,2.8,RBA G3 current file
+GMAREXPYY,2023-06,2.7,RBA G3 current file
+GMAREXPYY,2023-09,2.7,RBA G3 current file
+GMAREXPYY,2023-12,2.8,RBA G3 current file
+GMAREXPYY,2024-03,2.7,RBA G3 current file
+GMAREXPYY,2024-06,2.6,RBA G3 current file
+GMAREXPYY,2024-09,2.8,RBA G3 current file
+GMAREXPYY,2024-12,2.5,RBA G3 current file
+GMAREXPYY,2025-03,2.5,RBA G3 current file
+GMAREXPYY,2025-06,2.6,RBA G3 current file
+GMAREXPYY,2025-09,2.6,RBA G3 current file
+GMAREXPYY,2025-12,2.5,RBA G3 current file
+GMAREXPYY,2026-03,2.6,RBA G3 current file
+GMAREXPYY,2026-06,2.6,RBA G3 current file
+GMAREXPYY,2026-09,2.5,RBA G3 current file
+GMAREXPYY,2026-12,2.5,RBA G3 current file
+GUNIEXPY,1996-09,3.5,RBA G3 current file
+GUNIEXPY,1996-12,3,RBA G3 current file
+GUNIEXPY,1997-03,2,RBA G3 current file
+GUNIEXPY,1997-06,2.5,RBA G3 current file
+GUNIEXPY,1997-09,2,RBA G3 current file
+GUNIEXPY,1997-12,2.5,RBA G3 current file
+GUNIEXPY,1998-03,1.6,RBA G3 current file
+GUNIEXPY,1998-06,2,RBA G3 current file
+GUNIEXPY,1998-09,2,RBA G3 current file
+GUNIEXPY,1998-12,2.275,RBA G3 current file
+GUNIEXPY,1999-03,2,RBA G3 current file
+GUNIEXPY,1999-06,2,RBA G3 current file
+GUNIEXPY,1999-09,1.95,RBA G3 current file
+GUNIEXPY,1999-12,2.8,RBA G3 current file
+GUNIEXPY,2000-03,3.5,RBA G3 current file
+GUNIEXPY,2000-06,4.75,RBA G3 current file
+GUNIEXPY,2000-09,5.3,RBA G3 current file
+GUNIEXPY,2000-12,5.5,RBA G3 current file
+GUNIEXPY,2001-03,4,RBA G3 current file
+GUNIEXPY,2001-06,4.45,RBA G3 current file
+GUNIEXPY,2001-09,4,RBA G3 current file
+GUNIEXPY,2001-12,3.3,RBA G3 current file
+GUNIEXPY,2002-03,3.3,RBA G3 current file
+GUNIEXPY,2002-06,3.5,RBA G3 current file
+GUNIEXPY,2002-09,3,RBA G3 current file
+GUNIEXPY,2002-12,3.5,RBA G3 current file
+GUNIEXPY,2003-03,3.5,RBA G3 current file
+GUNIEXPY,2003-06,3.5,RBA G3 current file
+GUNIEXPY,2003-09,3,RBA G3 current file
+GUNIEXPY,2003-12,3,RBA G3 current file
+GUNIEXPY,2004-03,2.6,RBA G3 current file
+GUNIEXPY,2004-06,2.9,RBA G3 current file
+GUNIEXPY,2004-09,3,RBA G3 current file
+GUNIEXPY,2004-12,3,RBA G3 current file
+GUNIEXPY,2005-03,2.95,RBA G3 current file
+GUNIEXPY,2005-06,2.85,RBA G3 current file
+GUNIEXPY,2005-09,2.8,RBA G3 current file
+GUNIEXPY,2005-12,3.5,RBA G3 current file
+GUNIEXPY,2006-03,3,RBA G3 current file
+GUNIEXPY,2006-06,3.5,RBA G3 current file
+GUNIEXPY,2006-09,4.16,RBA G3 current file
+GUNIEXPY,2006-12,3.9,RBA G3 current file
+GUNIEXPY,2007-03,3.5,RBA G3 current file
+GUNIEXPY,2007-06,3,RBA G3 current file
+GUNIEXPY,2007-09,3,RBA G3 current file
+GUNIEXPY,2007-12,3,RBA G3 current file
+GUNIEXPY,2008-03,3.5,RBA G3 current file
+GUNIEXPY,2008-06,4,RBA G3 current file
+GUNIEXPY,2008-09,4,RBA G3 current file
+GUNIEXPY,2008-12,4.05,RBA G3 current file
+GUNIEXPY,2009-03,3,RBA G3 current file
+GUNIEXPY,2009-06,2.5,RBA G3 current file
+GUNIEXPY,2009-09,2.5,RBA G3 current file
+GUNIEXPY,2009-12,2.6,RBA G3 current file
+GUNIEXPY,2010-03,2.95,RBA G3 current file
+GUNIEXPY,2010-06,3,RBA G3 current file
+GUNIEXPY,2010-09,3,RBA G3 current file
+GUNIEXPY,2010-12,3,RBA G3 current file
+GUNIEXPY,2011-03,3.2,RBA G3 current file
+GUNIEXPY,2011-06,3.05,RBA G3 current file
+GUNIEXPY,2011-09,3.2,RBA G3 current file
+GUNIEXPY,2011-12,3.35,RBA G3 current file
+GUNIEXPY,2012-03,3,RBA G3 current file
+GUNIEXPY,2012-06,2.4,RBA G3 current file
+GUNIEXPY,2012-09,2,RBA G3 current file
+GUNIEXPY,2012-12,2.5,RBA G3 current file
+GUNIEXPY,2013-03,2.5,RBA G3 current file
+GUNIEXPY,2013-06,2.75,RBA G3 current file
+GUNIEXPY,2013-09,2.5,RBA G3 current file
+GUNIEXPY,2013-12,2.5,RBA G3 current file
+GUNIEXPY,2014-03,2.8,RBA G3 current file
+GUNIEXPY,2014-06,2.8,RBA G3 current file
+GUNIEXPY,2014-09,2.9,RBA G3 current file
+GUNIEXPY,2014-12,2.55,RBA G3 current file
+GUNIEXPY,2015-03,2,RBA G3 current file
+GUNIEXPY,2015-06,2.2,RBA G3 current file
+GUNIEXPY,2015-09,2,RBA G3 current file
+GUNIEXPY,2015-12,2.1,RBA G3 current file
+GUNIEXPY,2016-03,1.8,RBA G3 current file
+GUNIEXPY,2016-06,2,RBA G3 current file
+GUNIEXPY,2016-09,1.5,RBA G3 current file
+GUNIEXPY,2016-12,1.75,RBA G3 current file
+GUNIEXPY,2017-03,1.65,RBA G3 current file
+GUNIEXPY,2017-06,2.3,RBA G3 current file
+GUNIEXPY,2017-09,2,RBA G3 current file
+GUNIEXPY,2017-12,2,RBA G3 current file
+GUNIEXPY,2018-03,2,RBA G3 current file
+GUNIEXPY,2018-06,2.2,RBA G3 current file
+GUNIEXPY,2018-09,2.2,RBA G3 current file
+GUNIEXPY,2018-12,2,RBA G3 current file
+GUNIEXPY,2019-03,1.9,RBA G3 current file
+GUNIEXPY,2019-06,2,RBA G3 current file
+GUNIEXPY,2019-09,1.8,RBA G3 current file
+GUNIEXPY,2019-12,1.9,RBA G3 current file
+GUNIEXPY,2020-03,1.9,RBA G3 current file
+GUNIEXPY,2020-06,1.4,RBA G3 current file
+GUNIEXPY,2020-09,1,RBA G3 current file
+GUNIEXPY,2020-12,1.5,RBA G3 current file
+GUNIEXPY,2021-03,1.3,RBA G3 current file
+GUNIEXPY,2021-06,1.5,RBA G3 current file
+GUNIEXPY,2021-09,2.55,RBA G3 current file
+GUNIEXPY,2021-12,3,RBA G3 current file
+GUNIEXPY,2022-03,3.2,RBA G3 current file
+GUNIEXPY,2022-06,4.375,RBA G3 current file
+GUNIEXPY,2022-09,6,RBA G3 current file
+GUNIEXPY,2022-12,5.1,RBA G3 current file
+GUNIEXPY,2023-03,5,RBA G3 current file
+GUNIEXPY,2023-06,5,RBA G3 current file
+GUNIEXPY,2023-09,4.25,RBA G3 current file
+GUNIEXPYY,1997-03,2.5,RBA G3 current file
+GUNIEXPYY,1997-06,2.75,RBA G3 current file
+GUNIEXPYY,1997-09,2.6,RBA G3 current file
+GUNIEXPYY,1997-12,2.7,RBA G3 current file
+GUNIEXPYY,1998-03,2,RBA G3 current file
+GUNIEXPYY,1998-06,2,RBA G3 current file
+GUNIEXPYY,1998-09,3,RBA G3 current file
+GUNIEXPYY,1998-12,2.4,RBA G3 current file
+GUNIEXPYY,1999-03,2.5,RBA G3 current file
+GUNIEXPYY,1999-06,2.5,RBA G3 current file
+GUNIEXPYY,1999-09,2.5,RBA G3 current file
+GUNIEXPYY,1999-12,3.3,RBA G3 current file
+GUNIEXPYY,2000-03,3.25,RBA G3 current file
+GUNIEXPYY,2000-06,4.5,RBA G3 current file
+GUNIEXPYY,2000-09,4.2,RBA G3 current file
+GUNIEXPYY,2000-12,4.5,RBA G3 current file
+GUNIEXPYY,2001-03,3.5,RBA G3 current file
+GUNIEXPYY,2001-06,4.05,RBA G3 current file
+GUNIEXPYY,2001-09,3.8,RBA G3 current file
+GUNIEXPYY,2001-12,3.1,RBA G3 current file
+GUNIEXPYY,2002-03,3.5,RBA G3 current file
+GUNIEXPYY,2002-06,3.5,RBA G3 current file
+GUNIEXPYY,2002-09,3.5,RBA G3 current file
+GUNIEXPYY,2002-12,3.4,RBA G3 current file
+GUNIEXPYY,2003-03,3.8,RBA G3 current file
+GUNIEXPYY,2003-06,3.6,RBA G3 current file
+GUNIEXPYY,2003-09,3,RBA G3 current file
+GUNIEXPYY,2003-12,3.2,RBA G3 current file
+GUNIEXPYY,2004-03,3,RBA G3 current file
+GUNIEXPYY,2004-06,3,RBA G3 current file
+GUNIEXPYY,2004-09,3,RBA G3 current file
+GUNIEXPYY,2004-12,3,RBA G3 current file
+GUNIEXPYY,2005-03,3,RBA G3 current file
+GUNIEXPYY,2005-06,3,RBA G3 current file
+GUNIEXPYY,2005-09,3,RBA G3 current file
+GUNIEXPYY,2005-12,3.5,RBA G3 current file
+GUNIEXPYY,2006-03,3,RBA G3 current file
+GUNIEXPYY,2006-06,3.2,RBA G3 current file
+GUNIEXPYY,2006-09,4,RBA G3 current file
+GUNIEXPYY,2006-12,3.5,RBA G3 current file
+GUNIEXPYY,2007-03,3.5,RBA G3 current file
+GUNIEXPYY,2007-06,3,RBA G3 current file
+GUNIEXPYY,2007-09,3,RBA G3 current file
+GUNIEXPYY,2007-12,3,RBA G3 current file
+GUNIEXPYY,2008-03,3.4,RBA G3 current file
+GUNIEXPYY,2008-06,3.725,RBA G3 current file
+GUNIEXPYY,2008-09,3.625,RBA G3 current file
+GUNIEXPYY,2008-12,4,RBA G3 current file
+GUNIEXPYY,2009-03,3,RBA G3 current file
+GUNIEXPYY,2009-06,2.65,RBA G3 current file
+GUNIEXPYY,2009-09,3,RBA G3 current file
+GUNIEXPYY,2009-12,3,RBA G3 current file
+GUNIEXPYY,2010-03,3,RBA G3 current file
+GUNIEXPYY,2010-06,3,RBA G3 current file
+GUNIEXPYY,2010-09,3.2,RBA G3 current file
+GUNIEXPYY,2010-12,3,RBA G3 current file
+GUNIEXPYY,2011-03,3.2,RBA G3 current file
+GUNIEXPYY,2011-06,3.05,RBA G3 current file
+GUNIEXPYY,2011-09,3.2,RBA G3 current file
+GUNIEXPYY,2011-12,3.4,RBA G3 current file
+GUNIEXPYY,2012-03,3,RBA G3 current file
+GUNIEXPYY,2012-06,2.5,RBA G3 current file
+GUNIEXPYY,2012-09,2.45,RBA G3 current file
+GUNIEXPYY,2012-12,2.5,RBA G3 current file
+GUNIEXPYY,2013-03,2.5,RBA G3 current file
+GUNIEXPYY,2013-06,2.75,RBA G3 current file
+GUNIEXPYY,2013-09,2.5,RBA G3 current file
+GUNIEXPYY,2013-12,2.5,RBA G3 current file
+GUNIEXPYY,2014-03,2.75,RBA G3 current file
+GUNIEXPYY,2014-06,2.9,RBA G3 current file
+GUNIEXPYY,2014-09,2.95,RBA G3 current file
+GUNIEXPYY,2014-12,2.5,RBA G3 current file
+GUNIEXPYY,2015-03,2.3,RBA G3 current file
+GUNIEXPYY,2015-06,2.4,RBA G3 current file
+GUNIEXPYY,2015-09,2.35,RBA G3 current file
+GUNIEXPYY,2015-12,2.3,RBA G3 current file
+GUNIEXPYY,2016-03,2.1,RBA G3 current file
+GUNIEXPYY,2016-06,2.5,RBA G3 current file
+GUNIEXPYY,2016-09,2,RBA G3 current file
+GUNIEXPYY,2016-12,2,RBA G3 current file
+GUNIEXPYY,2017-03,1.825,RBA G3 current file
+GUNIEXPYY,2017-06,2.35,RBA G3 current file
+GUNIEXPYY,2017-09,2.45,RBA G3 current file
+GUNIEXPYY,2017-12,2.15,RBA G3 current file
+GUNIEXPYY,2018-03,2.25,RBA G3 current file
+GUNIEXPYY,2018-06,2.3,RBA G3 current file
+GUNIEXPYY,2018-09,2.3,RBA G3 current file
+GUNIEXPYY,2018-12,2.25,RBA G3 current file
+GUNIEXPYY,2019-03,2.2,RBA G3 current file
+GUNIEXPYY,2019-06,2,RBA G3 current file
+GUNIEXPYY,2019-09,2,RBA G3 current file
+GUNIEXPYY,2019-12,2,RBA G3 current file
+GUNIEXPYY,2020-03,2,RBA G3 current file
+GUNIEXPYY,2020-06,1.725,RBA G3 current file
+GUNIEXPYY,2020-09,1.625,RBA G3 current file
+GUNIEXPYY,2020-12,2,RBA G3 current file
+GUNIEXPYY,2021-03,1.9,RBA G3 current file
+GUNIEXPYY,2021-06,1.8,RBA G3 current file
+GUNIEXPYY,2021-09,2.7,RBA G3 current file
+GUNIEXPYY,2021-12,2.8,RBA G3 current file
+GUNIEXPYY,2022-03,2.8,RBA G3 current file
+GUNIEXPYY,2022-06,3.5,RBA G3 current file
+GUNIEXPYY,2022-09,4.1,RBA G3 current file
+GUNIEXPYY,2022-12,3.5,RBA G3 current file
+GUNIEXPYY,2023-03,4,RBA G3 current file
+GUNIEXPYY,2023-06,3.875,RBA G3 current file
+GUNIEXPYY,2023-09,3.35,RBA G3 current file

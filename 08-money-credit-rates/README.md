@@ -4,12 +4,14 @@ Long-run Australian series in three parts:
 
 - **interest rates:** short-term rate, 10-year government bond, housing and business lending;
 - **money:** currency, M3 and broad money;
-- **credit:** total, housing, personal and business.
+- **credit:** total, housing, personal and business;
+- **inflation expectations:** 10-year break-even inflation from the bond market, and the survey measures.
 
 Each comes in levels, growth and shares of GDP, and real rates are also given.
 
 - **Monthly:** interest rates from 1959 (housing) and 1969 (bills and bonds); money and credit from 1959;
-  trading bank lending 1957–1976, transcribed from the CBCS/ABS banking bulletins.
+  trading bank lending 1957–1976, transcribed from the CBCS/ABS banking bulletins; break-even
+  inflation from 1986 (quarterly from Dec 1985).
 - **Annual (years ended June):** everything back to 1950. These come from the RBA's
   *Australian Economic Statistics 1949–50 to 1996–97* (Occasional Paper No. 8) and the 1969
   Annual Report, linked to the monthly series.
@@ -29,6 +31,9 @@ Each comes in levels, growth and shares of GDP, and real rates are also given.
 | RBA Annual Report 1969, *Australian Interest Rates and Security Yields* | 10-year bond yields on rebateable and non-rebateable bonds, end of quarter | Sep 1966 – Jun 1969 |
 | CBCS/ABS banking bulletins (ANU Open Research scans): *Australian Banking Statistics* monthly bulletin, *Banking Statistics*, *Banking*, and the major trading banks' preliminary statements | Major trading banks' loans, advances and bills discounted, monthly average of weekly figures, original and seasonally adjusted | Jan 1957 – Dec 1976 (plus Decembers 1947–56) |
 | RBA D2 | Lending by all banks (DLCALAB), for comparison | Sep 1976 – Dec 1978 |
+| RBA F2 historical file (`f02histhist.xls`) | 10-year nominal and indexed bond yields, monthly | Jul 1986 – May 2013 |
+| RBA F2 current file (`f02hist.xlsx`), and a copy of `f02hist.xls` from 14 Nov 2016 (Internet Archive) | The same; the archived copy fills Jun 2013 – Oct 2014, which the current file lacks, and overlaps the new indexed series | Jun 2013 – Oct 2026 |
+| RBA G3, current file and 17 copies of `g03hist.xls` from 2015–2023 (Internet Archive) | Break-even 10-year inflation (quarterly); consumer (Melbourne Institute), business (NAB), market economist and union official expectations | Dec 1985 – 2026 |
 | RBA G1; ABS 5206.0 | CPI; nominal GDP (quarterly, from Sep 1959) | |
 
 The RBA tables were read in the browser and saved to `data-raw/rba_monthly.csv`, with the
@@ -100,7 +105,27 @@ Annual Report figures are in the other `data-raw` files.
      has a correlation of 0.89 with total credit growth, but grew more slowly (10.6% a year against
      13.9%) as finance companies, building societies and savings banks gained share. In late 1976
      the major trading banks held 61% of all banks' lending.
-7. **Shares of GDP.** Each stock at the end of the period is divided by nominal GDP over the
+7. **Break-even inflation and inflation expectations.**
+   - **Why the history is patchy.** The RBA's current table G3 shows break-even inflation only from
+     2015 and consumer expectations only from 2022, because it keeps a rolling window of the
+     licensed Melbourne Institute series. F2's indexed bond yield is missing Jun 2013 – Oct 2014.
+     Earlier copies of both files, saved by the Internet Archive, hold the rest. They are joined
+     here, latest copy first, and `data-raw` records the file each value came from. The copies
+     agree with each other and with the current files, apart from a 2016 revision of the
+     break-even history (up to 0.09 points) and some market economist 2-year values.
+   - **Break-even, quarterly, Dec 1985 – Sep 2026.** The RBA's own series (G3): the 10-year nominal
+     yield less the 10-year indexed bond yield, in the last month of each quarter. One quarter
+     (Jun 1986) is missing.
+   - **Break-even, monthly, Jul 1986 – Oct 2026.** The same difference from the monthly F2 yields.
+     F2's indexed series changed in Nov 2014: the old one is 0.3–0.5 points higher where they
+     overlap, and the RBA revised its quarterly history to a consistent basis in 2016. So the
+     monthly differences are benchmarked to the RBA's quarterly values: the gap at each
+     quarter-end is interpolated across the months between, separately for the old and new
+     indexed series. The gap averages 0.15 points on the old series and 0.04 on the new one.
+   - **Before 1985** there is no market measure: the Commonwealth first issued indexed bonds in
+     1985. The survey history before the 1990s (Melbourne Institute consumers from 1973; the
+     employers' Survey of Industrial Trends from 1966) is not freely published.
+8. **Shares of GDP.** Each stock at the end of the period is divided by nominal GDP over the
    four quarters to then.
    - **From 1959-60:** ABS 5206.0 GDP.
    - **Before that:** the GDP implied by the paper's own ratios, raised by 14.5%. That is the
@@ -109,7 +134,7 @@ Annual Report figures are in the other `data-raw` files.
    Today's GDP is higher, and today's credit definition is narrower. As a result, credit/GDP
    here runs about 7 points below the paper's published ratio in 1978–97, but on a consistent
    basis.
-8. **Real rates.** Nominal rate (financial-year average, or end-June where only that exists)
+9. **Real rates.** Nominal rate (financial-year average, or end-June where only that exists)
    less CPI inflation over the year (RBA G1).
 
 ![Credit and money relative to GDP](output/credit_money_gdp.png)
@@ -152,6 +177,21 @@ Housing credit made up most of the rise, from 15% of GDP in 1977 to 89% now.
 
 ![Real interest rates](output/real_interest_rates.png)
 
+![Inflation expectations](output/inflation_expectations.png)
+
+**Break-even inflation:**
+
+| Period | Average | Range |
+|---|---|---|
+| Jul 1986 – 1989 | 8.1% | 6.8 – 9.5% (peak May 1989) |
+| 1990 – 1993 | 5.1% | 3.1 – 8.4% |
+| 1994 – Oct 2026 (inflation targeting) | 2.5% | 0.6 – 4.9% |
+| 2020 | 1.2% | low of 0.6% in April 2020 |
+
+Over the years to June 1987–2026 break-even inflation averaged 3.3%, against CPI inflation of
+3.2%. So the ex-ante real 10-year yield (nominal less break-even) and the ex-post real yield
+(nominal less actual inflation) both average 2.8%.
+
 ![Bank lending and credit growth](output/bank_lending_growth.png)
 
 Trading bank lending shows the policy cycles of the period: the 1960–61 credit squeeze (lending
@@ -166,9 +206,13 @@ fell 8% in the year to November 1961), growth of 3–15% a year from 1964 to 197
 | `output/interest_rates_monthly.csv` | Jan 1959 – Oct 2026: cash rate, 90-day bill, 10-year bond, housing variable, small business overdraft, large business average, the joined short rate and its source, CPI inflation, real short rate and real bond yield |
 | `output/money_credit_monthly.csv` | Jul 1959 – Sep 2026, $ billion: currency, M3, broad money (from 1976), and break-adjusted credit (total, housing, personal, business, from Aug 1976) |
 | `output/money_credit_pct_gdp_quarterly.csv` | Credit (total, housing, business), M3 and broad money as % of GDP, quarterly |
-| `output/long_run_annual.csv` | Years ended June 1950 – 2026: rates (with the basis of each value), inflation, real rates, M3 and credit growth, levels and % of GDP, nominal GDP |
+| `output/long_run_annual.csv` | Years ended June 1950 – 2026: rates (with the basis of each value), inflation, real rates, break-even inflation and the ex-ante real bond yield (from 1987), M3 and credit growth, levels and % of GDP, nominal GDP |
 | `output/bond_10y_quarterly_1966_69.csv` | The 1969 Annual Report's rebateable and non-rebateable 10-year yields |
+| `output/breakeven_inflation_monthly.csv` | Dec 1985 – Oct 2026: 10-year nominal and indexed yields (and which indexed series), their difference, the RBA quarterly break-even, the benchmarked monthly break-even and the implied real yield |
+| `output/inflation_expectations_quarterly.csv` | Dec 1985 – Dec 2026: break-even, real 10-year yield, consumer (1 year), business (3 months, annualised), market economists (1 and 2 years), union officials (1 and 2 years), CPI inflation |
 | `output/bank_lending_monthly_1957_76.csv` | Jan 1957 – Dec 1976, $ million: major trading banks' lending (break-adjusted, original and seasonally adjusted, and as printed, with the source issue), and the interpolated monthly total credit |
+| `data-raw/rba_f2_indexed_bond_monthly.csv` | 10-year nominal yield and the old and new indexed bond yield series, monthly, with the file each came from |
+| `data-raw/rba_g3_inflation_expectations.csv` | Every G3 series by quarter, with the file (current or archived copy) each value came from |
 | `data-raw/anu_bank_loans_monthly.csv` | Every transcribed bank lending value: series, month, value, unit (£'000, £m or $m), issue, page, note |
 | `data-raw/` (other) | The RBA extract, the Occasional Paper 8 tables and the 1969 Annual Report figures |
 
@@ -191,5 +235,13 @@ fell 8% in the year to November 1961), growth of 3–15% a year from 1964 to 197
 - **Trading bank lending** is a monthly average of Wednesday figures, not an end-of-month stock.
   It excludes loans to the authorised short-term money market dealers. Some months in the
   bulletins exclude one Wednesday (a bank holiday), and are marked so in the source.
+- **Break-even inflation** is inflation compensation, not a pure expectation. It includes
+  inflation and liquidity risk premiums. Australia's indexed bond market is small, there were no
+  new issues in 1989–92 and 2004–08, and the indexed and nominal bonds are not exactly matched in
+  maturity, especially in the 1980s. F2's monthly values are end-of-month before 1995 and
+  monthly averages after.
+- **Survey expectations.** The consumer series (Melbourne Institute, trimmed mean) is available
+  only from 2010, and runs well above the other measures. The RBA has marked union officials'
+  expectations "not available for publication" since December 2023.
 - **Old business rates.** Before 1976, the maximum overdraft rate (to 1955) and the average
   overdraft rate (1956–76) were regulated rates.
