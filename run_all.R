@@ -9,7 +9,8 @@ steps <- list(
   c("04-housing-pipeline",   "R/housing_pipeline.R"),
   c("05-housing-per-capita", "R/per_capita.R"),
   c("06-capex",              "R/capex_splice.R"),
-  c("07-retail-sales",       "R/retail_splice.R")
+  c("07-retail-sales",       "R/retail_splice.R"),
+  c("08-money-credit-rates", "R/money_credit_rates.R")
 )
 root <- getwd()
 for (s in steps) {

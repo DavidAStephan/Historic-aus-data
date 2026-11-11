@@ -24,6 +24,7 @@ the latest issue is used because it carries revisions.
 | [`05-housing-per-capita`](05-housing-per-capita) | Quarterly population (total, 15–64, 15+) and the housing pipeline per 1,000 people | 1946 – 2026 | Quarterly |
 | [`06-capex`](06-capex) | Private new capital expenditure by asset and industry, spliced onto ABS 5625.0; businesses' investment expectations vs actual | 1961 – 2026 | Quarterly / half-yearly / financial year |
 | [`07-retail-sales`](07-retail-sales) | Retail turnover, nominal and real, per person, spliced across five census re-basings onto ABS 8501.0 | 1947-48 – Jun 2025 | Monthly from 1961, quarterly from 1950, financial years from 1947-48 |
+| [`08-money-credit-rates`](08-money-credit-rates) | Cash rate, bills, 10-year bond, housing and business lending rates; currency, M3, broad money; break-adjusted credit; real rates and shares of GDP | 1950 – Oct 2026 | Monthly from 1959/1969/1976, years ended June from 1950 |
 
 Each folder has the same layout:
 
@@ -42,6 +43,7 @@ README.md   method, sources, checks and caveats
 | ![Dwelling approvals](03-building-approvals/output/dwelling_approvals_spliced.png) | ![Housing pipeline per capita](05-housing-per-capita/output/housing_per_capita.png) |
 | ![Capex](06-capex/output/capex_spliced.png) | ![Capex expectations](06-capex/output/capex_expectations.png) |
 | ![Real retail sales per person](07-retail-sales/output/retail_sales_real_per_capita.png) | ![Retail sales](07-retail-sales/output/retail_sales_spliced.png) |
+| ![Interest rates](08-money-credit-rates/output/interest_rates.png) | ![Credit and money to GDP](08-money-credit-rates/output/credit_money_gdp.png) |
 
 ## Reproducing
 
@@ -56,7 +58,7 @@ This rebuilds every output in dependency order:
 ```
 01-job-vacancies ──► 02-beveridge-curve
 03-building-approvals ──► 04-housing-pipeline ──► 05-housing-per-capita ──► 07-retail-sales
-06-capex
+06-capex ──────────────────────────────────────────────► 08-money-credit-rates (uses 06's GDP)
 ```
 
 Each script prints its checks (sum checks, splice ratios, overlap comparisons) as it runs.
@@ -84,8 +86,10 @@ against the seasonally adjusted figures printed in the old bulletins.
   Retail Trade (8501.0),
   National, state and territory population (3101.0),
   Historical Population (3105.0.65.001)
-- RBA statistical tables H3 (building approvals cross-check) and G1 (consumer price index)
-- RBA Occasional Paper No. 8, *Australian Economic Statistics 1949–50 to 1996–97*
+- RBA statistical tables F1.1, F2, F5 (interest rates), D1–D3 (money and credit), H3 (building
+  approvals cross-check) and G1 (consumer price index); RBA Annual Report 1969
+- RBA Occasional Paper No. 8, *Australian Economic Statistics 1949–50 to 1996–97* (labour, money,
+  credit and interest-rate tables)
 - OECD copies of ABS labour force series via FRED
 - *The Canberra Times* via Trove (CES vacancy counts 1979–80)
 
