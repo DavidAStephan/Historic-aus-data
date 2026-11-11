@@ -22,6 +22,7 @@ the latest issue is used because it carries revisions.
 | [`03-building-approvals`](03-building-approvals) | Dwelling units approved, total and private, spliced onto ABS 8731.0 | Jan 1960 – Sep 2026 | Monthly |
 | [`04-housing-pipeline`](04-housing-pipeline) | New dwellings commenced (starts) and completed, with approvals | Sep qtr 1946 – Jun qtr 2026 | Quarterly |
 | [`05-housing-per-capita`](05-housing-per-capita) | Quarterly population (total, 15–64, 15+) and the housing pipeline per 1,000 people | 1946 – 2026 | Quarterly |
+| [`06-capex`](06-capex) | Private new capital expenditure by asset and industry, spliced onto ABS 5625.0; businesses' investment expectations vs actual | 1961 – 2026 | Quarterly / half-yearly / financial year |
 
 Each folder has the same layout:
 
@@ -38,6 +39,7 @@ README.md   method, sources, checks and caveats
 |---|---|
 | ![Job vacancies](01-job-vacancies/output/job_vacancies_spliced.png) | ![Beveridge curve](02-beveridge-curve/output/beveridge_curve_1952_2026.png) |
 | ![Dwelling approvals](03-building-approvals/output/dwelling_approvals_spliced.png) | ![Housing pipeline per capita](05-housing-per-capita/output/housing_per_capita.png) |
+| ![Capex](06-capex/output/capex_spliced.png) | ![Capex expectations](06-capex/output/capex_expectations.png) |
 
 ## Reproducing
 
@@ -52,6 +54,7 @@ This rebuilds every output in dependency order:
 ```
 01-job-vacancies ──► 02-beveridge-curve
 03-building-approvals ──► 04-housing-pipeline ──► 05-housing-per-capita
+06-capex
 ```
 
 Each script prints its checks (sum checks, splice ratios, overlap comparisons) as it runs.
@@ -71,9 +74,11 @@ against the seasonally adjusted figures printed in the old bulletins.
 ## Sources
 
 - ABS / CBCS bulletins (scans): ANU Open Research repository —
-  *Employment and Unemployment*, *Building Approvals*, *Quarterly Bulletin of Building Statistics*
+  *Employment and Unemployment*, *Building Approvals*, *Quarterly Bulletin of Building Statistics*,
+  capital expenditure surveys (1961–1992)
 - ABS current releases: Job Vacancies (6354.0), Labour Force (6202.0), Building Approvals (8731.0),
-  Building Activity (8752.0), National, state and territory population (3101.0),
+  Building Activity (8752.0), Private New Capital Expenditure (5625.0), National Accounts (5206.0),
+  National, state and territory population (3101.0),
   Historical Population (3105.0.65.001)
 - RBA Occasional Paper No. 8, *Australian Economic Statistics 1949–50 to 1996–97*
 - OECD copies of ABS labour force series via FRED

@@ -7,7 +7,8 @@ steps <- list(
   c("02-beveridge-curve",    "R/beveridge_extend_1950.R"),
   c("03-building-approvals", "R/building_approvals_splice.R"),
   c("04-housing-pipeline",   "R/housing_pipeline.R"),
-  c("05-housing-per-capita", "R/per_capita.R")
+  c("05-housing-per-capita", "R/per_capita.R"),
+  c("06-capex",              "R/capex_splice.R")
 )
 root <- getwd()
 for (s in steps) {

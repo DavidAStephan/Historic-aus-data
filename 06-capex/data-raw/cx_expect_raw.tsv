@@ -1,0 +1,17 @@
+issue_key	survey_quarter	target_period	kind	total	bs	epm	mining	manufacturing	note
+CX1978-09p2	1978-09	1978-12	Q_expected_next_quarter	2345.3	702.4	1642.9	344.2	709.2	first issue with expectations; expected as reported in Sep qtr survey
+CX1979-09p1	1979-09	1979-12	Q_expected_next_quarter	2611.8	819.6	1792.2	344.9	750.3	selected industries
+CX1981-06f1	1981-06	1981H2	H_expected_next_half	8133.4	2636.0	5497.4	1610.1	2393.8	six months ending Dec 1981, as reported Jun qtr 1981
+CX1981-06f1	1981-06	1982H1	H_expected_second_half	7934.9	2593.5	5341.4	1498.6	2459.0	six months ending Jun 1982, as reported Jun qtr 1981
+CX1986-06f1	1986-06	1986H2	H_expected_next_half	10329	3258	7071	2669	2049	six months to Dec 1986 (mining 317+2352, manuf 963+1086)
+CX1986-06f1	1986-06	1987H1	H_expected_second_half	9447	2759	6688	2442	1575	six months to Jun 1987 (mining 279+2163, manuf 675+900)
+CX1988-06f1	1988-06	1988H2	H_expected_next_half	12894	4866	8028	2251	3792	six months to Dec 1988
+CX1988-06f1	1988-06	1989H1	H_expected_second_half	11663	4943	6720	1826	3236	six months to Jun 1989
+CX1990-06f2	1990-06	1990H2	H_expected_next_half	15656	5917	9739	2362	4630	six months to Dec 1990
+CX1990-06f2	1990-06	1991H1	H_expected_second_half	14045	5621	8424	2303	4182	six months to Jun 1991
+CX1987-06f1	1987-06	1987H2	H_expected_next_half	12076	4087	7989	1703	3238	six months to Dec 1987 (mining 804+899, manuf 384+2854)
+CX1987-06f1	1987-06	1988H1	H_expected_second_half	10593	3482	7111	1560	2638	six months to Jun 1988
+CX1989-06f2	1989-06	1989H2	H_expected_next_half	15157	6456	8701	2269	4465	six months to Dec 1989
+CX1989-06f2	1989-06	1990H1	H_expected_second_half	14743	6623	8120	1953	4367	six months to Jun 1990
+CX1965-06f1	1965-06	1965H2	H_expected_next_half	885.6					anticipated GBP 442.8m x2; pre-1966 half-yearly anticipations
+CX1979-12f2	1979-12	1980H1	H_expected_next_half	5050.8			613.5	1549.3	six months ending June 1980, selected industries

@@ -1,0 +1,120 @@
+half,expected,actual,rr,source
+1961H2,,,1.039,Bulletins: anticipated vs actual % change
+1962H1,,,1,Bulletins: anticipated vs actual % change
+1962H2,,,0.974,Bulletins: anticipated vs actual % change
+1963H1,,,0.99,Bulletins: anticipated vs actual % change
+1963H2,,,0.955,Bulletins: anticipated vs actual % change
+1964H1,,,0.944,Bulletins: anticipated vs actual % change
+1964H2,,,0.992,Bulletins: anticipated vs actual % change
+1965H1,,,1.009,Bulletins: anticipated vs actual % change
+1965H2,,,1.034,Bulletins: anticipated vs actual % change
+1966H1,,,0.959,Bulletins: anticipated vs actual % change
+1966H2,,,1.061,Bulletins: anticipated vs actual % change
+1967H1,,,1,Bulletins: anticipated vs actual % change
+1967H2,,,1,Bulletins: anticipated vs actual % change
+1968H1,,,0.99,Bulletins: anticipated vs actual % change
+1968H2,,,1.009,Bulletins: anticipated vs actual % change
+1969H1,,,0.951,Bulletins: anticipated vs actual % change
+1969H2,1218.6,1204.8,0.989,Bulletins: anticipated level (old basis)
+1970H1,1290.9,1219.3,0.945,Bulletins: anticipated level (old basis)
+1970H2,1484.1,1459.1,0.983,Bulletins: anticipated level (old basis)
+1971H1,1697.1,1562.6,0.921,Bulletins: anticipated level (old basis)
+1971H2,1795.7,1731.3,0.964,Bulletins: anticipated level (old basis)
+1972H1,1466,1460.2,0.996,Bulletins: anticipated level (old basis)
+1972H2,1520.5,1420.3,0.934,Bulletins: anticipated level (old basis)
+1973H1,1466.2,1307.9,0.892,Bulletins: anticipated level (old basis)
+1973H2,1697,1652.3,0.974,Bulletins: anticipated level (old basis)
+1974H1,2428.7,2161.6,0.89,Bulletins: anticipated level (integrated basis)
+1974H2,2425.7,2345.2,0.967,Bulletins: anticipated level (integrated basis)
+1975H1,2302.6,2279,0.99,Bulletins: anticipated level (integrated basis)
+1975H2,2336.6,2599.7,1.113,Bulletins: anticipated level (integrated basis)
+1976H1,2609.1,2636.2,1.01,Bulletins: anticipated level (integrated basis)
+1976H2,2832.3,2946,1.04,Bulletins: anticipated level (integrated basis)
+1977H1,3008.8,2904.7,0.965,Bulletins: anticipated level (integrated basis)
+1977H2,3435.3,3402.6,0.99,Bulletins: anticipated level (integrated basis)
+1980H1,5050.8,4786.7,0.948,Bulletins: expected next six months (selected industries)
+1981H2,8133.4,7871.2,0.968,Bulletins: expected next six months (selected industries)
+1986H2,10329,11776,1.14,Bulletins: expected next six months (selected industries)
+1987H2,12076,12021,0.995,Bulletins: expected next six months (selected industries)
+1987H2,13948,15656,1.122,ABS 5625.0: expected next six months
+1988H1,14293,16055,1.123,ABS 5625.0: expected next six months
+1988H2,12894,13414,1.04,Bulletins: expected next six months (selected industries)
+1988H2,17044,17638,1.035,ABS 5625.0: expected next six months
+1989H1,19191,18935,0.987,ABS 5625.0: expected next six months
+1989H2,15157,15315,1.01,Bulletins: expected next six months (selected industries)
+1989H2,19963,19842,0.994,ABS 5625.0: expected next six months
+1990H1,19439,17914,0.922,ABS 5625.0: expected next six months
+1990H2,15656,14977,0.957,Bulletins: expected next six months (selected industries)
+1990H2,19916,18963,0.952,ABS 5625.0: expected next six months
+1991H1,16792,16262,0.968,ABS 5625.0: expected next six months
+1991H2,16110,15376,0.954,ABS 5625.0: expected next six months
+1992H1,14265,13675,0.959,ABS 5625.0: expected next six months
+1992H2,15008,16192,1.079,ABS 5625.0: expected next six months
+1993H1,14942,14919,0.998,ABS 5625.0: expected next six months
+1993H2,14150,16874,1.193,ABS 5625.0: expected next six months
+1994H1,16726,17290,1.034,ABS 5625.0: expected next six months
+1994H2,18772,20264,1.079,ABS 5625.0: expected next six months
+1995H1,19650,20199,1.028,ABS 5625.0: expected next six months
+1995H2,21621,22445,1.038,ABS 5625.0: expected next six months
+1996H1,23463,24245,1.033,ABS 5625.0: expected next six months
+1996H2,24523,26021,1.061,ABS 5625.0: expected next six months
+1997H1,25976,25337,0.975,ABS 5625.0: expected next six months
+1997H2,25500,27031,1.06,ABS 5625.0: expected next six months
+1998H1,26640,26660,1.001,ABS 5625.0: expected next six months
+1998H2,30301,28294,0.934,ABS 5625.0: expected next six months
+1999H1,25569,25507,0.998,ABS 5625.0: expected next six months
+1999H2,23864,26463,1.109,ABS 5625.0: expected next six months
+2000H1,26327,26717,1.015,ABS 5625.0: expected next six months
+2000H2,25218,26378,1.046,ABS 5625.0: expected next six months
+2001H1,25130,25039,0.996,ABS 5625.0: expected next six months
+2001H2,25965,26536,1.022,ABS 5625.0: expected next six months
+2002H1,26273,26418,1.006,ABS 5625.0: expected next six months
+2002H2,28605,30897,1.08,ABS 5625.0: expected next six months
+2003H1,29779,29900,1.004,ABS 5625.0: expected next six months
+2003H2,31637,32080,1.014,ABS 5625.0: expected next six months
+2004H1,29559,29862,1.01,ABS 5625.0: expected next six months
+2004H2,30866,34420,1.115,ABS 5625.0: expected next six months
+2005H1,33153,35159,1.061,ABS 5625.0: expected next six months
+2005H2,36264,42742,1.179,ABS 5625.0: expected next six months
+2006H1,38559,43753,1.135,ABS 5625.0: expected next six months
+2006H2,40174,44767,1.114,ABS 5625.0: expected next six months
+2007H1,44712,49420,1.105,ABS 5625.0: expected next six months
+2007H2,50360,51378,1.02,ABS 5625.0: expected next six months
+2008H1,52172,52789,1.012,ABS 5625.0: expected next six months
+2008H2,59623,61967,1.039,ABS 5625.0: expected next six months
+2009H1,56504,59603,1.055,ABS 5625.0: expected next six months
+2009H2,56834,58874,1.036,ABS 5625.0: expected next six months
+2010H1,60273,56195,0.932,ABS 5625.0: expected next six months
+2010H2,66525,62201,0.935,ABS 5625.0: expected next six months
+2011H1,75958,65380,0.861,ABS 5625.0: expected next six months
+2011H2,79237,79739,1.006,ABS 5625.0: expected next six months
+2012H1,90036,83259,0.925,ABS 5625.0: expected next six months
+2012H2,94354,88036,0.933,ABS 5625.0: expected next six months
+2013H1,86024,80067,0.931,ABS 5625.0: expected next six months
+2013H2,86188,87045,1.01,ABS 5625.0: expected next six months
+2014H1,88066,78895,0.896,ABS 5625.0: expected next six months
+2014H2,83179,85449,1.027,ABS 5625.0: expected next six months
+2015H1,74503,74338,0.998,ABS 5625.0: expected next six months
+2015H2,68913,73313,1.064,ABS 5625.0: expected next six months
+2016H1,58888,63496,1.078,ABS 5625.0: expected next six months
+2016H2,60399,63369,1.049,ABS 5625.0: expected next six months
+2017H1,57953,60422,1.043,ABS 5625.0: expected next six months
+2017H2,59148,65804,1.113,ABS 5625.0: expected next six months
+2018H1,58484,63284,1.082,ABS 5625.0: expected next six months
+2018H2,58045,68502,1.18,ABS 5625.0: expected next six months
+2019H1,61158,65210,1.066,ABS 5625.0: expected next six months
+2019H2,61868,67150,1.085,ABS 5625.0: expected next six months
+2020H1,63582,60535,0.952,ABS 5625.0: expected next six months
+2020H2,52220,61125,1.171,ABS 5625.0: expected next six months
+2021H1,60279,64551,1.071,ABS 5625.0: expected next six months
+2021H2,65334,70557,1.08,ABS 5625.0: expected next six months
+2022H1,70326,71868,1.022,ABS 5625.0: expected next six months
+2022H2,74642,80031,1.072,ABS 5625.0: expected next six months
+2023H1,78326,85074,1.086,ABS 5625.0: expected next six months
+2023H2,80359,91388,1.137,ABS 5625.0: expected next six months
+2024H1,84758,90506,1.068,ABS 5625.0: expected next six months
+2024H2,85799,94995,1.107,ABS 5625.0: expected next six months
+2025H1,88610,93748,1.058,ABS 5625.0: expected next six months
+2025H2,87810,104275,1.188,ABS 5625.0: expected next six months
+2026H1,94347,105754,1.121,ABS 5625.0: expected next six months
+2026H2,101334,,,ABS 5625.0: expected next six months

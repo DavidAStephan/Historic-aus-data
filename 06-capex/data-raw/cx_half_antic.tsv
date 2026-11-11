@@ -1,0 +1,40 @@
+issue_key	half	kind	total	bs	epm	mining	manufacturing	note
+CX1972-06f1	1970H1	antic	1290.9	518.9	772.0	288.8	552.6	Table 2, original; anticipated at beginning of period
+CX1972-06f1	1970H1	actual	1219.3	448.3	771.0	276.4	487.1	Table 2, original; anticipated at beginning of period
+CX1972-06f1	1970H2	antic	1484.1	629.7	854.4	396.5	561.7	Table 2, original; anticipated at beginning of period
+CX1972-06f1	1970H2	actual	1459.1	571.5	887.6	354.3	540.4	Table 2, original; anticipated at beginning of period
+CX1972-06f1	1971H1	antic	1697.1	674.1	1023.0	495.4	607.3	Table 2, original; anticipated at beginning of period
+CX1972-06f1	1971H1	actual	1562.6	623.6	939.0	427.2	563.1	Table 2, original; anticipated at beginning of period
+CX1972-06f1	1971H2	antic	1795.7	754.7	1041.0	514.2	609.9	Table 2, original; anticipated at beginning of period
+CX1972-06f1	1971H2	actual	1731.3	705.1	1026.2	486.0	584.1	Table 2, original; anticipated at beginning of period
+CX1972-06f1	1972H1	antic	1466.0	667.7	798.3	401.9	540.9	Table 2, original; anticipated at beginning of period
+CX1972-06f1	1972H1	actual	1431.2	554.9	876.3	369.6	507.1	Table 2, original; anticipated at beginning of period
+CX1972-06f1	1972H2	antic	1520.5	663.2	857.3	291.5	538.3	Table 2, original; anticipated at beginning of period
+CX1969-06f2	1969H2	antic	1218.6	532.1	686.5			Table 1 Part A
+CX1975-06f1	1974H1	antic	2428.7	992.9	1435.8	362.2	763.1	Table 3, original, INTEGRATED basis
+CX1975-06f1	1974H1	actual	2161.6	846.8	1314.8	274.6	616.4	Table 3, original, INTEGRATED basis
+CX1975-06f1	1974H2	antic	2425.7	984.3	1441.4	371.6	786.5	Table 3, original, INTEGRATED basis
+CX1975-06f1	1974H2	actual	2402.4	973.6	1428.8	359.0	778.5	Table 3, original, INTEGRATED basis
+CX1975-06f1	1975H1	antic	2302.6	919.2	1383.4	352.6	803.1	Table 3, original, INTEGRATED basis
+CX1975-06f1	1975H1	actual	2414.7	918.3	1496.4	343.2	768.7	Table 3, original, INTEGRATED basis
+CX1975-06f1	1975H2	antic	2404.8	922.5	1482.3	390.0	660.8	Table 3, original, INTEGRATED basis
+CX1977-06f1	1975H2	antic	2336.6	877.6	1459.0	380.1	689.7	Table 3, original, INTEGRATED basis
+CX1977-06f1	1975H2	actual	2604.2	967.3	1636.9	363.0	706.6	Table 3, original, INTEGRATED basis
+CX1977-06f1	1976H1	antic	2609.1	917.3	1691.8	320.4	780.4	Table 3, original, INTEGRATED basis
+CX1977-06f1	1976H1	actual	2636.2	808.1	1828.1	290.6	785.5	Table 3, original, INTEGRATED basis
+CX1977-06f1	1976H2	antic	2832.3	986.1	1846.2	268.4	880.1	Table 3, original, INTEGRATED basis
+CX1977-06f1	1976H2	actual	2946.0	927.1	2018.9	240.6	865.0	Table 3, original, INTEGRATED basis
+CX1977-06f1	1977H1	antic	3008.8	983.4	2025.4	329.3	1000.7	Table 3, original, INTEGRATED basis
+CX1977-06f1	1977H1	actual	2910.1	852.4	2057.7	249.0	882.5	Table 3, original, INTEGRATED basis
+CX1977-06f1	1977H2	antic	3435.3	1159.0	2276.3	429.6	1171.1	Table 3, original, INTEGRATED basis
+CX1974-06f2	1972H1	antic	1466.0	667.7	798.3	401.9	540.9	Table 2, original, OLD (pre-integration) basis
+CX1974-06f2	1972H1	actual	1460.2	554.9	905.3	387.6	513.0	Table 2, original, OLD (pre-integration) basis
+CX1974-06f2	1972H2	antic	1520.5	663.2	857.3	291.5	538.3	Table 2, original, OLD (pre-integration) basis
+CX1974-06f2	1972H2	actual	1420.3	590.6	829.7	242.4	519.6	Table 2, original, OLD (pre-integration) basis
+CX1974-06f2	1973H1	antic	1466.2	683.3	782.9	268.5	530.8	Table 2, original, OLD (pre-integration) basis
+CX1974-06f2	1973H1	actual	1307.9	533.0	774.9	212.9	505.6	Table 2, original, OLD (pre-integration) basis
+CX1974-06f2	1973H2	antic	1697.0	746.8	950.2	295.8	600.2	Table 2, original, OLD (pre-integration) basis
+CX1974-06f2	1973H2	actual	1652.3	677.7	974.6	259.5	587.7	Table 2, original, OLD (pre-integration) basis
+CX1974-06f2	1974H1	antic	1901.7	848.5	1053.2	342.8	700.7	Table 2, original, OLD (pre-integration) basis
+CX1974-06f2	1974H1	actual	1662.6	656.2	1006.4	265.1	612.9	Table 2, original, OLD (pre-integration) basis
+CX1974-06f2	1974H2	antic	1937.1	795.1	1142.0	343.8	722.2	Table 2, original, OLD (pre-integration) basis
