@@ -8,7 +8,8 @@ Long-run Australian series in three parts:
 
 Each comes in levels, growth and shares of GDP, and real rates are also given.
 
-- **Monthly:** interest rates from 1959 (housing) and 1969 (bills and bonds); money from 1959; credit from 1976.
+- **Monthly:** interest rates from 1959 (housing) and 1969 (bills and bonds); money and credit from 1959;
+  trading bank lending 1957–1976, transcribed from the CBCS/ABS banking bulletins.
 - **Annual (years ended June):** everything back to 1950. These come from the RBA's
   *Australian Economic Statistics 1949–50 to 1996–97* (Occasional Paper No. 8) and the 1969
   Annual Report, linked to the monthly series.
@@ -26,6 +27,8 @@ Each comes in levels, growth and shares of GDP, and real rates are also given.
 | RBA D1, D2 | Credit and money growth rates (break-adjusted), and the latest levels | Sep 1976 – Sep 2026 |
 | RBA Occasional Paper 8, tables 3.1, 3.2, 3.21a, 3.22a, 3.22b, 3.23 | M3 (from 1950), total credit (from 1953), bond yields, Treasury notes, money-market dealers' rate, bank bills, overdraft rates | 1949-50 – 1996-97 |
 | RBA Annual Report 1969, *Australian Interest Rates and Security Yields* | 10-year bond yields on rebateable and non-rebateable bonds, end of quarter | Sep 1966 – Jun 1969 |
+| CBCS/ABS banking bulletins (ANU Open Research scans): *Australian Banking Statistics* monthly bulletin, *Banking Statistics*, *Banking*, and the major trading banks' preliminary statements | Major trading banks' loans, advances and bills discounted, monthly average of weekly figures, original and seasonally adjusted | Jan 1957 – Dec 1976 (plus Decembers 1947–56) |
+| RBA D2 | Lending by all banks (DLCALAB), for comparison | Sep 1976 – Dec 1978 |
 | RBA G1; ABS 5206.0 | CPI; nominal GDP (quarterly, from Sep 1959) | |
 
 The RBA tables were read in the browser and saved to `data-raw/rba_monthly.csv`, with the
@@ -75,7 +78,29 @@ Annual Report figures are in the other `data-raw` files.
      |---|---|---|
      | Credit growth | 1979–97 | 0.2 points |
      | M3 growth | 1961–92 | 0.9 points |
-6. **Shares of GDP.** Each stock at the end of the period is divided by nominal GDP over the
+6. **Monthly bank lending and credit before September 1976.**
+   - **Bank lending.** Major trading banks' loans, advances and bills discounted, transcribed in
+     `data-raw/anu_bank_loans_monthly.csv` with the issue and page of every value (740 values from
+     50 issues). The main source is Table 23 of *Banking Statistics*, March 1975, which prints the
+     whole series, original and seasonally adjusted, for Jan 1960 – Mar 1975. The other issues
+     fill 1957–59 and Apr 1975 – Dec 1976. Where a month was printed more than once, the latest
+     issue is used. Pre-1966 pounds are converted at $2 = £1.
+   - **Checks.** 185 months were transcribed from two or more issues. All agree to within
+     $1 million, apart from the definitional break below. Each later issue's levels also match its
+     own printed month-to-month changes.
+   - **Break in July 1973.** The series was redefined in July 1973. Jul–Oct 1973 were printed on
+     both bases; the new basis is 1.35% lower, and earlier months are scaled down by that ratio.
+   - **Seasonal adjustment.** The bulletins' own factors (X-11), taken as original ÷ seasonally
+     adjusted from the same issue. 1957–59 use the 1960–64 average factor for each month.
+   - **Monthly total credit, Jun 1957 – Aug 1976.** The end-June totals from step 5, and Sep 1976
+     from the RBA series, are interpolated by proportional Denton on seasonally adjusted trading
+     bank lending. For stocks this moves the ratio of credit to bank lending in a straight line
+     between benchmarks, so the monthly path follows the banks while every June matches.
+   - **How close is the indicator?** Over the years to June 1958–1976, trading bank lending growth
+     has a correlation of 0.89 with total credit growth, but grew more slowly (10.6% a year against
+     13.9%) as finance companies, building societies and savings banks gained share. In late 1976
+     the major trading banks held 61% of all banks' lending.
+7. **Shares of GDP.** Each stock at the end of the period is divided by nominal GDP over the
    four quarters to then.
    - **From 1959-60:** ABS 5206.0 GDP.
    - **Before that:** the GDP implied by the paper's own ratios, raised by 14.5%. That is the
@@ -84,7 +109,7 @@ Annual Report figures are in the other `data-raw` files.
    Today's GDP is higher, and today's credit definition is narrower. As a result, credit/GDP
    here runs about 7 points below the paper's published ratio in 1978–97, but on a consistent
    basis.
-7. **Real rates.** Nominal rate (financial-year average, or end-June where only that exists)
+8. **Real rates.** Nominal rate (financial-year average, or end-June where only that exists)
    less CPI inflation over the year (RBA G1).
 
 ![Credit and money relative to GDP](output/credit_money_gdp.png)
@@ -127,6 +152,13 @@ Housing credit made up most of the rise, from 15% of GDP in 1977 to 89% now.
 
 ![Real interest rates](output/real_interest_rates.png)
 
+![Bank lending and credit growth](output/bank_lending_growth.png)
+
+Trading bank lending shows the policy cycles of the period: the 1960–61 credit squeeze (lending
+fell 8% in the year to November 1961), growth of 3–15% a year from 1964 to 1970, the 1973 boom
+(44% in the year to October 1973) and the 1974 squeeze, after which growth slowed to 7% by early
+1976.
+
 ## Files
 
 | File | What it is |
@@ -136,7 +168,9 @@ Housing credit made up most of the rise, from 15% of GDP in 1977 to 89% now.
 | `output/money_credit_pct_gdp_quarterly.csv` | Credit (total, housing, business), M3 and broad money as % of GDP, quarterly |
 | `output/long_run_annual.csv` | Years ended June 1950 – 2026: rates (with the basis of each value), inflation, real rates, M3 and credit growth, levels and % of GDP, nominal GDP |
 | `output/bond_10y_quarterly_1966_69.csv` | The 1969 Annual Report's rebateable and non-rebateable 10-year yields |
-| `data-raw/` | The RBA extract, the Occasional Paper 8 tables and the 1969 Annual Report figures |
+| `output/bank_lending_monthly_1957_76.csv` | Jan 1957 – Dec 1976, $ million: major trading banks' lending (break-adjusted, original and seasonally adjusted, and as printed, with the source issue), and the interpolated monthly total credit |
+| `data-raw/anu_bank_loans_monthly.csv` | Every transcribed bank lending value: series, month, value, unit (£'000, £m or $m), issue, page, note |
+| `data-raw/` (other) | The RBA extract, the Occasional Paper 8 tables and the 1969 Annual Report figures |
 
 ## Caveats
 
@@ -150,8 +184,12 @@ Housing credit made up most of the rise, from 15% of GDP in 1977 to 89% now.
   liquidity squeeze.
 - **Bond yields before 1969.** These depend on the 0.37-point rebateable adjustment, which is
   measured on only three quarters.
-- **Monthly credit.** This starts in August 1976. Monthly bank lending for 1959–76 is in the
-  RBA's *Statistical Bulletin* and the CBCS *Digest of Current Economic Statistics* (ANU
-  scans), not transcribed here.
+- **Monthly credit before September 1976.** Only the end-June levels are measured. The months
+  between follow major trading bank lending, which covered roughly 60% of bank lending and less
+  of total credit. Savings bank and non-bank lending are assumed to grow smoothly relative to it
+  between Junes.
+- **Trading bank lending** is a monthly average of Wednesday figures, not an end-of-month stock.
+  It excludes loans to the authorised short-term money market dealers. Some months in the
+  bulletins exclude one Wednesday (a bank holiday), and are marked so in the source.
 - **Old business rates.** Before 1976, the maximum overdraft rate (to 1955) and the average
   overdraft rate (1956–76) were regulated rates.

@@ -1,0 +1,741 @@
+series,month,value,unit,issue,page,note
+mtb_loans,1947-12,358677,£'000,MB1957,3,Table 5 advances (December)
+mtb_loans,1948-12,402768,£'000,MB1958,3,Table 5 advances (December)
+mtb_loans,1949-12,448942,£'000,MB1959,3,Table 5 advances (December)
+mtb_loans,1950-12,552405,£'000,MB1960,4,Table 5 (December)
+mtb_loans,1953-12,735364,£'000,MB1957,3,Table 5 advances (December)
+mtb_loans,1954-12,873113,£'000,MB1958,3,Table 5 advances (December)
+mtb_loans,1955-12,919273,£'000,MB1959,3,Table 5 advances (December)
+mtb_loans,1956-12,869657,£'000,MB1959,3,Table 5 advances (December)
+mtb_loans,1957-01,855765,£'000,MB1957,3,Table 5 advances
+mtb_loans,1957-02,840902,£'000,MB1957,3,Table 5 advances
+mtb_loans,1957-03,830659,£'000,MB1957,3,Table 5 advances
+mtb_loans,1957-04,847148,£'000,MB1957,3,Table 5 advances
+mtb_loans,1957-05,862485,£'000,MB1957,3,Table 5 advances
+mtb_loans,1957-06,868757,£'000,MB1957,3,Table 5 advances
+mtb_loans,1957-07,877796,£'000,MB1957,3,Table 5 advances
+mtb_loans,1957-08,867511,£'000,MB1957,3,Table 5 advances
+mtb_loans,1957-09,860714,£'000,MB1957,3,Table 5 advances
+mtb_loans,1957-10,870744,£'000,MB1957,3,Table 5 advances
+mtb_loans,1957-11,877423,£'000,MB1957,3,Table 5 advances
+mtb_loans,1957-12,870920,£'000,MB1957,3,Table 5 advances
+mtb_loans,1957-12,870920,£'000,MB1959,3,Table 5 advances (December)
+mtb_loans,1958-01,860526,£'000,MB1958,3,Table 5 advances
+mtb_loans,1958-02,857105,£'000,MB1958,3,Table 5 advances
+mtb_loans,1958-03,862714,£'000,MB1958,3,Table 5 advances
+mtb_loans,1958-04,902774,£'000,MB1958,3,Table 5 advances
+mtb_loans,1958-05,932897,£'000,MB1958,3,Table 5 advances
+mtb_loans,1958-06,945638,£'000,MB1958,3,Table 5 advances
+mtb_loans,1958-07,964139,£'000,MB1958,3,Table 5 advances
+mtb_loans,1958-08,959966,£'000,MB1958,3,Table 5 advances
+mtb_loans,1958-09,948834,£'000,MB1958,3,Table 5 advances
+mtb_loans,1958-10,952061,£'000,MB1958,3,Table 5 advances
+mtb_loans,1958-11,946863,£'000,MB1958,3,Table 5 advances
+mtb_loans,1958-12,932191,£'000,MB1958,3,Table 5 advances
+mtb_loans,1958-12,932191,£'000,MB1959,3,Table 5 advances (December)
+mtb_loans,1959-01,920403,£'000,MB1959,3,Table 5 advances
+mtb_loans,1959-02,899221,£'000,MB1959,3,Table 5 advances
+mtb_loans,1959-03,885645,£'000,MB1959,3,Table 5 advances
+mtb_loans,1959-04,905086,£'000,MB1959,3,Table 5 advances
+mtb_loans,1959-05,915439,£'000,MB1959,3,Table 5 advances
+mtb_loans,1959-06,916305,£'000,MB1959,3,Table 5 advances
+mtb_loans,1959-07,936091,£'000,MB1959,3,Table 5 advances
+mtb_loans,1959-08,933594,£'000,MB1959,3,Table 5 advances
+mtb_loans,1959-09,929633,£'000,MB1959,3,Table 5 advances
+mtb_loans,1959-10,945224,£'000,MB1959,3,Table 5 advances
+mtb_loans,1959-11,948733,£'000,MB1959,3,Table 5 advances
+mtb_loans,1959-12,942073,£'000,MB1959,3,Table 5 advances
+mtb_loans,1960-01,1868.6,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1960-01,934299,£'000,MB1960,4,Table 5 loans advances and bills discounted
+mtb_loans,1960-02,1860.4,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1960-02,930182,£'000,MB1960,4,Table 5 loans advances and bills discounted
+mtb_loans,1960-03,1869.2,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1960-03,934624,£'000,MB1960,4,Table 5 loans advances and bills discounted
+mtb_loans,1960-04,1945.5,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1960-04,972755,£'000,MB1960,4,Table 5 loans advances and bills discounted
+mtb_loans,1960-05,2000.9,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1960-05,1000458,£'000,MB1960,4,Table 5 loans advances and bills discounted
+mtb_loans,1960-06,2030.1,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1960-06,1015047,£'000,MB1960,4,Table 5 loans advances and bills discounted
+mtb_loans,1960-07,2120.5,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1960-07,1060263,£'000,MB1960,4,Table 5 loans advances and bills discounted
+mtb_loans,1960-08,2132.1,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1960-08,1066065,£'000,MB1960,4,Table 5 loans advances and bills discounted
+mtb_loans,1960-09,2155.1,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1960-09,1077542,£'000,MB1960,4,Table 5 loans advances and bills discounted
+mtb_loans,1960-10,2184.4,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1960-10,1092194,£'000,MB1960,4,Table 5 loans advances and bills discounted
+mtb_loans,1960-11,2179.0,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1960-11,1089504,£'000,MB1960,4,Table 5 loans advances and bills discounted
+mtb_loans,1960-12,2160.7,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1960-12,1080349,£'000,MB1960,4,Table 5 loans advances and bills discounted
+mtb_loans,1961-01,2117.1,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1961-01,1058551,£'000,MB1961,4,Table 5 average loans advances and bills discounted
+mtb_loans,1961-02,2060.7,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1961-02,1030356,£'000,MB1961,4,Table 5 average loans advances and bills discounted
+mtb_loans,1961-03,2023.1,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1961-03,1011537,£'000,MB1961,4,Table 5 average loans advances and bills discounted
+mtb_loans,1961-04,2033.7,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1961-04,1016844,£'000,MB1961,4,Table 5 average loans advances and bills discounted
+mtb_loans,1961-05,2020.7,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1961-05,1010348,£'000,MB1961,4,Table 5 average loans advances and bills discounted
+mtb_loans,1961-06,2040.1,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1961-06,1020067,£'000,MB1961,4,Table 5 average loans advances and bills discounted
+mtb_loans,1961-07,2069.9,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1961-07,1034926,£'000,MB1961,4,Table 5 average loans advances and bills discounted
+mtb_loans,1961-08,2029.2,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1961-08,1014589,£'000,MB1961,4,Table 5 average loans advances and bills discounted
+mtb_loans,1961-09,2001.6,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1961-09,1000792,£'000,MB1961,4,Table 5 average loans advances and bills discounted
+mtb_loans,1961-10,2014.5,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1961-10,1007231,£'000,MB1961,4,Table 5 average loans advances and bills discounted
+mtb_loans,1961-11,1998.1,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1961-11,999051,£'000,MB1961,4,Table 5 average loans advances and bills discounted
+mtb_loans,1961-12,1983.4,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1961-12,991690,£'000,MB1961,4,Table 5 average loans advances and bills discounted
+mtb_loans,1962-01,1953.5,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1962-01,976731,£'000,MB1962,4,Table 5 average loans advances and bills discounted
+mtb_loans,1962-02,1930.4,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1962-02,965211,£'000,MB1962,4,Table 5 average loans advances and bills discounted
+mtb_loans,1962-03,1943.9,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1962-03,971958,£'000,MB1962,4,Table 5 average loans advances and bills discounted
+mtb_loans,1962-04,2017.6,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1962-04,1008824,£'000,MB1962,4,Table 5 average loans advances and bills discounted
+mtb_loans,1962-05,2044.0,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1962-05,1022011,£'000,MB1962,4,Table 5 average loans advances and bills discounted
+mtb_loans,1962-06,2062.7,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1962-06,1031370,£'000,MB1962,4,Table 5 average loans advances and bills discounted
+mtb_loans,1962-07,2121.8,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1962-07,1060888,£'000,MB1962,4,Table 5 average loans advances and bills discounted
+mtb_loans,1962-08,2104.2,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1962-08,1052110,£'000,MB1962,4,Table 5 average loans advances and bills discounted
+mtb_loans,1962-09,2093.1,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1962-09,1046532,£'000,MB1962,4,Table 5 average loans advances and bills discounted
+mtb_loans,1962-10,2103.6,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1962-10,1051786,£'000,MB1962,4,Table 5 average loans advances and bills discounted
+mtb_loans,1962-11,2108.3,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1962-11,1054127,£'000,MB1962,4,Table 5 average loans advances and bills discounted
+mtb_loans,1962-11,1054134,£'000,MB1963,4,Table 5 average loans advances and bills discounted (revised)
+mtb_loans,1962-12,2104.2,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1962-12,1052087,£'000,MB1962,4,Table 5 average loans advances and bills discounted
+mtb_loans,1963-01,2089.2,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1963-01,1044586,£'000,MB1963,4,Table 5 average loans advances and bills discounted
+mtb_loans,1963-02,2081.5,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1963-02,1040727,£'000,MB1963,4,Table 5 average loans advances and bills discounted
+mtb_loans,1963-03,2096.2,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1963-03,1048104,£'000,MB1963,4,Table 5 average loans advances and bills discounted
+mtb_loans,1963-04,2164.0,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1963-04,1081993,£'000,MB1963,4,Table 5 average loans advances and bills discounted
+mtb_loans,1963-05,2182.5,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1963-05,1091233,£'000,MB1963,4,Table 5 average loans advances and bills discounted
+mtb_loans,1963-06,2202.3,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1963-06,1101168,£'000,MB1963,4,Table 5 average loans advances and bills discounted
+mtb_loans,1963-07,2216.5,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1963-07,1108243,£'000,MB1963,4,Table 5 average loans advances and bills discounted
+mtb_loans,1963-08,2207.2,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1963-08,1103582,£'000,MB1963,4,Table 5 average loans advances and bills discounted
+mtb_loans,1963-09,2175.7,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1963-09,1087844,£'000,MB1963,4,Table 5 average loans advances and bills discounted
+mtb_loans,1963-10,2199.7,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1963-10,1099845,£'000,MB1963,4,Table 5 average loans advances and bills discounted
+mtb_loans,1963-11,2208.8,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1963-11,1104372,£'000,MB1963,4,Table 5 average loans advances and bills discounted
+mtb_loans,1963-11,1104392,£'000,MB1964,4,Table 5 average loans advances and bills discounted (revised)
+mtb_loans,1963-12,2196.7,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1963-12,1098276,£'000,MB1963,4,Table 5 average loans advances and bills discounted
+mtb_loans,1963-12,1098352,£'000,MB1964,4,Table 5 average loans advances and bills discounted (revised)
+mtb_loans,1964-01,2142.6,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1964-01,1071318,£'000,MB1964,4,Table 5 average loans advances and bills discounted
+mtb_loans,1964-02,2137.4,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1964-02,1068683,£'000,MB1964,4,Table 5 average loans advances and bills discounted
+mtb_loans,1964-03,2177.7,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1964-03,1088859,£'000,MB1964,4,Table 5 average loans advances and bills discounted
+mtb_loans,1964-04,2256.1,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1964-04,1128031,£'000,MB1964,4,Table 5 average loans advances and bills discounted
+mtb_loans,1964-05,2305.7,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1964-05,1152829,£'000,MB1964,4,Table 5 average loans advances and bills discounted
+mtb_loans,1964-06,2333.2,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1964-06,1166582,£'000,MB1964,4,Table 5 average loans advances and bills discounted
+mtb_loans,1964-07,2367.5,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1964-07,1183725,£'000,MB1964,4,Table 5 average loans advances and bills discounted
+mtb_loans,1964-08,2358.9,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1964-08,1179453,£'000,MB1964,4,Table 5 average loans advances and bills discounted
+mtb_loans,1964-09,2360.5,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1964-09,1180270,£'000,MB1964,4,Table 5 average loans advances and bills discounted
+mtb_loans,1964-10,2412.2,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1964-10,1206089,£'000,MB1964,4,Table 5 average loans advances and bills discounted
+mtb_loans,1964-10,1206.1,£m,MB1965n,3,Table 2 major trading banks weekly average loans advances and bills discounted (item 9) (year-earlier check)
+mtb_loans,1964-11,2417.4,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1964-11,1208684,£'000,MB1964,4,Table 5 average loans advances and bills discounted
+mtb_loans,1964-12,2385.9,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1964-12,1192969,£'000,MB1964,4,Table 5 average loans advances and bills discounted
+mtb_loans,1965-01,2361.2,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1965-01,1180587,£'000,M1965-02b,3,Table 2 major trading banks weekly average loans advances and bills discounted (item 9)
+mtb_loans,1965-02,2342.0,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1965-02,1170977,£'000,M1965-02b,3,Table 2 major trading banks weekly average loans advances and bills discounted (item 9)
+mtb_loans,1965-03,2397.5,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1965-03,1198761,£'000,M1965-04,3,Table 2 major trading banks weekly average loans advances and bills discounted (item 9)
+mtb_loans,1965-04,2524.3,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1965-04,1262155,£'000,M1965-04,3,Table 2 major trading banks weekly average loans advances and bills discounted (item 9)
+mtb_loans,1965-05,2594.1,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1965-05,1297057,£'000,M1965-06,3,Table 2 major trading banks weekly average loans advances and bills discounted (item 9)
+mtb_loans,1965-06,2631.1,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1965-06,1315551,£'000,M1965-06,3,Table 2 major trading banks weekly average loans advances and bills discounted (item 9)
+mtb_loans,1965-07,2674.8,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1965-07,1337.4,£m,M1965-08,3,Table 2 major trading banks weekly average loans advances and bills discounted (item 9)
+mtb_loans,1965-08,2666.3,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1965-08,1333.2,£m,M1965-08,3,Table 2 major trading banks weekly average loans advances and bills discounted (item 9)
+mtb_loans,1965-09,2651.8,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1965-09,1325.9,£m,M1965-10,3,Table 2 major trading banks weekly average loans advances and bills discounted (item 9) (other read as 1188.7: $ issue M1966-10 gives 2651.8)
+mtb_loans,1965-09,2651.8,$m,M1966-10,3,Table 2 major trading banks weekly average (item 8) (year-earlier)
+mtb_loans,1965-10,2678.2,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1965-10,1339.1,£m,M1965-10,3,Table 2 major trading banks weekly average loans advances and bills discounted (item 9)
+mtb_loans,1965-10,2678.2,$m,M1966-10,3,Table 2 major trading banks weekly average (item 8) (year-earlier)
+mtb_loans,1965-11,2676.8,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1965-11,2676.8,$m,M1966-12,3,Table 2 major trading banks weekly average (item 8) (year-earlier)
+mtb_loans,1965-11,1338.4,£m,MB1965n,3,Table 2 major trading banks weekly average loans advances and bills discounted (item 9)
+mtb_loans,1965-12,2660.9,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1965-12,2660.9,$m,M1966-12,3,Table 2 major trading banks weekly average (item 8) (year-earlier)
+mtb_loans,1965-12,2660.9,$m,PS1966-01,2,Table 2 total loans advances and bills discounted
+mtb_loans,1966-01,2665.9,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1966-01,2665.9,$m,PS1966-01,2,Table 2 total loans advances and bills discounted
+mtb_loans,1966-02,2642.7,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1966-02,2642.7,$m,M1966-02,3,Table 2 major trading banks weekly average (item 9)
+mtb_loans,1966-03,2697.8,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1966-03,2697.8,$m,M1967-04,3,Table 2 major trading banks weekly average (item 8) (year-earlier)
+mtb_loans,1966-03,2697.8,$m,PS1966-04,2,Table 2 total loans advances and bills discounted
+mtb_loans,1966-04,2792.1,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1966-04,2792.1,$m,M1967-04,3,Table 2 major trading banks weekly average (item 8) (year-earlier)
+mtb_loans,1966-04,2792.1,$m,PS1966-04,2,Table 2 total loans advances and bills discounted
+mtb_loans,1966-05,2818.5,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1966-05,2818.5,$m,M1967-06,3,Table 2 major trading banks weekly average (item 8) (year-earlier)
+mtb_loans,1966-05,2818.5,$m,PS1966-06,2,Table 2 total loans advances and bills discounted
+mtb_loans,1966-06,2844.6,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1966-06,2844.6,$m,M1967-06,3,Table 2 major trading banks weekly average (item 8) (year-earlier)
+mtb_loans,1966-06,2845.0,$m,PS1966-06,2,Table 2 total loans advances and bills discounted (faint; MB gives 2844.6)
+mtb_loans,1966-07,2900.8,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1966-07,2900.8,$m,M1966-08,3,Table 2 major trading banks weekly average (item 8)
+mtb_loans,1966-07,2900.8,$m,PS1966-08,2,Table 2 total loans advances and bills discounted
+mtb_loans,1966-08,2866.2,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1966-08,2866.2,$m,M1966-08,3,Table 2 major trading banks weekly average (item 8)
+mtb_loans,1966-08,2866.2,$m,PS1966-08,2,Table 2 total loans advances and bills discounted
+mtb_loans,1966-09,2866.2,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1966-09,2866.2,$m,M1966-10,3,Table 2 major trading banks weekly average (item 8)
+mtb_loans,1966-10,2915.2,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1966-10,2915.2,$m,M1966-10,3,Table 2 major trading banks weekly average (item 8)
+mtb_loans,1966-11,2930.6,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1966-11,2930.6,$m,M1966-12,3,Table 2 major trading banks weekly average (item 8)
+mtb_loans,1966-12,2952.3,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1966-12,2952.3,$m,M1966-12,3,Table 2 major trading banks weekly average (item 8)
+mtb_loans,1967-01,2934.0,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1967-01,2934.0,$m,M1967-02,3,Table 2 major trading banks weekly average (item 8)
+mtb_loans,1967-02,2911.6,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1967-02,2911.6,$m,M1967-02,3,Table 2 major trading banks weekly average (item 8)
+mtb_loans,1967-03,2961.9,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1967-03,2961.9,$m,M1967-04,3,Table 2 major trading banks weekly average (item 8)
+mtb_loans,1967-04,3085.8,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1967-04,3085.6,$m,M1967-04,3,Table 2 major trading banks weekly average (item 8)
+mtb_loans,1967-05,3136.7,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1967-05,3136.7,$m,M1967-06,3,Table 2 major trading banks weekly average (item 8)
+mtb_loans,1967-06,3180.9,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1967-06,3180.9,$m,M1967-06,3,Table 2 major trading banks weekly average (item 8)
+mtb_loans,1967-07,3244.3,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1967-07,3244.3,$m,M1967-08,3,Table 2 major trading banks weekly average (item 8)
+mtb_loans,1967-08,3228.9,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1967-08,3228.9,$m,M1967-08,3,Table 2 major trading banks weekly average (item 8)
+mtb_loans,1967-09,3228.5,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1967-09,3228.5,$m,M1967-10,4,Table 3 major trading banks weekly average (item 8)
+mtb_loans,1967-10,3310.7,$m,BS1971-10,11,Table 11 loans advances and bills discounted total (October of earlier years)
+mtb_loans,1967-10,3310.7,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1967-10,3310.7,$m,M1967-10,4,Table 3 major trading banks weekly average (item 8)
+mtb_loans,1967-11,3312.3,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1967-11,3312.3,$m,M1967-12,4,Table 3 major trading banks weekly average (item 8)
+mtb_loans,1967-12,3306.8,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1967-12,3306.8,$m,M1967-12,4,Table 3 major trading banks weekly average (item 8)
+mtb_loans,1968-01,3267.0,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1968-01,3267.0,$m,M1968-02,5,Table 2 major trading banks weekly average (item 8)
+mtb_loans,1968-02,3287.9,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1968-02,3287.9,$m,M1968-02,5,Table 2 major trading banks weekly average (item 8)
+mtb_loans,1968-03,3354.2,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1968-03,3354.2,$m,M1968-06,5,Major trading banks deposits and advances original and SA table
+mtb_loans,1968-04,3504.2,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1968-04,3504.2,$m,M1968-06,5,Major trading banks deposits and advances original and SA table
+mtb_loans,1968-05,3559.1,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1968-05,3559.1,$m,M1968-06,5,Major trading banks deposits and advances original and SA table
+mtb_loans,1968-06,3597.7,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1968-06,3597.7,$m,M1968-06,5,Major trading banks deposits and advances original and SA table
+mtb_loans,1968-07,3662.4,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1968-07,3662.4,$m,M1968-08,5,Table 2 major trading banks weekly average (item 8)
+mtb_loans,1968-08,3675.6,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1968-08,3675.6,$m,M1968-08,5,Table 2 major trading banks weekly average (item 8)
+mtb_loans,1968-09,3664.7,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1968-09,3664.7,$m,M1968-11,5,Major trading banks deposits and advances original and SA table
+mtb_loans,1968-10,3716.8,$m,BS1971-10,11,Table 11 loans advances and bills discounted total (October of earlier years)
+mtb_loans,1968-10,3716.8,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1968-10,3716.8,$m,M1968-11,5,Major trading banks deposits and advances original and SA table
+mtb_loans,1968-11,3704.8,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1968-11,3704.8,$m,M1968-11,5,Major trading banks deposits and advances original and SA table
+mtb_loans,1968-12,3717.6,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1968-12,3717.6,$m,PS1968-12,2,Table 2 total loans advances and bills discounted
+mtb_loans,1969-01,3687.1,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1969-01,3687.1,$m,PS1969-02,2,Table 2 total loans advances and bills discounted
+mtb_loans,1969-02,3632.9,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1969-02,3632.9,$m,PS1969-02,2,Table 2 total loans advances and bills discounted
+mtb_loans,1969-03,3676.5,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1969-03,3676.5,$m,PS1969-04,2,Table 2 total loans advances and bills discounted
+mtb_loans,1969-04,3820.0,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1969-04,3820.0,$m,PS1969-04,2,Table 2 total loans advances and bills discounted
+mtb_loans,1969-05,3901.1,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1969-05,3901.1,$m,PS1969-06,2,Table 2 total loans advances and bills discounted
+mtb_loans,1969-06,3952.2,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1969-06,3952.2,$m,PS1969-06,2,Table 2 total loans advances and bills discounted
+mtb_loans,1969-07,4026.8,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1969-07,4026.8,$m,PS1969-08,2,Table 2 total loans advances and bills discounted
+mtb_loans,1969-08,3979.6,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1969-08,3979.6,$m,PS1969-08,2,Table 2 total loans advances and bills discounted
+mtb_loans,1969-09,3985.6,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1969-09,3985.6,$m,PS1969-10,2,Table 2 total loans advances and bills discounted
+mtb_loans,1969-10,4060.1,$m,BS1971-10,11,Table 11 loans advances and bills discounted total (October of earlier years)
+mtb_loans,1969-10,4060.1,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1969-10,4060.1,$m,PS1969-10,2,Table 2 total loans advances and bills discounted
+mtb_loans,1969-11,4095.5,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1969-11,4095.5,$m,PS1969-12,2,Table 2 total loans advances and bills discounted
+mtb_loans,1969-12,4139.5,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1969-12,4139.5,$m,PS1969-12,2,Table 2 total loans advances and bills discounted
+mtb_loans,1970-01,4178.8,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1970-01,4178.8,$m,PS1970-02,2,Table 2 total loans advances and bills discounted
+mtb_loans,1970-02,4150.9,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1970-02,4150.9,$m,PS1970-02,2,Table 2 total loans advances and bills discounted
+mtb_loans,1970-03,4160.6,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1970-03,4160.4,$m,PS1970-04,2,Table 2 total loans advances and bills discounted
+mtb_loans,1970-04,4388.2,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1970-04,4388.2,$m,PS1970-04,2,Table 2 total loans advances and bills discounted
+mtb_loans,1970-05,4375.9,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1970-05,4375.9,$m,PS1970-06,2,Table 2 total loans advances and bills discounted
+mtb_loans,1970-06,4400.9,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1970-06,4400.9,$m,PS1970-06,2,Table 2 total loans advances and bills discounted
+mtb_loans,1970-07,4422.2,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1970-07,4422.2,$m,PS1970-08,2,Table 2 total loans advances and bills discounted
+mtb_loans,1970-08,4368.2,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1970-08,4368.2,$m,PS1970-08,2,Table 2 total loans advances and bills discounted
+mtb_loans,1970-09,4357.2,$m,BS1971-10,11,Table 11 loans advances and bills discounted total (printed; the printed Oct variation +113.0 implies 4358.5)
+mtb_loans,1970-09,4357.2,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1970-10,4471.5,$m,BS1971-10,11,Table 11 loans advances and bills discounted total
+mtb_loans,1970-10,4472.1,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1970-11,4436.0,$m,BS1971-10,11,Table 11 loans advances and bills discounted total
+mtb_loans,1970-11,4436.0,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1970-12,4392.5,$m,BS1971-10,11,Table 11 loans advances and bills discounted total
+mtb_loans,1970-12,4392.5,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1971-01,4465.0,$m,BS1971-10,11,Table 11 loans advances and bills discounted total
+mtb_loans,1971-01,4465.8,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1971-02,4440.1,$m,BS1971-10,11,Table 11 loans advances and bills discounted total
+mtb_loans,1971-02,4440.1,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1971-03,4503.2,$m,BS1971-10,11,Table 11 loans advances and bills discounted total
+mtb_loans,1971-03,4503.2,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1971-04,4704.9,$m,BS1971-10,11,Table 11 loans advances and bills discounted total
+mtb_loans,1971-04,4704.9,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1971-05,4720.3,$m,BS1971-10,11,Table 11 loans advances and bills discounted total
+mtb_loans,1971-05,4720.3,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1971-06,4770.6,$m,BS1971-10,11,Table 11 loans advances and bills discounted total
+mtb_loans,1971-06,4770.0,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1971-07,4785.7,$m,BS1971-10,11,Table 11 loans advances and bills discounted total
+mtb_loans,1971-07,4785.7,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1971-08,4740.4,$m,BS1971-10,11,Table 11 loans advances and bills discounted total
+mtb_loans,1971-08,4740.4,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1971-09,4735.7,$m,BS1971-10,11,Table 11 loans advances and bills discounted total
+mtb_loans,1971-09,4735.7,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1971-10,4845.5,$m,BS1971-10,11,Table 11 loans advances and bills discounted total
+mtb_loans,1971-10,4845.5,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1971-11,4849.4,$m,BS1972-10,12,Table 8 loans advances and bills discounted total
+mtb_loans,1971-11,4849.4,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1971-12,4856.5,$m,BS1972-10,12,Table 8 loans advances and bills discounted total
+mtb_loans,1971-12,4856.5,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1972-01,4927.1,$m,BS1972-10,12,Table 8 loans advances and bills discounted total
+mtb_loans,1972-01,4927.1,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1972-02,4831.9,$m,BS1972-10,12,Table 8 loans advances and bills discounted total
+mtb_loans,1972-02,4831.9,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1972-03,4868.0,$m,BS1972-10,12,Table 8 loans advances and bills discounted total
+mtb_loans,1972-03,4868.0,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1972-04,5057.5,$m,BS1972-10,12,Table 8 loans advances and bills discounted total
+mtb_loans,1972-04,5057.5,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1972-05,5173.2,$m,BS1972-10,12,Table 8 loans advances and bills discounted total
+mtb_loans,1972-05,5173.2,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1972-06,5257.0,$m,BS1972-10,12,Table 8 loans advances and bills discounted total
+mtb_loans,1972-06,5257.0,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1972-07,5361.6,$m,BS1972-10,12,Table 8 loans advances and bills discounted total
+mtb_loans,1972-07,5361.6,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1972-08,5313.4,$m,BS1972-10,12,Table 8 loans advances and bills discounted total
+mtb_loans,1972-08,5313.4,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1972-09,5329.6,$m,BS1972-10,12,Table 8 loans advances and bills discounted total
+mtb_loans,1972-09,5329.6,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1972-10,5462.3,$m,BS1972-10,12,Table 8 loans advances and bills discounted total
+mtb_loans,1972-10,5462.3,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1972-11,5584.6,$m,BS1973-10,13,Table 8 loans advances and bills discounted total
+mtb_loans,1972-11,5584.6,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1972-12,5705.6,$m,BS1973-10,13,Table 8 loans advances and bills discounted total
+mtb_loans,1972-12,5705.6,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1973-01,5767.1,$m,BS1973-10,13,Table 8 loans advances and bills discounted total
+mtb_loans,1973-01,5767.1,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1973-02,5960.2,$m,BS1973-10,13,Table 8 loans advances and bills discounted total
+mtb_loans,1973-02,5960.2,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1973-03,6206.7,$m,BS1973-10,13,Table 8 loans advances and bills discounted total
+mtb_loans,1973-03,6206.7,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1973-04,6596.2,$m,BS1973-10,13,Table 8 loans advances and bills discounted total
+mtb_loans,1973-04,6596.2,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1973-05,6853.9,$m,BS1973-10,13,Table 8 loans advances and bills discounted total
+mtb_loans,1973-05,6853.9,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1973-06,7087.6,$m,BS1973-10,13,Table 8 loans advances and bills discounted total
+mtb_loans,1973-06,7087.6,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1973-07,7313.4,$m,BS1973-10,13,Table 8 loans advances and bills discounted total
+mtb_loans,1973-07,7211.6,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures; (b) break in continuity due to change in definition"
+mtb_loans,1973-08,7458.1,$m,BS1973-10,13,Table 8 loans advances and bills discounted total
+mtb_loans,1973-08,7355.4,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1973-09,7657.1,$m,BS1973-10,13,Table 8 loans advances and bills discounted total
+mtb_loans,1973-09,7556.7,$m,BS1974-10,12,"Table 8 loans advances and bills discounted total (revised level, about 100 below BS1973-10)"
+mtb_loans,1973-09,7556.7,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1973-10,7871.3,$m,BS1973-10,13,Table 8 loans advances and bills discounted total
+mtb_loans,1973-10,7767.8,$m,BS1974-10,12,"Table 8 loans advances and bills discounted total (revised level, about 100 below BS1973-10)"
+mtb_loans,1973-10,7767.8,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1973-11,7754.2,$m,BS1974-10,12,"Table 8 loans advances and bills discounted total (revised level, about 100 below BS1973-10)"
+mtb_loans,1973-11,7754.2,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1973-12,7894.2,$m,BS1974-10,12,"Table 8 loans advances and bills discounted total (revised level, about 100 below BS1973-10)"
+mtb_loans,1973-12,7894.2,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1974-01,7989.6,$m,BS1974-10,12,"Table 8 loans advances and bills discounted total (revised level, about 100 below BS1973-10)"
+mtb_loans,1974-01,7989.6,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1974-02,8146.3,$m,BS1974-10,12,"Table 8 loans advances and bills discounted total (revised level, about 100 below BS1973-10)"
+mtb_loans,1974-02,8146.3,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1974-03,8353.7,$m,BS1974-10,12,"Table 8 loans advances and bills discounted total (revised level, about 100 below BS1973-10)"
+mtb_loans,1974-03,8353.7,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1974-04,8763.9,$m,BS1974-10,12,"Table 8 loans advances and bills discounted total (revised level, about 100 below BS1973-10)"
+mtb_loans,1974-04,8763.9,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1974-05,8916.0,$m,BS1974-10,12,"Table 8 loans advances and bills discounted total (revised level, about 100 below BS1973-10)"
+mtb_loans,1974-05,8916.0,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1974-06,9099.2,$m,BS1974-10,12,"Table 8 loans advances and bills discounted total (revised level, about 100 below BS1973-10)"
+mtb_loans,1974-06,9099.2,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1974-07,8995.6,$m,BS1974-10,12,"Table 8 loans advances and bills discounted total (revised level, about 100 below BS1973-10)"
+mtb_loans,1974-07,8995.6,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1974-08,8870.6,$m,BS1974-10,12,"Table 8 loans advances and bills discounted total (revised level, about 100 below BS1973-10)"
+mtb_loans,1974-08,8870.7,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1974-09,8775.3,$m,BS1974-10,12,"Table 8 loans advances and bills discounted total (revised level, about 100 below BS1973-10)"
+mtb_loans,1974-09,8775.3,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1974-10,9103.3,$m,BS1974-10,12,"Table 8 loans advances and bills discounted total (revised level, about 100 below BS1973-10)"
+mtb_loans,1974-10,9103.3,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1974-11,9178.9,$m,BK1975-12,13,Table 9 loans advances and bills discounted total (Dec 1975 variation printed +140.9; levels used)
+mtb_loans,1974-11,9178.9,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1974-12,9271.7,$m,BK1975-12,13,Table 9 loans advances and bills discounted total (Dec 1975 variation printed +140.9; levels used)
+mtb_loans,1974-12,9271.6,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1975-01,9504.2,$m,BK1975-12,13,Table 9 loans advances and bills discounted total (Dec 1975 variation printed +140.9; levels used)
+mtb_loans,1975-01,9504.4,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1975-02,9526.0,$m,BK1975-12,13,Table 9 loans advances and bills discounted total (Dec 1975 variation printed +140.9; levels used)
+mtb_loans,1975-02,9526.0,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1975-03,9484.8,$m,BK1975-12,13,Table 9 loans advances and bills discounted total (Dec 1975 variation printed +140.9; levels used)
+mtb_loans,1975-03,9484.8,$m,BS1975-03,28,"Table 23 loans advances and bills discounted total, monthly averages of weekly figures"
+mtb_loans,1975-04,9642.8,$m,BK1975-12,13,Table 9 loans advances and bills discounted total (Dec 1975 variation printed +140.9; levels used)
+mtb_loans,1975-05,9913.0,$m,BK1975-12,13,Table 9 loans advances and bills discounted total (Dec 1975 variation printed +140.9; levels used)
+mtb_loans,1975-06,9932.3,$m,BK1975-12,13,Table 9 loans advances and bills discounted total (Dec 1975 variation printed +140.9; levels used)
+mtb_loans,1975-07,10045.9,$m,BK1975-12,13,Table 9 loans advances and bills discounted total (Dec 1975 variation printed +140.9; levels used)
+mtb_loans,1975-08,10013.7,$m,BK1975-12,13,Table 9 loans advances and bills discounted total (Dec 1975 variation printed +140.9; levels used)
+mtb_loans,1975-09,10056.7,$m,BK1975-12,13,Table 9 loans advances and bills discounted total (Dec 1975 variation printed +140.9; levels used)
+mtb_loans,1975-10,10195.4,$m,BK1975-12,13,Table 9 loans advances and bills discounted total (Dec 1975 variation printed +140.9; levels used)
+mtb_loans,1975-11,10072.1,$m,BK1975-12,13,Table 9 loans advances and bills discounted total (Dec 1975 variation printed +140.9; levels used)
+mtb_loans,1975-12,10177.0,$m,BK1975-12,13,Table 9 loans advances and bills discounted total (Dec 1975 variation printed +140.9; levels used)
+mtb_loans,1976-01,10290.1,$m,BK1976-12,13,Table 9 loans advances and bills discounted total
+mtb_loans,1976-02,10168.7,$m,BK1976-12,13,Table 9 loans advances and bills discounted total
+mtb_loans,1976-03,10305.6,$m,BK1976-12,13,Table 9 loans advances and bills discounted total
+mtb_loans,1976-04,10794.7,$m,BK1976-12,13,Table 9 loans advances and bills discounted total
+mtb_loans,1976-05,10950.6,$m,BK1976-12,13,Table 9 loans advances and bills discounted total
+mtb_loans,1976-06,11016.5,$m,BK1976-12,13,Table 9 loans advances and bills discounted total
+mtb_loans,1976-07,11123.3,$m,BK1976-12,13,Table 9 loans advances and bills discounted total
+mtb_loans,1976-08,11231.1,$m,BK1976-12,13,Table 9 loans advances and bills discounted total
+mtb_loans,1976-09,11369.1,$m,BK1976-12,13,Table 9 loans advances and bills discounted total
+mtb_loans,1976-10,11791.1,$m,BK1976-12,13,Table 9 loans advances and bills discounted total
+mtb_loans,1976-11,11787.1,$m,BK1976-12,13,Table 9 loans advances and bills discounted total
+mtb_loans,1976-12,11740.5,$m,BK1976-12,13,Table 9 loans advances and bills discounted total
+mtb_loans_sa,1960-01,1898.0,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1960-02,1920.5,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1960-03,1941.9,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1960-04,1966.4,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1960-05,1995.0,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1960-06,2011.7,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1960-07,2064.3,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1960-08,2094.5,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1960-09,2138.1,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1960-10,2149.2,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1960-11,2154.7,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1960-12,2159.8,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1961-01,2152.3,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1961-02,2129.0,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1961-03,2097.6,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1961-04,2050.5,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1961-05,2013.8,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1961-06,2019.4,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1961-07,2015.0,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1961-08,1994.3,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1961-09,1987.4,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1961-10,1984.1,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1961-11,1978.6,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1961-12,1985.3,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1962-01,1988.7,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1962-02,1996.8,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1962-03,2011.0,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1962-04,2028.0,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1962-05,2033.6,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1962-06,2037.5,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1962-07,2065.7,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1962-08,2069.2,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1962-09,2080.7,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1962-10,2075.2,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1962-11,2090.9,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1962-12,2109.8,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1963-01,2130.6,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1963-02,2156.9,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1963-03,2163.4,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1963-04,2167.6,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1963-05,2166.4,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1963-06,2170.1,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1963-07,2157.8,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1963-08,2172.6,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1963-09,2165.3,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1963-10,2173.8,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1963-11,2194.2,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1963-12,2206.3,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1964-01,2187.8,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1964-02,2217.5,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1964-03,2243.2,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1964-04,2252.8,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1964-05,2283.6,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1964-06,2294.7,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1964-07,2305.4,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1964-08,2324.2,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1964-09,2352.4,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1964-10,2387.1,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1964-11,2404.7,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1964-12,2398.8,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1965-01,2411.9,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1965-02,2431.4,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1965-03,2465.4,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1965-04,2515.0,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1965-05,2565.1,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1965-06,2585.6,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1965-07,2606.0,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1965-08,2630.9,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1965-09,2645.7,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1965-10,2651.9,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1965-11,2665.7,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1965-12,2675.9,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1966-01,2721.2,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1966-02,2742.4,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1966-03,2771.6,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1966-04,2778.1,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1966-05,2784.0,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1966-06,2795.6,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1966-07,2827.7,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1966-08,2832.7,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1966-09,2863.0,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1966-10,2888.7,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1966-11,2922.4,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1966-12,2968.3,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1967-01,2989.2,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1967-02,3016.4,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1967-03,3040.2,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1967-04,3066.9,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1967-05,3096.1,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1967-05,3098.3,$m,M1968-06,5,Major trading banks advances seasonally adjusted
+mtb_loans_sa,1967-06,3127.9,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1967-06,3123.7,$m,M1968-06,5,Major trading banks advances seasonally adjusted
+mtb_loans_sa,1967-07,3165.1,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1967-07,3156.9,$m,M1968-06,5,Major trading banks advances seasonally adjusted
+mtb_loans_sa,1967-08,3197.9,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1967-08,3190.1,$m,M1968-06,5,Major trading banks advances seasonally adjusted
+mtb_loans_sa,1967-09,3229.2,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1967-09,3223.8,$m,M1968-06,5,Major trading banks advances seasonally adjusted
+mtb_loans_sa,1967-10,3280.4,$m,BS1971-10,11,Table 11 loans advances and bills discounted total seasonally adjusted (October of earlier years)
+mtb_loans_sa,1967-10,3283.4,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1967-10,3276.6,$m,M1968-06,5,Major trading banks advances seasonally adjusted
+mtb_loans_sa,1967-11,3307.7,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1967-11,3301.9,$m,M1968-06,5,Major trading banks advances seasonally adjusted
+mtb_loans_sa,1967-12,3323.9,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1967-12,3331.9,$m,M1968-06,5,Major trading banks advances seasonally adjusted
+mtb_loans_sa,1968-01,3320.7,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1968-01,3337.3,$m,M1968-06,5,Major trading banks advances seasonally adjusted
+mtb_loans_sa,1968-02,3397.6,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1968-02,3412.7,$m,M1968-06,5,Major trading banks advances seasonally adjusted
+mtb_loans_sa,1968-03,3440.1,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1968-03,3440.9,$m,M1968-06,5,Major trading banks advances seasonally adjusted
+mtb_loans_sa,1968-04,3478.5,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1968-04,3483.3,$m,M1968-06,5,Major trading banks advances seasonally adjusted
+mtb_loans_sa,1968-05,3511.4,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1968-05,3513.4,$m,M1968-06,5,Major trading banks advances seasonally adjusted
+mtb_loans_sa,1968-06,3538.2,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1968-06,3534.1,$m,M1968-06,5,Major trading banks advances seasonally adjusted
+mtb_loans_sa,1968-07,3577.5,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1968-07,3562.6,$m,M1968-11,5,Major trading banks advances seasonally adjusted
+mtb_loans_sa,1968-08,3648.0,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1968-08,3632.0,$m,M1968-11,5,Major trading banks advances seasonally adjusted
+mtb_loans_sa,1968-09,3672.3,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1968-09,3661.0,$m,M1968-11,5,Major trading banks advances seasonally adjusted
+mtb_loans_sa,1968-10,3684.4,$m,BS1971-10,11,Table 11 loans advances and bills discounted total seasonally adjusted (October of earlier years)
+mtb_loans_sa,1968-10,3689.8,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1968-10,3680.0,$m,M1968-11,5,Major trading banks advances seasonally adjusted
+mtb_loans_sa,1968-11,3704.2,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1968-11,3693.7,$m,M1968-11,5,Major trading banks advances seasonally adjusted
+mtb_loans_sa,1968-12,3737.7,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1968-12,3747.6,$m,PS1968-12,2,footnote seasonally adjusted total
+mtb_loans_sa,1969-01,3739.3,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1969-02,3743.6,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1969-03,3766.8,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1969-04,3787.7,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1969-05,3845.9,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1969-06,3885.8,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1969-07,3938.0,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1969-08,3957.4,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1969-09,4001.2,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1969-10,4024.8,$m,BS1971-10,11,Table 11 loans advances and bills discounted total seasonally adjusted (October of earlier years)
+mtb_loans_sa,1969-10,4034.6,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1969-11,4099.1,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1969-12,4165.1,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1970-01,4232.4,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1970-02,4268.2,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1970-03,4257.8,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1970-04,4345.8,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1970-05,4309.8,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1970-06,4322.6,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1970-07,4328.1,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1970-08,4349.5,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1970-09,4360.5,$m,BS1971-10,11,Table 11 loans advances and bills discounted total seasonally adjusted
+mtb_loans_sa,1970-09,4381.7,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1970-10,4433.2,$m,BS1971-10,11,Table 11 loans advances and bills discounted total seasonally adjusted
+mtb_loans_sa,1970-10,4448.4,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1970-11,4427.7,$m,BS1971-10,11,Table 11 loans advances and bills discounted total seasonally adjusted
+mtb_loans_sa,1970-11,4444.9,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1970-12,4413.4,$m,BS1971-10,11,Table 11 loans advances and bills discounted total seasonally adjusted
+mtb_loans_sa,1970-12,4426.9,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1971-01,4538.8,$m,BS1971-10,11,Table 11 loans advances and bills discounted total seasonally adjusted
+mtb_loans_sa,1971-01,4522.1,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1971-02,4582.2,$m,BS1971-10,11,Table 11 loans advances and bills discounted total seasonally adjusted
+mtb_loans_sa,1971-02,4557.5,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1971-03,4620.1,$m,BS1971-10,11,Table 11 loans advances and bills discounted total seasonally adjusted
+mtb_loans_sa,1971-03,4601.7,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1971-04,4678.4,$m,BS1971-10,11,Table 11 loans advances and bills discounted total seasonally adjusted
+mtb_loans_sa,1971-04,4653.3,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1971-05,4661.6,$m,BS1971-10,11,Table 11 loans advances and bills discounted total seasonally adjusted
+mtb_loans_sa,1971-05,4642.4,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1971-06,4696.6,$m,BS1971-10,11,Table 11 loans advances and bills discounted total seasonally adjusted
+mtb_loans_sa,1971-06,4680.2,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1971-07,4669.5,$m,BS1971-10,11,Table 11 loans advances and bills discounted total seasonally adjusted
+mtb_loans_sa,1971-07,4685.6,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1971-08,4699.0,$m,BS1971-10,11,Table 11 loans advances and bills discounted total seasonally adjusted
+mtb_loans_sa,1971-08,4724.0,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1971-09,4739.4,$m,BS1971-10,11,Table 11 loans advances and bills discounted total seasonally adjusted
+mtb_loans_sa,1971-09,4758.6,$m,BS1972-10,12,Table 8 loans advances and bills discounted total seasonally adjusted
+mtb_loans_sa,1971-09,4769.6,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1971-10,4804.3,$m,BS1971-10,11,Table 11 loans advances and bills discounted total seasonally adjusted
+mtb_loans_sa,1971-10,4808.2,$m,BS1972-10,12,Table 8 loans advances and bills discounted total seasonally adjusted
+mtb_loans_sa,1971-10,4824.0,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1971-11,4854.3,$m,BS1972-10,12,Table 8 loans advances and bills discounted total seasonally adjusted
+mtb_loans_sa,1971-11,4864.2,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1971-12,4878.4,$m,BS1972-10,12,Table 8 loans advances and bills discounted total seasonally adjusted
+mtb_loans_sa,1971-12,4902.7,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1972-01,5000.5,$m,BS1972-10,12,Table 8 loans advances and bills discounted total seasonally adjusted
+mtb_loans_sa,1972-01,4992.0,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1972-02,4962.7,$m,BS1972-10,12,Table 8 loans advances and bills discounted total seasonally adjusted
+mtb_loans_sa,1972-02,4955.3,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1972-03,4979.9,$m,BS1972-10,12,Table 8 loans advances and bills discounted total seasonally adjusted
+mtb_loans_sa,1972-03,4966.9,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1972-04,5008.0,$m,BS1972-10,12,Table 8 loans advances and bills discounted total seasonally adjusted
+mtb_loans_sa,1972-04,4995.5,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1972-05,5099.3,$m,BS1972-10,12,Table 8 loans advances and bills discounted total seasonally adjusted
+mtb_loans_sa,1972-05,5081.5,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1972-06,5166.3,$m,BS1972-10,12,Table 8 loans advances and bills discounted total seasonally adjusted
+mtb_loans_sa,1972-06,5152.8,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1972-07,5252.5,$m,BS1972-10,12,Table 8 loans advances and bills discounted total seasonally adjusted
+mtb_loans_sa,1972-07,5250.5,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1972-08,5293.4,$m,BS1972-10,12,Table 8 loans advances and bills discounted total seasonally adjusted
+mtb_loans_sa,1972-08,5296.6,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1972-09,5356.6,$m,BS1972-10,12,Table 8 loans advances and bills discounted total seasonally adjusted
+mtb_loans_sa,1972-09,5375.0,$m,BS1973-10,13,Table 8 loans advances and bills discounted total seasonally adjusted
+mtb_loans_sa,1972-09,5374.4,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1972-10,5420.7,$m,BS1972-10,12,Table 8 loans advances and bills discounted total seasonally adjusted
+mtb_loans_sa,1972-10,5429.9,$m,BS1973-10,13,Table 8 loans advances and bills discounted total seasonally adjusted
+mtb_loans_sa,1972-10,5440.2,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1972-11,5584.2,$m,BS1973-10,13,Table 8 loans advances and bills discounted total seasonally adjusted
+mtb_loans_sa,1972-11,5605.2,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1972-12,5733.6,$m,BS1973-10,13,Table 8 loans advances and bills discounted total seasonally adjusted
+mtb_loans_sa,1972-12,5769.2,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1973-01,5815.3,$m,BS1973-10,13,Table 8 loans advances and bills discounted total seasonally adjusted
+mtb_loans_sa,1973-01,5848.6,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1973-02,6105.7,$m,BS1973-10,13,Table 8 loans advances and bills discounted total seasonally adjusted
+mtb_loans_sa,1973-02,6109.3,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1973-03,6341.5,$m,BS1973-10,13,Table 8 loans advances and bills discounted total seasonally adjusted
+mtb_loans_sa,1973-03,6326.1,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1973-04,6537.6,$m,BS1973-10,13,Table 8 loans advances and bills discounted total seasonally adjusted
+mtb_loans_sa,1973-04,6510.0,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1973-05,6756.5,$m,BS1973-10,13,Table 8 loans advances and bills discounted total seasonally adjusted
+mtb_loans_sa,1973-05,6724.5,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1973-06,6966.5,$m,BS1973-10,13,Table 8 loans advances and bills discounted total seasonally adjusted
+mtb_loans_sa,1973-06,6943.2,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1973-07,7170.8,$m,BS1973-10,13,Table 8 loans advances and bills discounted total seasonally adjusted
+mtb_loans_sa,1973-07,7061.5,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1973-08,7455.1,$m,BS1973-10,13,Table 8 loans advances and bills discounted total seasonally adjusted
+mtb_loans_sa,1973-08,7331.6,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1973-09,7725.3,$m,BS1973-10,13,Table 8 loans advances and bills discounted total seasonally adjusted
+mtb_loans_sa,1973-09,7625.5,$m,BS1974-10,12,Table 8 loans advances and bills discounted total seasonally adjusted
+mtb_loans_sa,1973-09,7625.6,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1973-10,7824.2,$m,BS1973-10,13,Table 8 loans advances and bills discounted total seasonally adjusted
+mtb_loans_sa,1973-10,7724.4,$m,BS1974-10,12,Table 8 loans advances and bills discounted total seasonally adjusted
+mtb_loans_sa,1973-10,7739.6,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1973-11,7778.4,$m,BS1974-10,12,Table 8 loans advances and bills discounted total seasonally adjusted
+mtb_loans_sa,1973-11,7786.1,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1973-12,7965.1,$m,BS1974-10,12,Table 8 loans advances and bills discounted total seasonally adjusted
+mtb_loans_sa,1973-12,7988.7,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1974-01,8070.4,$m,BS1974-10,12,Table 8 loans advances and bills discounted total seasonally adjusted
+mtb_loans_sa,1974-01,8106.9,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1974-02,8346.5,$m,BS1974-10,12,Table 8 loans advances and bills discounted total seasonally adjusted
+mtb_loans_sa,1974-02,8349.6,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1974-03,8522.0,$m,BS1974-10,12,Table 8 loans advances and bills discounted total seasonally adjusted
+mtb_loans_sa,1974-03,8509.5,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1974-04,8670.7,$m,BS1974-10,12,Table 8 loans advances and bills discounted total seasonally adjusted
+mtb_loans_sa,1974-04,8648.5,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1974-05,8765.7,$m,BS1974-10,12,Table 8 loans advances and bills discounted total seasonally adjusted
+mtb_loans_sa,1974-05,8742.1,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1974-06,8920.3,$m,BS1974-10,12,Table 8 loans advances and bills discounted total seasonally adjusted
+mtb_loans_sa,1974-06,8911.5,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1974-07,8822.8,$m,BS1974-10,12,Table 8 loans advances and bills discounted total seasonally adjusted
+mtb_loans_sa,1974-07,8806.0,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1974-08,8852.5,$m,BS1974-10,12,Table 8 loans advances and bills discounted total seasonally adjusted
+mtb_loans_sa,1974-08,8840.4,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1974-09,8857.0,$m,BS1974-10,12,Table 8 loans advances and bills discounted total seasonally adjusted
+mtb_loans_sa,1974-09,8857.1,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1974-10,9052.3,$m,BS1974-10,12,Table 8 loans advances and bills discounted total seasonally adjusted
+mtb_loans_sa,1974-10,9073.9,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1974-11,9274.2,$m,BK1975-12,13,Table 9 loans advances and bills discounted total seasonally adjusted
+mtb_loans_sa,1974-11,9218.7,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1974-12,9376.2,$m,BK1975-12,13,Table 9 loans advances and bills discounted total seasonally adjusted
+mtb_loans_sa,1974-12,9386.9,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1975-01,9620.0,$m,BK1975-12,13,Table 9 loans advances and bills discounted total seasonally adjusted
+mtb_loans_sa,1975-01,9646.5,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1975-02,9731.5,$m,BK1975-12,13,Table 9 loans advances and bills discounted total seasonally adjusted
+mtb_loans_sa,1975-02,9763.4,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1975-03,9631.9,$m,BK1975-12,13,Table 9 loans advances and bills discounted total seasonally adjusted
+mtb_loans_sa,1975-03,9658.9,$m,BS1975-03,28,Table 23 seasonally adjusted (X-11)
+mtb_loans_sa,1975-04,9517.1,$m,BK1975-12,13,Table 9 loans advances and bills discounted total seasonally adjusted
+mtb_loans_sa,1975-05,9708.6,$m,BK1975-12,13,Table 9 loans advances and bills discounted total seasonally adjusted
+mtb_loans_sa,1975-06,9743.5,$m,BK1975-12,13,Table 9 loans advances and bills discounted total seasonally adjusted
+mtb_loans_sa,1975-07,9869.6,$m,BK1975-12,13,Table 9 loans advances and bills discounted total seasonally adjusted
+mtb_loans_sa,1975-08,10004.5,$m,BK1975-12,13,Table 9 loans advances and bills discounted total seasonally adjusted
+mtb_loans_sa,1975-09,10107.4,$m,BK1975-12,13,Table 9 loans advances and bills discounted total seasonally adjusted
+mtb_loans_sa,1975-10,10166.4,$m,BK1975-12,13,Table 9 loans advances and bills discounted total seasonally adjusted
+mtb_loans_sa,1975-11,10184.5,$m,BK1975-12,13,Table 9 loans advances and bills discounted total seasonally adjusted
+mtb_loans_sa,1975-12,10292.8,$m,BK1975-12,13,Table 9 loans advances and bills discounted total seasonally adjusted
+mtb_loans_sa,1976-01,10416.2,$m,BK1976-12,13,Table 9 loans advances and bills discounted total seasonally adjusted
+mtb_loans_sa,1976-02,10386.0,$m,BK1976-12,13,Table 9 loans advances and bills discounted total seasonally adjusted
+mtb_loans_sa,1976-03,10461.7,$m,BK1976-12,13,Table 9 loans advances and bills discounted total seasonally adjusted
+mtb_loans_sa,1976-04,10653.1,$m,BK1976-12,13,Table 9 loans advances and bills discounted total seasonally adjusted
+mtb_loans_sa,1976-05,10721.4,$m,BK1976-12,13,Table 9 loans advances and bills discounted total seasonally adjusted
+mtb_loans_sa,1976-06,10807.6,$m,BK1976-12,13,Table 9 loans advances and bills discounted total seasonally adjusted
+mtb_loans_sa,1976-07,10930.3,$m,BK1976-12,13,Table 9 loans advances and bills discounted total seasonally adjusted
+mtb_loans_sa,1976-08,11221.5,$m,BK1976-12,13,Table 9 loans advances and bills discounted total seasonally adjusted
+mtb_loans_sa,1976-09,11423.9,$m,BK1976-12,13,Table 9 loans advances and bills discounted total seasonally adjusted
+mtb_loans_sa,1976-10,11757.8,$m,BK1976-12,13,Table 9 loans advances and bills discounted total seasonally adjusted
+mtb_loans_sa,1976-11,11923.3,$m,BK1976-12,13,Table 9 loans advances and bills discounted total seasonally adjusted
+mtb_loans_sa,1976-12,11874.6,$m,BK1976-12,13,Table 9 loans advances and bills discounted total seasonally adjusted

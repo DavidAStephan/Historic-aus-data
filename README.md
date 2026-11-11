@@ -24,7 +24,7 @@ the latest issue is used because it carries revisions.
 | [`05-housing-per-capita`](05-housing-per-capita) | Quarterly population (total, 15–64, 15+) and the housing pipeline per 1,000 people | 1946 – 2026 | Quarterly |
 | [`06-capex`](06-capex) | Private new capital expenditure by asset and industry, spliced onto ABS 5625.0; businesses' investment expectations vs actual | 1961 – 2026 | Quarterly / half-yearly / financial year |
 | [`07-retail-sales`](07-retail-sales) | Retail turnover, nominal and real, per person, spliced across five census re-basings onto ABS 8501.0 | 1947-48 – Jun 2025 | Monthly from 1961, quarterly from 1950, financial years from 1947-48 |
-| [`08-money-credit-rates`](08-money-credit-rates) | Cash rate, bills, 10-year bond, housing and business lending rates; currency, M3, broad money; break-adjusted credit; real rates and shares of GDP | 1950 – Oct 2026 | Monthly from 1959/1969/1976, years ended June from 1950 |
+| [`08-money-credit-rates`](08-money-credit-rates) | Cash rate, bills, 10-year bond, housing and business lending rates; currency, M3, broad money; break-adjusted credit; trading bank lending 1957–76 (bulletin scans); real rates and shares of GDP | 1950 – Oct 2026 | Monthly from 1959 (1969 for bills and bonds), years ended June from 1950 |
 
 Each folder has the same layout:
 

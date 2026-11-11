@@ -80,13 +80,14 @@ cat(sprintf("Credit components / total, 2003-2026: %.3f - %.3f\n", min(ck$r, na.
 
 # ---- 3. Ratios to GDP (quarterly) ------------------------------------------------------
 gdp <- gdp |> mutate(t = mi(quarter_end), gdp_4q = gdp + lag(gdp) + lag(gdp, 2) + lag(gdp, 3))
-q <- mc |> filter(t %% 3L == 2L) |> inner_join(gdp |> select(t, gdp_4q), by = "t") |>
+make_q <- function(mc) mc |> filter(t %% 3L == 2L) |> inner_join(gdp |> select(t, gdp_4q), by = "t") |>
   filter(!is.na(gdp_4q)) |>
   mutate(credit_pct_gdp = 100 * credit_total * 1000 / gdp_4q,     # $bn vs $m
          housing_credit_pct_gdp = 100 * credit_housing * 1000 / gdp_4q,
          business_credit_pct_gdp = 100 * credit_business * 1000 / gdp_4q,
          m3_pct_gdp = 100 * m3 * 1000 / gdp_4q,
          broad_money_pct_gdp = 100 * broad_money * 1000 / gdp_4q)
+q <- make_q(mc)   # rebuilt in section 4b once monthly credit before Aug 1976 is filled in
 
 # ---- 4. Long-run annual table, years ended June 1950 - 2026 ----------------------------------
 fy_avg <- function(t, x) tibble(fy = fyend(t), x) |> group_by(fy) |> filter(n() == 12) |>
@@ -183,6 +184,71 @@ ov2 <- lr |> filter(year_ended_june %in% 1961:1992)
 cat(sprintf("M3 growth: ours vs OP8, 1961-92: mean abs diff %.1f points; M3/GDP mean diff %.1f points\n",
             mean(abs(ov2$m3_growth - ov2$op_m3_g), na.rm = TRUE), mean(ov2$m3_pct_gdp - ov2$op_m3_gdp)))
 
+# ---- 4b. Bank lending, monthly 1957 - 1976, and monthly credit before Aug 1976 -------------
+# Major trading banks' loans, advances and bills discounted (average of weekly figures for the
+# month), transcribed from the CBCS/ABS banking bulletins (ANU Open Research scans). Every value
+# records its issue and page. Where a month was printed in several issues, the latest is used.
+bl <- read_csv("data-raw/anu_bank_loans_monthly.csv", col_types = "ccdcccc")
+issue_date <- function(k) {                     # MBxxxx = December issue; MB1965n = Nov 1965
+  y <- as.integer(substr(gsub("[^0-9]", "", k), 1, 4))
+  m <- ifelse(grepl("-", k), suppressWarnings(as.integer(sub("^.*-([0-9]{2})[a-z]?$", "\\1", k))), 12L)
+  m[k == "MB1965n"] <- 11L
+  y * 12L + m - 1L
+}
+bl <- bl |> mutate(t = mi(month), d = issue_date(issue),
+                   v = case_when(grepl("'000", unit) ~ value * 2 / 1000, !startsWith(unit, "$") ~ value * 2,
+                                 TRUE ~ value))      # pounds to dollars at the 1966 rate ($2 = £1)
+# consistency of repeated transcriptions (originals): different issues for the same month
+dup <- bl |> filter(series == "mtb_loans") |> group_by(t) |> filter(n() > 1) |>
+  summarise(range = max(v) - min(v), .groups = "drop")
+cat(sprintf("Bank lending: %d months printed in more than one issue; %d differ by more than $1m (the Jul-Oct 1973 break)\n",
+            nrow(dup), sum(dup$range > 1)))
+latest <- function(s) bl |> filter(series == s, t >= mi("1957-01")) |> group_by(t) |> slice_max(d, n = 1, with_ties = FALSE) |>
+  ungroup() |> select(t, v, issue = issue, d)
+lo <- latest("mtb_loans"); ls <- latest("mtb_loans_sa")
+stopifnot(all(diff(lo$t) == 1L))                # complete Jan 1957 - Dec 1976 (Decembers 1947-56 kept in data-raw only)
+# Break in July 1973 (change in definition, BS Mar 1975 Table 23 note (b)). Jul-Oct 1973 were
+# printed on both bases (BS Oct 1973 old, BS Oct 1974 / Mar 1975 new); earlier months are scaled
+# by the average new/old ratio.
+old73 <- bl |> filter(series == "mtb_loans", issue == "BS1973-10", t >= mi("1973-07"))
+k73 <- exp(mean(log(lo$v[match(old73$t, lo$t)] / old73$v)))
+cat(sprintf("Trading bank lending break, Jul 1973: new/old basis %.4f (Jul-Oct 1973)\n", k73))
+bank <- lo |> transmute(t, mtb_orig_printed = v, issue,
+                        mtb_orig = if_else(t < mi("1973-07"), v * k73, v)) |>
+  left_join(ls |> transmute(t, sa_printed = v, sa_issue = issue), by = "t")
+# seasonal factors from the bulletins (original / seasonally adjusted, same issue as far as
+# possible); 1957-59, before the printed adjusted series, use the 1960-64 average for the month
+bank <- bank |> mutate(sf = mtb_orig_printed / sa_printed, mo = t %% 12L)
+sf0 <- bank |> filter(t >= mi("1960-01"), t <= mi("1964-12")) |> group_by(mo) |> summarise(sf0 = mean(sf))
+bank <- bank |> left_join(sf0, by = "mo") |>
+  mutate(sf = coalesce(sf, sf0), mtb_sa = mtb_orig / sf,
+         sa_method = if_else(is.na(sa_printed), "1960-64 average bulletin factor", "Bulletin factor (X-11)")) |>
+  select(-sf0, -mo)
+# compare with the RBA's lending by all banks (D2) where they overlap
+d2 <- read_csv("data-raw/rba_d2_bank_loans_1976_81.csv", show_col_types = FALSE) |> mutate(t = mi(month))
+ov3 <- bank |> inner_join(d2, by = "t")
+cat(sprintf("Major trading banks / RBA lending by all banks (DLCALAB), Sep-Dec 1976: %.3f - %.3f\n",
+            min(ov3$mtb_orig / (1000 * ov3$DLCALAB)), max(ov3$mtb_orig / (1000 * ov3$DLCALAB))))
+# Monthly total credit, Jun 1957 - Aug 1976: the end-June totals above (OP8 growth chained back)
+# and Sep 1976 (the first month of the RBA series), interpolated by proportional Denton (first differences) on seasonally
+# adjusted trading bank lending. For stock benchmarks this interpolates the credit / bank lending
+# ratio linearly between benchmark months.
+bm <- bind_rows(lr |> filter(year_ended_june %in% 1957:1976) |> transmute(t = mi(sprintf("%d-06", year_ended_june)), b = credit_total),
+                mc |> filter(t == min(t[!is.na(credit_total)])) |> transmute(t, b = credit_total * 1000)) |>
+  inner_join(bank |> select(t, mtb_sa), by = "t") |> mutate(r = b / mtb_sa)
+bank <- bank |> mutate(credit_total = if_else(t >= min(bm$t) & t <= max(bm$t),
+                                              approx(bm$t, bm$r, xout = t)$y * mtb_sa, NA_real_))
+# fill the monthly credit series and rebuild the quarterly shares of GDP
+fill <- bank |> filter(t < max(bm$t), !is.na(credit_total)) |> select(t, cr_fill = credit_total)
+mc <- mc |> left_join(fill, by = "t") |> mutate(credit_total = coalesce(credit_total, cr_fill / 1000)) |> select(-cr_fill)
+q <- make_q(mc)
+# how well does trading bank lending track total credit, June to June?
+gchk <- bank |> filter(t %% 12L == 5L) |> transmute(year_ended_june = t %/% 12L, g_bank = 100 * (mtb_sa / lag(mtb_sa) - 1)) |>
+  inner_join(lr |> select(year_ended_june, credit_growth), by = "year_ended_june") |> filter(!is.na(g_bank), !is.na(credit_growth))
+cat(sprintf("Trading bank lending vs total credit growth, years to June %d-%d: correlation %.2f; mean %.1f vs %.1f per cent\n",
+            min(gchk$year_ended_june), max(gchk$year_ended_june), cor(gchk$g_bank, gchk$credit_growth),
+            mean(gchk$g_bank), mean(gchk$credit_growth)))
+
 # ---- 5. Outputs --------------------------------------------------------------------------
 dir.create("output", showWarnings = FALSE)
 r2 <- function(x) round(x, 2)
@@ -212,6 +278,11 @@ write_csv(lr |> transmute(year_ended_june, short_rate = r2(short_rate), short_ra
           "output/long_run_annual.csv", na = "")
 write_csv(ar69 |> select(-source) |> mutate(spread = bond10_non_rebateable - bond10_rebateable),
           "output/bond_10y_quarterly_1966_69.csv", na = "")
+write_csv(bank |> transmute(month = lab(t), trading_bank_lending_m = round(mtb_orig, 1),
+                            trading_bank_lending_sa_m = round(mtb_sa, 1), sa_method,
+                            trading_bank_lending_as_printed_m = round(mtb_orig_printed, 1), source_issue = issue,
+                            credit_total_interpolated_m = round(credit_total)),
+          "output/bank_lending_monthly_1957_76.csv", na = "")
 
 # ---- 6. Charts ---------------------------------------------------------------------------
 pal <- c("#1f4e79", "#c0504d", "#7f7f7f", "#4f9a3f", "#d79b00")
@@ -254,7 +325,7 @@ p2 <- ggplot(rr, aes(fyd(y), v, colour = s)) + geom_hline(yintercept = 0, colour
 ggsave("output/real_interest_rates.png", p2, width = 9, height = 5, dpi = 150, bg = "white")
 
 cg <- bind_rows(
-  lr |> filter(year_ended_june < 1977) |> transmute(d = fyd(year_ended_june), v = credit_pct_gdp, s = "Credit (OP8 linked, end-June)"),
+  lr |> filter(year_ended_june < 1960) |> transmute(d = fyd(year_ended_june), v = credit_pct_gdp, s = "Credit (OP8 linked, end-June)"),
   q |> transmute(d = dt(t), v = credit_pct_gdp, s = "Credit (break-adjusted, quarterly)"),
   lr |> filter(year_ended_june < 1960) |> transmute(d = fyd(year_ended_june), v = m3_pct_gdp, s = "M3 (OP8 linked, end-June)"),
   q |> transmute(d = dt(t), v = m3_pct_gdp, s = "M3 (quarterly)")) |> filter(!is.na(v)) |>
@@ -262,7 +333,21 @@ cg <- bind_rows(
 p3 <- ggplot(cg, aes(d, v, colour = g, linetype = grepl("OP8", s))) + geom_line(linewidth = 0.6) +
   scale_colour_manual(values = pal[c(2, 1)], name = NULL) + scale_linetype_manual(values = c(1, 2), guide = "none") +
   labs(title = "Credit and money (M3) as a share of GDP, 1950 - 2026 (per cent)",
-       subtitle = "End-of-period stock over the year's nominal GDP. Dashed: end-June, linked from RBA Occasional Paper 8;\nsolid: quarterly, break-adjusted (RBA D1-D3, ABS 5206.0)",
+       subtitle = paste0("End-of-period stock over the year's nominal GDP. Dashed: end-June, linked from RBA Occasional Paper 8;\n",
+                         "solid: quarterly, break-adjusted (RBA D1-D3, ABS 5206.0); credit before Sep 1976 interpolated on trading bank lending"),
        x = NULL, y = NULL) + th
 ggsave("output/credit_money_gdp.png", p3, width = 9, height = 5, dpi = 150, bg = "white")
+
+# year-ended growth: trading bank lending (1958-76) and total credit (monthly)
+yy <- function(x) 100 * (x / lag(x, 12) - 1)
+gr <- bind_rows(
+  bank |> transmute(t, v = yy(mtb_sa), s = "Major trading banks' lending (bulletins, 1957-76)"),
+  mc |> transmute(t, v = yy(credit_total), s = "Total credit (interpolated to Aug 1976, RBA after)")) |>
+  filter(!is.na(v), t <= mi("1990-12"))
+p4 <- ggplot(gr, aes(dt(t), v, colour = s)) + geom_hline(yintercept = 0, colour = "grey50") +
+  geom_line(linewidth = 0.5) + scale_colour_manual(values = pal[c(2, 1)], name = NULL) +
+  labs(title = "Bank lending and credit growth, 1958 - 1990 (per cent, year-ended, monthly)",
+       subtitle = "Trading bank loans, advances and bills discounted, seasonally adjusted, break-adjusted at Jul 1973",
+       x = NULL, y = NULL, caption = "Sources: CBCS/ABS banking bulletins (ANU Open Research); RBA D1, OP8") + th
+ggsave("output/bank_lending_growth.png", p4, width = 9, height = 5, dpi = 150, bg = "white")
 cat("Done.\n")
