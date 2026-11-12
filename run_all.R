@@ -12,7 +12,8 @@ steps <- list(
   c("07-retail-sales",       "R/retail_splice.R"),
   c("08-money-credit-rates", "R/money_credit_rates.R"),
   c("09-unemployment",       "R/unemployment_monthly.R"),
-  c("10-wages",              "R/wages.R")
+  c("10-wages",              "R/wages.R"),
+  c("11-housing-finance",    "R/housing_finance.R")
 )
 root <- getwd()
 for (s in steps) {

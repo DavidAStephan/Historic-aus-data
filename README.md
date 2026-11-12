@@ -27,6 +27,7 @@ the latest issue is used because it carries revisions.
 | [`08-money-credit-rates`](08-money-credit-rates) | Cash rate, bills, 10-year bond, housing and business lending rates; currency, M3, broad money; break-adjusted credit; trading bank, savings bank and non-bank lending 1957–76 (bulletin scans); bank and non-bank lending from 1953; break-even inflation and inflation expectations from 1985; real rates and shares of GDP | 1950 – Oct 2026 | Monthly from 1959 (1969 for bills and bonds), years ended June from 1950 |
 | [`09-unemployment`](09-unemployment) | Monthly unemployment rate: CES registered unemployed and benefit recipients (bulletin scans), seasonally adjusted and scaled to survey benchmarks, joined to the ABS monthly Labour Force Survey | Jan 1950 – Aug 2026 | Monthly |
 | [`10-wages`](10-wages) | Male average weekly earnings and wage rates (award rates, award index, WPI), nominal and real, with annual and quarterly wage Phillips curves | 1949-50 – 2025-26 | Years ended June; quarterly male AWE 1947–2012 (bulletin scans) and WPI from 1997 |
+| [`11-housing-finance`](11-housing-finance) | Housing credit outstanding and its share of GDP (savings banks and building societies before 1977); owner-occupier loan commitments by lender; average loan in years of male earnings | 1953 – 2026 | Years ended June |
 
 Each folder has the same layout:
 
@@ -61,6 +62,7 @@ This rebuilds every output in dependency order:
 01-job-vacancies ──► 02-beveridge-curve ──► 09-unemployment ──► 10-wages (also uses 08's CPI)
 03-building-approvals ──► 04-housing-pipeline ──► 05-housing-per-capita ──► 07-retail-sales
 06-capex ──────────────────────────────────────────────► 08-money-credit-rates (uses 06's GDP)
+04, 08, 10 ──► 11-housing-finance
 ```
 
 Each script prints its checks (sum checks, splice ratios, overlap comparisons) as it runs.
