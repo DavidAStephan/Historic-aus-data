@@ -1,0 +1,309 @@
+quarter_end,awe_male_sa,awe_indicator_segment,awe_indicator_interpolated,awe_growth_ye,wpi_growth_ye,wage_growth_ye,wage_measure,unemployment_rate,cpi_inflation_ye
+1949-09,17.49,"A: male units, Labour Report 48",FALSE,,,,"Male AWE (quarterly, benchmarked)",,8.88
+1949-12,18.22,"A: male units, Labour Report 48",FALSE,,,,"Male AWE (quarterly, benchmarked)",,8.75
+1950-03,18.72,"A: male units, Labour Report 48",FALSE,,,,"Male AWE (quarterly, benchmarked)",2.34,7.01
+1950-06,19.19,"A: male units, Labour Report 48",FALSE,,,,"Male AWE (quarterly, benchmarked)",1.99,10.22
+1950-09,19.95,"A: male units, Labour Report 48",FALSE,14.1,,14.1,"Male AWE (quarterly, benchmarked)",1.65,8.16
+1950-12,20.77,"A: male units, Labour Report 48",FALSE,14.02,,14.02,"Male AWE (quarterly, benchmarked)",1.34,10.84
+1951-03,22.81,"A: male units, Labour Report 48",FALSE,21.83,,21.83,"Male AWE (quarterly, benchmarked)",1.3,14.48
+1951-06,24.08,"A: male units, Labour Report 48",FALSE,25.49,,25.49,"Male AWE (quarterly, benchmarked)",1.37,16.56
+1951-09,25.26,"A: male units, Labour Report 48",FALSE,26.62,,26.62,"Male AWE (quarterly, benchmarked)",1.48,21.64
+1951-12,26.49,"A: male units, Labour Report 48",FALSE,27.53,,27.53,"Male AWE (quarterly, benchmarked)",1.62,25.55
+1952-03,27.56,"A: male units, Labour Report 48",FALSE,20.82,,20.82,"Male AWE (quarterly, benchmarked)",1.48,23.49
+1952-06,28.14,"A: male units, Labour Report 48",FALSE,16.86,,16.86,"Male AWE (quarterly, benchmarked)",2.11,20.74
+1952-09,28.86,"A: male units, Labour Report 48",FALSE,14.25,,14.25,"Male AWE (quarterly, benchmarked)",4.5,16.71
+1952-12,29.53,"A: male units, Labour Report 48",FALSE,11.46,,11.46,"Male AWE (quarterly, benchmarked)",4.63,9.8
+1953-03,29.37,"A: male units, Labour Report 48",FALSE,6.56,,6.56,"Male AWE (quarterly, benchmarked)",3.02,7.56
+1953-06,29.67,"A: male units, Labour Report 48",FALSE,5.43,,5.43,"Male AWE (quarterly, benchmarked)",2.75,4.71
+1953-09,30.55,"A: male units, Labour Report 48",FALSE,5.86,,5.86,"Male AWE (quarterly, benchmarked)",2.88,3.46
+1953-12,30.89,"A: male units, Labour Report 48",FALSE,4.62,,4.62,"Male AWE (quarterly, benchmarked)",2.76,1.83
+1954-03,31.01,"A: male units, Labour Report 48",FALSE,5.61,,5.61,"Male AWE (quarterly, benchmarked)",2.54,1.59
+1954-06,31.11,"A: male units, Labour Report 48",FALSE,4.85,,4.85,"Male AWE (quarterly, benchmarked)",2.09,0.67
+1954-09,31.94,"A: male units, Labour Report 48",FALSE,4.55,,4.55,"Male AWE (quarterly, benchmarked)",1.66,0
+1954-12,32.1,"A: male units, Labour Report 48",FALSE,3.91,,3.91,"Male AWE (quarterly, benchmarked)",1.55,0.67
+1955-03,32.43,"A: male units, Labour Report 48",FALSE,4.56,,4.56,"Male AWE (quarterly, benchmarked)",2.01,0.89
+1955-06,33.43,"A: male units, Labour Report 48",FALSE,7.48,,7.48,"Male AWE (quarterly, benchmarked)",1.97,1.79
+1955-09,34.13,"A: male units, Labour Report 48",FALSE,6.86,,6.86,"Male AWE (quarterly, benchmarked)",1.41,2.68
+1955-12,34.32,"A: male units, Labour Report 48",FALSE,6.9,,6.9,"Male AWE (quarterly, benchmarked)",1.48,3.57
+1956-03,35,"A: male units, Labour Report 48",FALSE,7.92,,7.92,"Male AWE (quarterly, benchmarked)",2.56,3.54
+1956-06,35.32,"A: male units, Labour Report 48",FALSE,5.65,,5.65,"Male AWE (quarterly, benchmarked)",2.26,5.92
+1956-09,35.89,"A: male units, Labour Report 48",FALSE,5.13,,5.13,"Male AWE (quarterly, benchmarked)",2.8,7.61
+1956-12,36.29,"A: male units, Labour Report 48",FALSE,5.73,,5.73,"Male AWE (quarterly, benchmarked)",2.71,6.68
+1957-03,36.59,"A: male units, Labour Report 48",FALSE,4.53,,4.53,"Male AWE (quarterly, benchmarked)",2.42,5.77
+1957-06,36.66,"A: male units, Labour Report 48",FALSE,3.8,,3.8,"Male AWE (quarterly, benchmarked)",2.85,3.31
+1957-09,37.03,"A: male units, Labour Report 48",FALSE,3.18,,3.18,"Male AWE (quarterly, benchmarked)",3.21,0.81
+1957-12,37.51,"A: male units, Labour Report 48",FALSE,3.38,,3.38,"Male AWE (quarterly, benchmarked)",3.71,0.81
+1958-03,37.29,"A: male units, Labour Report 48",FALSE,1.93,,1.93,"Male AWE (quarterly, benchmarked)",3.33,1.62
+1958-06,37.52,"A: male units, Labour Report 48",FALSE,2.34,,2.34,"Male AWE (quarterly, benchmarked)",3.12,0.8
+1958-09,38.31,"A: male units, Labour Report 48",FALSE,3.48,,3.48,"Male AWE (quarterly, benchmarked)",2.66,0.8
+1958-12,38.9,"A: male units, Labour Report 48",FALSE,3.71,,3.71,"Male AWE (quarterly, benchmarked)",2.35,1.4
+1959-03,38.21,"A: male units, Labour Report 48",FALSE,2.46,,2.46,"Male AWE (quarterly, benchmarked)",2.39,1.39
+1959-06,38.66,"A: male units, Labour Report 48",FALSE,3.04,,3.04,"Male AWE (quarterly, benchmarked)",2.85,1.39
+1959-09,40.54,"A: male units, Labour Report 48",FALSE,5.81,,5.81,"Male AWE (quarterly, benchmarked)",2.97,2.19
+1959-12,40.85,"A: male units, Labour Report 48",FALSE,5,,5,"Male AWE (quarterly, benchmarked)",3.35,2.37
+1960-03,41.98,"A: male units, Labour Report 48",FALSE,9.87,,9.87,"Male AWE (quarterly, benchmarked)",3.05,2.35
+1960-06,42.7,"A: male units, Labour Report 48",FALSE,10.47,,10.47,"Male AWE (quarterly, benchmarked)",2.93,3.92
+1960-09,43.15,"A: male units, Labour Report 48",FALSE,6.44,,6.44,"Male AWE (quarterly, benchmarked)",2.2,4.47
+1960-12,43.5,"A: male units, Labour Report 48",FALSE,6.49,,6.49,"Male AWE (quarterly, benchmarked)",2.25,4.44
+1961-03,43.62,"A: male units, Labour Report 48",FALSE,3.91,,3.91,"Male AWE (quarterly, benchmarked)",2.71,4.41
+1961-06,43.76,"A: male units, Labour Report 48",FALSE,2.46,,2.46,"Male AWE (quarterly, benchmarked)",4.68,3.58
+1961-09,44.08,"B: male units, 1966 basis, Labour Report 55",FALSE,2.16,,2.16,"Male AWE (quarterly, benchmarked)",5.44,1.49
+1961-12,44.43,"B: male units, 1966 basis, Labour Report 55",FALSE,2.16,,2.16,"Male AWE (quarterly, benchmarked)",4.21,0.74
+1962-03,45.18,"B: male units, 1966 basis, Labour Report 55",FALSE,3.57,,3.57,"Male AWE (quarterly, benchmarked)",3.41,0
+1962-06,45.46,"B: male units, 1966 basis, Labour Report 55",FALSE,3.9,,3.9,"Male AWE (quarterly, benchmarked)",3.4,-0.73
+1962-09,45.47,"B: male units, 1966 basis, Labour Report 55",FALSE,3.16,,3.16,"Male AWE (quarterly, benchmarked)",3.32,0
+1962-12,45.53,"B: male units, 1966 basis, Labour Report 55",FALSE,2.46,,2.46,"Male AWE (quarterly, benchmarked)",2.96,0
+1963-03,46.28,"B: male units, 1966 basis, Labour Report 55",FALSE,2.45,,2.45,"Male AWE (quarterly, benchmarked)",2.73,0
+1963-06,46.71,"B: male units, 1966 basis, Labour Report 55",FALSE,2.74,,2.74,"Male AWE (quarterly, benchmarked)",2.81,0
+1963-09,47.36,"B: male units, 1966 basis, Labour Report 55",FALSE,4.15,,4.15,"Male AWE (quarterly, benchmarked)",2.63,0.73
+1963-12,48.66,"B: male units, 1966 basis, Labour Report 55",FALSE,6.88,,6.88,"Male AWE (quarterly, benchmarked)",2.18,0.73
+1964-03,48.43,"B: male units, 1966 basis, Labour Report 55",FALSE,4.63,,4.63,"Male AWE (quarterly, benchmarked)",2.01,1.47
+1964-06,49.21,"B: male units, 1966 basis, Labour Report 55",FALSE,5.36,,5.36,"Male AWE (quarterly, benchmarked)",1.98,2.2
+1964-09,50.82,"B: male units, 1966 basis, Labour Report 55",FALSE,7.29,,7.29,"Male AWE (quarterly, benchmarked)",1.75,2.73
+1964-12,52,"B: male units, 1966 basis, Labour Report 55",FALSE,6.86,,6.86,"Male AWE (quarterly, benchmarked)",1.76,3.46
+1965-03,52.56,"B: male units, 1966 basis, Labour Report 55",FALSE,8.54,,8.54,"Male AWE (quarterly, benchmarked)",1.55,3.44
+1965-06,52.98,"B: male units, 1966 basis, Labour Report 55",FALSE,7.67,,7.67,"Male AWE (quarterly, benchmarked)",1.55,4.13
+1965-09,53.44,"B: male units, 1966 basis, Labour Report 55",FALSE,5.16,,5.16,"Male AWE (quarterly, benchmarked)",1.67,3.55
+1965-12,53.79,"B: male units, 1966 basis, Labour Report 55",FALSE,3.44,,3.44,"Male AWE (quarterly, benchmarked)",1.9,4.05
+1966-03,54.89,"B: male units, 1966 basis, Labour Report 55",FALSE,4.42,,4.42,"Male AWE (quarterly, benchmarked)",1.94,4.02
+1966-06,55.71,"B: male units, 1966 basis, Labour Report 55",FALSE,5.16,,5.16,"Male AWE (quarterly, benchmarked)",1.84,3.28
+1966-09,56.68,"C: male units, revised, Labour Reports 55/58 and Digest",FALSE,6.08,,6.08,"Male AWE (quarterly, benchmarked)",1.79,2.57
+1966-12,57.21,"C: male units, revised, Labour Reports 55/58 and Digest",FALSE,6.36,,6.36,"Male AWE (quarterly, benchmarked)",1.69,2.71
+1967-03,58.65,"C: male units, revised, Labour Reports 55/58 and Digest",FALSE,6.86,,6.86,"Male AWE (quarterly, benchmarked)",1.78,2.69
+1967-06,59.79,"C: male units, revised, Labour Reports 55/58 and Digest",FALSE,7.31,,7.31,"Male AWE (quarterly, benchmarked)",1.97,2.67
+1967-09,60.59,"C: male units, revised, Labour Reports 55/58 and Digest",FALSE,6.88,,6.88,"Male AWE (quarterly, benchmarked)",1.89,4.51
+1967-12,60.92,"C: male units, revised, Labour Reports 55/58 and Digest",FALSE,6.5,,6.5,"Male AWE (quarterly, benchmarked)",1.77,3.13
+1968-03,61.74,"C: male units, revised, Labour Reports 55/58 and Digest",FALSE,5.27,,5.27,"Male AWE (quarterly, benchmarked)",1.9,3.11
+1968-06,62.58,"C: male units, revised, Labour Reports 55/58 and Digest",FALSE,4.67,,4.67,"Male AWE (quarterly, benchmarked)",1.89,3.09
+1968-09,63.62,"C: male units, revised, Labour Reports 55/58 and Digest",FALSE,5.01,,5.01,"Male AWE (quarterly, benchmarked)",1.79,1.92
+1968-12,65.77,"C: male units, revised, Labour Reports 55/58 and Digest",FALSE,7.95,,7.95,"Male AWE (quarterly, benchmarked)",1.71,2.56
+1969-03,67.04,"C: male units, revised, Labour Reports 55/58 and Digest",FALSE,8.59,,8.59,"Male AWE (quarterly, benchmarked)",1.81,3.02
+1969-06,67.82,"C: male units, revised, Labour Reports 55/58 and Digest",FALSE,8.38,,8.38,"Male AWE (quarterly, benchmarked)",1.78,3
+1969-09,69.4,"C: male units, revised, Labour Reports 55/58 and Digest",FALSE,9.09,,9.09,"Male AWE (quarterly, benchmarked)",1.68,2.98
+1969-12,70.72,"C: male units, revised, Labour Reports 55/58 and Digest",FALSE,7.53,,7.53,"Male AWE (quarterly, benchmarked)",1.85,2.96
+1970-03,72.05,"C: male units, revised, Labour Reports 55/58 and Digest",FALSE,7.47,,7.47,"Male AWE (quarterly, benchmarked)",1.65,3.08
+1970-06,74.24,"C: male units, revised, Labour Reports 55/58 and Digest",FALSE,9.46,,9.46,"Male AWE (quarterly, benchmarked)",1.65,3.68
+1970-09,75.5,"C: male units, revised, Labour Reports 55/58 and Digest",FALSE,8.78,,8.78,"Male AWE (quarterly, benchmarked)",1.7,3.5
+1970-12,77.26,"C: male units, revised, Labour Reports 55/58 and Digest",FALSE,9.24,,9.24,"Male AWE (quarterly, benchmarked)",1.62,4.69
+1971-03,81.87,"C: male units, revised, Labour Reports 55/58 and Digest",FALSE,13.63,,13.63,"Male AWE (quarterly, benchmarked)",1.69,4.63
+1971-06,83.51,"C: male units, revised, Labour Reports 55/58 and Digest",FALSE,12.49,,12.49,"Male AWE (quarterly, benchmarked)",1.87,5.02
+1971-09,85.18,"C: male units, revised, Labour Reports 55/58 and Digest",FALSE,12.82,,12.82,"Male AWE (quarterly, benchmarked)",1.93,6.91
+1971-12,86.67,"C: male units, revised, Labour Reports 55/58 and Digest",FALSE,12.19,,12.19,"Male AWE (quarterly, benchmarked)",2.17,7.23
+1972-03,88.93,"C: male units, revised, Labour Reports 55/58 and Digest",FALSE,8.63,,8.63,"Male AWE (quarterly, benchmarked)",2.34,7.14
+1972-06,89.87,"C: male units, revised, Labour Reports 55/58 and Digest",FALSE,7.62,,7.62,"Male AWE (quarterly, benchmarked)",2.42,6.61
+1972-09,92.31,"C: male units, revised, Labour Reports 55/58 and Digest",FALSE,8.37,,8.37,"Male AWE (quarterly, benchmarked)",2.78,5.78
+1972-12,94.13,"C: male units, revised, Labour Reports 55/58 and Digest",FALSE,8.61,,8.61,"Male AWE (quarterly, benchmarked)",2.72,4.72
+1973-03,95.82,"C: male units, revised, Labour Reports 55/58 and Digest",FALSE,7.74,,7.74,"Male AWE (quarterly, benchmarked)",2.55,5.73
+1973-06,99.81,"C: male units, revised, Labour Reports 55/58 and Digest",FALSE,11.06,,11.06,"Male AWE (quarterly, benchmarked)",2.33,8.18
+1973-09,105.09,"C: male units, revised, Labour Reports 55/58 and Digest",FALSE,13.85,,13.85,"Male AWE (quarterly, benchmarked)",2.1,10.14
+1973-12,108.04,"C: male units, revised, Labour Reports 55/58 and Digest",FALSE,14.77,,14.77,"Male AWE (quarterly, benchmarked)",2.05,13
+1974-03,111.96,"C: male units, revised, Labour Reports 55/58 and Digest",FALSE,16.84,,16.84,"Male AWE (quarterly, benchmarked)",2.18,13.62
+1974-06,118.82,"C: male units, revised, Labour Reports 55/58 and Digest",FALSE,19.04,,19.04,"Male AWE (quarterly, benchmarked)",2.02,14.51
+1974-09,128.41,"C: male units, revised, Labour Reports 55/58 and Digest",TRUE,22.19,,22.19,"Male AWE (quarterly, benchmarked)",2.65,16.41
+1974-12,138.79,"C: male units, revised, Labour Reports 55/58 and Digest",FALSE,28.46,,28.46,"Male AWE (quarterly, benchmarked)",3.9,16.29
+1975-03,143.51,"C: male units, revised, Labour Reports 55/58 and Digest",FALSE,28.18,,28.18,"Male AWE (quarterly, benchmarked)",4.78,17.54
+1975-06,145.81,"C: male units, revised, Labour Reports 55/58 and Digest",FALSE,22.71,,22.71,"Male AWE (quarterly, benchmarked)",4.74,16.93
+1975-09,150.41,"C: male units, revised, Labour Reports 55/58 and Digest",FALSE,17.14,,17.14,"Male AWE (quarterly, benchmarked)",4.73,12.17
+1975-12,157.37,"C: male units, revised, Labour Reports 55/58 and Digest",FALSE,13.39,,13.39,"Male AWE (quarterly, benchmarked)",5.19,14.4
+1976-03,162.09,"C: male units, revised, Labour Reports 55/58 and Digest",TRUE,12.95,,12.95,"Male AWE (quarterly, benchmarked)",4.94,13.13
+1976-06,166.8,"C: male units, revised, Labour Reports 55/58 and Digest",TRUE,14.4,,14.4,"Male AWE (quarterly, benchmarked)",4.52,11.93
+1976-09,171.48,"C: male units, revised, Labour Reports 55/58 and Digest",TRUE,14.01,,14.01,"Male AWE (quarterly, benchmarked)",4.75,13.92
+1976-12,176.34,"C: male units, revised, Labour Reports 55/58 and Digest",TRUE,12.06,,12.06,"Male AWE (quarterly, benchmarked)",4.77,14.21
+1977-03,181.38,"C: male units, revised, Labour Reports 55/58 and Digest",TRUE,11.9,,11.9,"Male AWE (quarterly, benchmarked)",5.14,13.94
+1977-06,186.62,"C: male units, revised, Labour Reports 55/58 and Digest",FALSE,11.88,,11.88,"Male AWE (quarterly, benchmarked)",5.53,13.59
+1977-09,192.2,"C: male units, revised, Labour Reports 55/58 and Digest",FALSE,12.08,,12.08,"Male AWE (quarterly, benchmarked)",5.73,12.94
+1977-12,192.55,"C: male units, revised, Labour Reports 55/58 and Digest",FALSE,9.2,,9.2,"Male AWE (quarterly, benchmarked)",5.94,9.22
+1978-03,199.81,"C: male units, revised, Labour Reports 55/58 and Digest",FALSE,10.16,,10.16,"Male AWE (quarterly, benchmarked)",6.4,8.21
+1978-06,201.85,"C: male units, revised, Labour Reports 55/58 and Digest",FALSE,8.16,,8.16,"Male AWE (quarterly, benchmarked)",6.26,8.02
+1978-09,207.02,"C: male units, revised, Labour Reports 55/58 and Digest",FALSE,7.71,,7.71,"Male AWE (quarterly, benchmarked)",6.32,7.87
+1978-12,207.41,"C: male units, revised, Labour Reports 55/58 and Digest",FALSE,7.72,,7.72,"Male AWE (quarterly, benchmarked)",6.3,7.76
+1979-03,216.2,"C: male units, revised, Labour Reports 55/58 and Digest",FALSE,8.2,,8.2,"Male AWE (quarterly, benchmarked)",6.31,8.12
+1979-06,216.41,"C: male units, revised, Labour Reports 55/58 and Digest",FALSE,7.21,,7.21,"Male AWE (quarterly, benchmarked)",6.32,8.69
+1979-09,223.56,"C: male units, revised, Labour Reports 55/58 and Digest",FALSE,7.99,,7.99,"Male AWE (quarterly, benchmarked)",6.21,9.32
+1979-12,228.61,"C: male units, revised, Labour Reports 55/58 and Digest",FALSE,10.22,,10.22,"Male AWE (quarterly, benchmarked)",6.18,10.06
+1980-03,235.49,"C: male units, revised, Labour Reports 55/58 and Digest",FALSE,8.92,,8.92,"Male AWE (quarterly, benchmarked)",6.03,10.64
+1980-06,242.66,"C: male units, revised, Labour Reports 55/58 and Digest",FALSE,12.13,,12.13,"Male AWE (quarterly, benchmarked)",6.23,10.86
+1980-09,253.31,"C: male units, revised, Labour Reports 55/58 and Digest",FALSE,13.31,,13.31,"Male AWE (quarterly, benchmarked)",6.13,10.13
+1980-12,260.95,"C: male units, revised, Labour Reports 55/58 and Digest",FALSE,14.14,,14.14,"Male AWE (quarterly, benchmarked)",5.98,9.2
+1981-03,267.2,"C: male units, revised, Labour Reports 55/58 and Digest",FALSE,13.47,,13.47,"Male AWE (quarterly, benchmarked)",5.76,9.39
+1981-06,274.44,"D: all males, Digest",FALSE,13.09,,13.09,"Male AWE (quarterly, benchmarked)",5.5,8.75
+1981-09,282.73,"D: all males, Digest",FALSE,11.61,,11.61,"Male AWE (quarterly, benchmarked)",5.83,8.98
+1981-12,300.59,"D: all males, Digest",FALSE,15.19,,15.19,"Male AWE (quarterly, benchmarked)",5.97,11.23
+1982-03,314.36,"D: all males, Digest",FALSE,17.65,,17.65,"Male AWE (quarterly, benchmarked)",6.2,10.61
+1982-06,324.89,"D: all males, Digest",FALSE,18.38,,18.38,"Male AWE (quarterly, benchmarked)",6.56,10.73
+1982-09,332.63,"D: all males, Digest",FALSE,17.65,,17.65,"Male AWE (quarterly, benchmarked)",7.11,12.46
+1982-12,340.25,"D: all males, Digest",FALSE,13.19,,13.19,"Male AWE (quarterly, benchmarked)",8.79,11.05
+1983-03,343.38,"D: all males, Digest",FALSE,9.23,,9.23,"Male AWE (quarterly, benchmarked)",9.64,11.37
+1983-06,345.09,"D: all males, Digest",FALSE,6.21,,6.21,"Male AWE (quarterly, benchmarked)",10.22,11.15
+1983-09,350.73,"D: all males, Digest",FALSE,5.44,,5.44,"Male AWE (quarterly, benchmarked)",10.36,9.23
+1983-12,362.31,"D: all males, Digest",FALSE,6.48,,6.48,"Male AWE (quarterly, benchmarked)",9.71,8.62
+1984-03,374.88,E: OECD weekly earnings index (FRED),FALSE,9.17,,9.17,"Male AWE (quarterly, benchmarked)",9.36,5.88
+1984-06,388.54,E: OECD weekly earnings index (FRED),FALSE,12.59,,12.59,"Male AWE (quarterly, benchmarked)",9.14,3.95
+1984-09,389.28,E: OECD weekly earnings index (FRED),FALSE,10.99,,10.99,"Male AWE (quarterly, benchmarked)",8.82,3.44
+1984-12,390.45,E: OECD weekly earnings index (FRED),FALSE,7.77,,7.77,"Male AWE (quarterly, benchmarked)",8.63,2.61
+1985-03,396,E: OECD weekly earnings index (FRED),FALSE,5.63,,5.63,"Male AWE (quarterly, benchmarked)",8.53,4.44
+1985-06,400.93,E: OECD weekly earnings index (FRED),FALSE,3.19,,3.19,"Male AWE (quarterly, benchmarked)",8.45,6.61
+1985-09,405.73,E: OECD weekly earnings index (FRED),FALSE,4.22,,4.22,"Male AWE (quarterly, benchmarked)",8.17,7.7
+1985-12,415.42,E: OECD weekly earnings index (FRED),FALSE,6.4,,6.4,"Male AWE (quarterly, benchmarked)",7.86,8.2
+1986-03,426.08,E: OECD weekly earnings index (FRED),FALSE,7.6,,7.6,"Male AWE (quarterly, benchmarked)",7.91,9.23
+1986-06,429.73,E: OECD weekly earnings index (FRED),FALSE,7.18,,7.18,"Male AWE (quarterly, benchmarked)",7.8,8.46
+1986-09,439.15,E: OECD weekly earnings index (FRED),FALSE,8.24,,8.24,"Male AWE (quarterly, benchmarked)",8.23,8.85
+1986-12,447.84,E: OECD weekly earnings index (FRED),FALSE,7.8,,7.8,"Male AWE (quarterly, benchmarked)",8.33,9.75
+1987-03,448.83,E: OECD weekly earnings index (FRED),FALSE,5.34,,5.34,"Male AWE (quarterly, benchmarked)",8.28,9.42
+1987-06,455.65,E: OECD weekly earnings index (FRED),FALSE,6.03,,6.03,"Male AWE (quarterly, benchmarked)",8.17,9.24
+1987-09,461.08,E: OECD weekly earnings index (FRED),FALSE,4.99,,4.99,"Male AWE (quarterly, benchmarked)",7.98,8.23
+1987-12,471.69,E: OECD weekly earnings index (FRED),FALSE,5.33,,5.33,"Male AWE (quarterly, benchmarked)",7.92,7.13
+1988-03,480,E: OECD weekly earnings index (FRED),FALSE,6.94,,6.94,"Male AWE (quarterly, benchmarked)",7.52,6.86
+1988-06,484.14,E: OECD weekly earnings index (FRED),FALSE,6.25,,6.25,"Male AWE (quarterly, benchmarked)",7.65,7.14
+1988-09,489.55,E: OECD weekly earnings index (FRED),FALSE,6.17,,6.17,"Male AWE (quarterly, benchmarked)",6.92,7.39
+1988-12,507.46,E: OECD weekly earnings index (FRED),FALSE,7.58,,7.58,"Male AWE (quarterly, benchmarked)",6.75,7.62
+1989-03,515.73,E: OECD weekly earnings index (FRED),FALSE,7.44,,7.44,"Male AWE (quarterly, benchmarked)",6.6,6.78
+1989-06,523.65,E: OECD weekly earnings index (FRED),FALSE,8.16,,8.16,"Male AWE (quarterly, benchmarked)",6.16,7.57
+1989-09,530.04,E: OECD weekly earnings index (FRED),FALSE,8.27,,8.27,"Male AWE (quarterly, benchmarked)",6,7.97
+1989-12,543.08,E: OECD weekly earnings index (FRED),FALSE,7.02,,7.02,"Male AWE (quarterly, benchmarked)",5.85,7.82
+1990-03,552.54,E: OECD weekly earnings index (FRED),FALSE,7.14,,7.14,"Male AWE (quarterly, benchmarked)",6.23,8.63
+1990-06,558.87,E: OECD weekly earnings index (FRED),FALSE,6.72,,6.72,"Male AWE (quarterly, benchmarked)",6.46,7.69
+1990-09,564.43,E: OECD weekly earnings index (FRED),FALSE,6.49,,6.49,"Male AWE (quarterly, benchmarked)",7.22,6.08
+1990-12,583.01,E: OECD weekly earnings index (FRED),FALSE,7.35,,7.35,"Male AWE (quarterly, benchmarked)",7.87,6.86
+1991-03,590.23,E: OECD weekly earnings index (FRED),FALSE,6.82,,6.82,"Male AWE (quarterly, benchmarked)",8.74,4.84
+1991-06,574.94,E: OECD weekly earnings index (FRED),FALSE,2.88,,2.88,"Male AWE (quarterly, benchmarked)",9.64,3.41
+1991-09,580.5,E: OECD weekly earnings index (FRED),FALSE,2.85,,2.85,"Male AWE (quarterly, benchmarked)",9.84,3.18
+1991-12,594.75,E: OECD weekly earnings index (FRED),FALSE,2.01,,2.01,"Male AWE (quarterly, benchmarked)",10.22,1.51
+1992-03,603.01,E: OECD weekly earnings index (FRED),FALSE,2.16,,2.16,"Male AWE (quarterly, benchmarked)",10.42,1.71
+1992-06,599.82,E: OECD weekly earnings index (FRED),FALSE,4.33,,4.33,"Male AWE (quarterly, benchmarked)",10.63,1.22
+1992-09,600.38,E: OECD weekly earnings index (FRED),FALSE,3.43,,3.43,"Male AWE (quarterly, benchmarked)",10.82,0.75
+1992-12,601.41,E: OECD weekly earnings index (FRED),FALSE,1.12,,1.12,"Male AWE (quarterly, benchmarked)",11.15,0.26
+1993-03,618.68,E: OECD weekly earnings index (FRED),FALSE,2.6,,2.6,"Male AWE (quarterly, benchmarked)",10.9,1.2
+1993-06,617.54,E: OECD weekly earnings index (FRED),FALSE,2.95,,2.95,"Male AWE (quarterly, benchmarked)",10.85,1.86
+1993-09,620.55,E: OECD weekly earnings index (FRED),FALSE,3.36,,3.36,"Male AWE (quarterly, benchmarked)",10.89,2.24
+1993-12,621.22,E: OECD weekly earnings index (FRED),FALSE,3.29,,3.29,"Male AWE (quarterly, benchmarked)",10.89,1.97
+1994-03,630.04,E: OECD weekly earnings index (FRED),FALSE,1.84,,1.84,"Male AWE (quarterly, benchmarked)",10.44,1.38
+1994-06,633.55,E: OECD weekly earnings index (FRED),FALSE,2.59,,2.59,"Male AWE (quarterly, benchmarked)",9.88,1.75
+1994-09,640.47,E: OECD weekly earnings index (FRED),FALSE,3.21,,3.21,"Male AWE (quarterly, benchmarked)",9.47,1.91
+1994-12,646.33,E: OECD weekly earnings index (FRED),FALSE,4.04,,4.04,"Male AWE (quarterly, benchmarked)",9.06,2.54
+1995-03,655.45,E: OECD weekly earnings index (FRED),FALSE,4.03,,4.03,"Male AWE (quarterly, benchmarked)",8.76,3.89
+1995-06,656.37,E: OECD weekly earnings index (FRED),FALSE,3.6,,3.6,"Male AWE (quarterly, benchmarked)",8.36,4.49
+1995-09,657.92,E: OECD weekly earnings index (FRED),FALSE,2.72,,2.72,"Male AWE (quarterly, benchmarked)",8.37,5.09
+1995-12,666.26,E: OECD weekly earnings index (FRED),FALSE,3.08,,3.08,"Male AWE (quarterly, benchmarked)",8.39,5.04
+1996-03,675.86,E: OECD weekly earnings index (FRED),FALSE,3.11,,3.11,"Male AWE (quarterly, benchmarked)",8.4,3.74
+1996-06,676.36,E: OECD weekly earnings index (FRED),FALSE,3.05,,3.05,"Male AWE (quarterly, benchmarked)",8.41,3.09
+1996-09,676.03,E: OECD weekly earnings index (FRED),FALSE,2.75,,2.75,"Male AWE (quarterly, benchmarked)",8.62,2.13
+1996-12,678.72,E: OECD weekly earnings index (FRED),FALSE,1.87,,1.87,"Male AWE (quarterly, benchmarked)",8.62,1.53
+1997-03,692.9,E: OECD weekly earnings index (FRED),FALSE,2.52,,2.52,"Male AWE (quarterly, benchmarked)",8.62,1.26
+1997-06,689.96,E: OECD weekly earnings index (FRED),FALSE,2.01,,2.01,"Male AWE (quarterly, benchmarked)",8.48,0.35
+1997-09,698.6,E: OECD weekly earnings index (FRED),FALSE,3.34,,3.34,"Male AWE (quarterly, benchmarked)",8.37,-0.32
+1997-12,713.04,E: OECD weekly earnings index (FRED),FALSE,5.06,,5.06,"Male AWE (quarterly, benchmarked)",7.98,-0.26
+1998-03,720,E: OECD weekly earnings index (FRED),FALSE,3.91,,3.91,"Male AWE (quarterly, benchmarked)",7.84,-0.15
+1998-06,717.37,E: OECD weekly earnings index (FRED),FALSE,3.97,,3.97,"Male AWE (quarterly, benchmarked)",7.73,0.67
+1998-09,723.42,E: OECD weekly earnings index (FRED),FALSE,3.55,3.3,3.3,Wage Price Index,7.79,1.36
+1998-12,723.67,E: OECD weekly earnings index (FRED),FALSE,1.49,3.12,3.12,Wage Price Index,7.37,1.55
+1999-03,729.91,E: OECD weekly earnings index (FRED),FALSE,1.38,3.1,3.1,Wage Price Index,7.08,1.23
+1999-06,735.2,E: OECD weekly earnings index (FRED),FALSE,2.49,3.07,3.07,Wage Price Index,6.88,1.09
+1999-09,732.18,E: OECD weekly earnings index (FRED),FALSE,1.21,3.05,3.05,Wage Price Index,6.87,1.73
+1999-12,743.62,E: OECD weekly earnings index (FRED),FALSE,2.76,3.03,3.03,Wage Price Index,6.63,1.83
+2000-03,757.38,E: OECD weekly earnings index (FRED),FALSE,3.76,2.72,2.72,Wage Price Index,6.65,2.8
+2000-06,764.82,E: OECD weekly earnings index (FRED),FALSE,4.03,2.98,2.98,Wage Price Index,6.3,3.13
+2000-09,773.05,E: OECD weekly earnings index (FRED),FALSE,5.58,3.1,3.1,Wage Price Index,5.99,6.01
+2000-12,766.81,E: OECD weekly earnings index (FRED),FALSE,3.12,3.36,3.36,Wage Price Index,6.17,5.82
+2001-03,783.79,E: OECD weekly earnings index (FRED),FALSE,3.49,3.76,3.76,Wage Price Index,6.37,5.99
+2001-06,787.15,E: OECD weekly earnings index (FRED),FALSE,2.92,3.72,3.72,Wage Price Index,6.87,6.07
+2001-09,802.48,E: OECD weekly earnings index (FRED),FALSE,3.81,3.56,3.56,Wage Price Index,6.87,2.53
+2001-12,809.7,E: OECD weekly earnings index (FRED),FALSE,5.59,3.39,3.39,Wage Price Index,6.98,3.13
+2002-03,825.71,E: OECD weekly earnings index (FRED),FALSE,5.35,3.22,3.22,Wage Price Index,6.63,2.96
+2002-06,827.12,E: OECD weekly earnings index (FRED),FALSE,5.08,3.06,3.06,Wage Price Index,6.41,2.84
+2002-09,841.56,E: OECD weekly earnings index (FRED),FALSE,4.87,3.3,3.3,Wage Price Index,6.28,3.26
+2002-12,848.74,E: OECD weekly earnings index (FRED),FALSE,4.82,3.41,3.41,Wage Price Index,6.16,3
+2003-03,865.82,E: OECD weekly earnings index (FRED),FALSE,4.86,3.64,3.64,Wage Price Index,6.05,3.41
+2003-06,873.07,E: OECD weekly earnings index (FRED),FALSE,5.56,3.61,3.61,Wage Price Index,6.05,2.67
+2003-09,878.8,E: OECD weekly earnings index (FRED),FALSE,4.42,3.58,3.58,Wage Price Index,5.91,2.56
+2003-12,890.14,E: OECD weekly earnings index (FRED),FALSE,4.88,3.68,3.68,Wage Price Index,5.71,2.41
+2004-03,899.77,E: OECD weekly earnings index (FRED),FALSE,3.92,3.51,3.51,Wage Price Index,5.54,2
+2004-06,888.69,E: OECD weekly earnings index (FRED),FALSE,1.79,3.61,3.61,Wage Price Index,5.44,2.47
+2004-09,904.5,E: OECD weekly earnings index (FRED),FALSE,2.92,3.58,3.58,Wage Price Index,5.48,2.31
+2004-12,912.4,E: OECD weekly earnings index (FRED),FALSE,2.5,3.67,3.67,Wage Price Index,5.12,2.55
+2005-03,937.66,E: OECD weekly earnings index (FRED),FALSE,4.21,3.88,3.88,Wage Price Index,5.1,2.33
+2005-06,938.23,E: OECD weekly earnings index (FRED),FALSE,5.58,4.09,4.09,Wage Price Index,5.06,2.47
+2005-09,955.78,E: OECD weekly earnings index (FRED),FALSE,5.67,4.17,4.17,Wage Price Index,4.96,3.06
+2005-12,957.28,E: OECD weekly earnings index (FRED),FALSE,4.92,4.01,4.01,Wage Price Index,5.01,2.81
+2006-03,977.47,E: OECD weekly earnings index (FRED),FALSE,4.25,4.08,4.08,Wage Price Index,5.04,3
+2006-06,983.47,E: OECD weekly earnings index (FRED),FALSE,4.82,4.04,4.04,Wage Price Index,4.86,4.01
+2006-09,999.29,E: OECD weekly earnings index (FRED),FALSE,4.55,4.12,4.12,Wage Price Index,4.68,3.9
+2006-12,1010.16,E: OECD weekly earnings index (FRED),FALSE,5.52,4.31,4.31,Wage Price Index,4.51,3.25
+2007-03,1035.1,E: OECD weekly earnings index (FRED),FALSE,5.9,4.04,4.04,Wage Price Index,4.55,2.45
+2007-06,1036.85,E: OECD weekly earnings index (FRED),FALSE,5.43,4.11,4.11,Wage Price Index,4.32,2.1
+2007-09,1051.02,E: OECD weekly earnings index (FRED),FALSE,5.18,4.29,4.29,Wage Price Index,4.25,1.89
+2007-12,1053.08,E: OECD weekly earnings index (FRED),FALSE,4.25,3.91,3.91,Wage Price Index,4.36,2.96
+2008-03,1069.36,E: OECD weekly earnings index (FRED),FALSE,3.31,4.09,4.09,Wage Price Index,4.09,4.26
+2008-06,1068.15,E: OECD weekly earnings index (FRED),FALSE,3.02,4.16,4.16,Wage Price Index,4.26,4.48
+2008-09,1089.78,E: OECD weekly earnings index (FRED),FALSE,3.69,4.21,4.21,Wage Price Index,4.18,4.97
+2008-12,1100.7,E: OECD weekly earnings index (FRED),FALSE,4.52,4.29,4.29,Wage Price Index,4.44,3.67
+2009-03,1116.61,E: OECD weekly earnings index (FRED),FALSE,4.42,4.14,4.14,Wage Price Index,5.31,2.41
+2009-06,1115.7,E: OECD weekly earnings index (FRED),FALSE,4.45,3.79,3.79,Wage Price Index,5.73,1.45
+2009-09,1144.12,E: OECD weekly earnings index (FRED),FALSE,4.99,2.93,2.93,Wage Price Index,5.68,1.23
+2009-12,1164.46,E: OECD weekly earnings index (FRED),FALSE,5.79,2.91,2.91,Wage Price Index,5.56,2.1
+2010-03,1189.12,E: OECD weekly earnings index (FRED),FALSE,6.49,2.98,2.98,Wage Price Index,5.33,2.94
+2010-06,1194.5,E: OECD weekly earnings index (FRED),FALSE,7.06,2.96,2.96,Wage Price Index,5.29,3.05
+2010-09,1197.04,E: OECD weekly earnings index (FRED),FALSE,4.63,3.63,3.63,Wage Price Index,5.12,2.82
+2010-12,1219,E: OECD weekly earnings index (FRED),FALSE,4.68,3.9,3.9,Wage Price Index,5.09,2.67
+2011-03,1237.84,E: OECD weekly earnings index (FRED),FALSE,4.1,3.86,3.86,Wage Price Index,4.97,3.3
+2011-06,1240.93,E: OECD weekly earnings index (FRED),FALSE,3.89,3.83,3.83,Wage Price Index,4.96,3.62
+2011-09,1250.15,E: OECD weekly earnings index (FRED),FALSE,4.44,3.6,3.6,Wage Price Index,5.19,3.49
+2011-12,1260.39,E: OECD weekly earnings index (FRED),FALSE,3.4,3.56,3.56,Wage Price Index,5.21,3.09
+2012-03,1286.89,E: OECD weekly earnings index (FRED),FALSE,3.96,3.62,3.62,Wage Price Index,5.14,1.58
+2012-06,1282.77,E: OECD weekly earnings index (FRED),FALSE,3.37,3.78,3.78,Wage Price Index,5.12,1.18
+2012-09,,,,,3.66,3.66,Wage Price Index,5.27,1.95
+2012-12,,,,,3.44,3.44,Wage Price Index,5.37,2.21
+2013-03,,,,,3.14,3.14,Wage Price Index,5.48,2.49
+2013-06,,,,,2.93,2.93,Wage Price Index,5.63,2.35
+2013-09,,,,,2.74,2.74,Wage Price Index,5.72,2.21
+2013-12,,,,,2.63,2.63,Wage Price Index,5.84,2.68
+2014-03,,,,,2.7,2.7,Wage Price Index,5.9,2.94
+2014-06,,,,,2.5,2.5,Wage Price Index,5.93,3.07
+2014-09,,,,,2.58,2.58,Wage Price Index,6.18,2.26
+2014-12,,,,,2.47,2.47,Wage Price Index,6.26,1.72
+2015-03,,,,,2.29,2.29,Wage Price Index,6.21,1.31
+2015-06,,,,,2.27,2.27,Wage Price Index,6.02,1.52
+2015-09,,,,,2.26,2.26,Wage Price Index,6.19,1.49
+2015-12,,,,,2.16,2.16,Wage Price Index,5.83,1.69
+2016-03,,,,,2.07,2.07,Wage Price Index,5.8,1.29
+2016-06,,,,,2.06,2.06,Wage Price Index,5.69,1.02
+2016-09,,,,,1.88,1.88,Wage Price Index,5.67,1.33
+2016-12,,,,,1.87,1.87,Wage Price Index,5.74,1.47
+2017-03,,,,,1.95,1.95,Wage Price Index,5.81,2.14
+2017-06,,,,,1.94,1.94,Wage Price Index,5.6,1.9
+2017-09,,,,,2.01,2.01,Wage Price Index,5.54,1.8
+2017-12,,,,,2.08,2.08,Wage Price Index,5.5,1.95
+2018-03,,,,,1.99,1.99,Wage Price Index,5.55,1.93
+2018-06,,,,,2.14,2.14,Wage Price Index,5.45,2.09
+2018-09,,,,,2.29,2.29,Wage Price Index,5.19,1.91
+2018-12,,,,,2.27,2.27,Wage Price Index,5.04,1.76
+2019-03,,,,,2.34,2.34,Wage Price Index,5.05,1.3
+2019-06,,,,,2.33,2.33,Wage Price Index,5.23,1.54
+2019-09,,,,,2.23,2.23,Wage Price Index,5.26,1.67
+2019-12,,,,,2.22,2.22,Wage Price Index,5.17,1.84
+2020-03,,,,,2.21,2.21,Wage Price Index,5.19,2.23
+2020-06,,,,,1.82,1.82,Wage Price Index,6.92,-0.33
+2020-09,,,,,1.36,1.36,Wage Price Index,7.05,0.65
+2020-12,,,,,1.35,1.35,Wage Price Index,6.77,0.87
+2021-03,,,,,1.49,1.49,Wage Price Index,5.94,1.07
+2021-06,,,,,1.79,1.79,Wage Price Index,5.21,3.81
+2021-09,,,,,2.23,2.23,Wage Price Index,4.67,3.1
+2021-12,,,,,2.37,2.37,Wage Price Index,4.69,3.48
+2022-03,,,,,2.35,2.35,Wage Price Index,4.06,5.11
+2022-06,,,,,2.63,2.63,Wage Price Index,3.81,6.21
+2022-09,,,,,3.13,3.13,Wage Price Index,3.52,7.25
+2022-12,,,,,3.32,3.32,Wage Price Index,3.49,7.86
+2023-03,,,,,3.66,3.66,Wage Price Index,3.62,7.01
+2023-06,,,,,3.7,3.7,Wage Price Index,3.61,6.03
+2023-09,,,,,4.02,4.02,Wage Price Index,3.65,5.31
+2023-12,,,,,4.27,4.27,Wage Price Index,3.9,4.05
+2024-03,,,,,4.02,4.02,Wage Price Index,3.92,3.62
+2024-06,,,,,4.05,4.05,Wage Price Index,4.05,3.81
+2024-09,,,,,3.59,3.59,Wage Price Index,4.11,2.85
+2024-12,,,,,3.22,3.22,Wage Price Index,4,2.41
+2025-03,,,,,3.46,3.46,Wage Price Index,4.1,2.4
+2025-06,,,,,3.43,3.43,Wage Price Index,4.17,2.1
+2025-09,,,,,3.34,3.34,Wage Price Index,4.3,3.22
+2025-12,,,,,3.44,3.44,Wage Price Index,4.25,3.63
+2026-03,,,,,3.22,3.22,Wage Price Index,4.23,4.09
+2026-06,,,,,3.19,3.19,Wage Price Index,4.45,3.94
