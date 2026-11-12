@@ -153,6 +153,29 @@ back <- function(v, g, y, from) {           # chain annual growth g (in year y, 
 }
 # OP8 credit growth is missing for 1953 (first year) and for 1962-63 is given; M3 growth for 1953 etc.
 lr$op_credit_g[is.na(lr$op_credit_g) & lr$year_ended_june < 1976 & !is.na(lr$op_credit)] <- NA
+# Two of OP8's credit growth rates are computed from levels that contain breaks (table 3.2 notes):
+# - 1962-63: a new source for finance company data cut non-bank lending from 1603 to 1336. The
+#   non-bank level for June 1962 is restated on the new basis using the growth of finance
+#   businesses' instalment credit over the year (CBCS bulletins, below).
+# - 1972-73: Papua New Guinea was dropped from bank lending (89 at June 1973). June 1972 is
+#   restated assuming the same share of bank lending.
+op_nb <- read_csv("data-raw/op8_3_2_lending_banks_nbfi_june.csv", show_col_types = FALSE)
+ic <- read_csv("data-raw/anu_instalment_credit.csv", col_types = "ccdccic") |>
+  mutate(t = mi(month), d = mi(sub("^IC([0-9]{4}-[0-9]{2}).*$", "\\1", issue)) * 10L +
+                             match(sub("^IC[0-9-]+", "", issue), c("", "b", "c")),   # issue order
+         v = case_when(grepl("'000", unit) ~ value * 2 / 1000, !startsWith(unit, "$") ~ value * 2, TRUE ~ value))  # pounds to $m
+opn <- function(y, v) op_nb[[v]][op_nb$june == y]
+icv <- function(m) { x <- ic |> filter(series == "icrs_nonretail_finance", month == m); x$v[which.max(x$d)] }
+g_fic63 <- icv("1963-06") / icv("1962-06") - 1
+nb62_adj <- opn(1963, "nbfi_loans") / (1 + g_fic63)
+g63 <- 100 * (opn(1963, "fi_loans_total") / (opn(1962, "fi_loans_total") - (opn(1962, "nbfi_loans") - nb62_adj)) - 1)
+png73 <- (11196 - opn(1973, "bank_loans")) / 11196
+g73 <- 100 * (opn(1973, "fi_loans_total") / (opn(1972, "fi_loans_total") - png73 * opn(1972, "bank_loans")) - 1)
+cat(sprintf("OP8 credit growth restated: 1962-63 %.1f%% -> %.1f%% (non-bank June 1962 %d -> %.0f; finance businesses' instalment credit +%.1f%%); 1972-73 %.1f%% -> %.1f%%\n",
+            lr$op_credit_g[lr$year_ended_june == 1963], g63, opn(1962, "nbfi_loans"), nb62_adj, 100 * g_fic63,
+            lr$op_credit_g[lr$year_ended_june == 1973], g73))
+lr$op_credit_g[lr$year_ended_june == 1963] <- g63
+lr$op_credit_g[lr$year_ended_june == 1973] <- g73
 lr$credit_total <- back(lr$credit_total, lr$op_credit_g, lr$year_ended_june, 1976)
 lr$op_m3_g2 <- coalesce(lr$op_m3_g, 100 * (lr$op_m3 / lag(lr$op_m3) - 1))     # 1951-53 from levels
 lr$m3 <- back(lr$m3, lr$op_m3_g2, lr$year_ended_june, 1960)
@@ -312,27 +335,90 @@ bank_june <- op_tb |> transmute(year_ended_june = june, tb_loans = loans_advance
          sb_other_pct_gdp = 100 * (sb_loans_op8 - sb_housing_op8) / gdp, sb_total_pct_gdp = 100 * sb_loans_op8 / gdp,
          banks_share_of_credit_pct = 100 * all_bank_loans / credit_total)
 
+# ---- 4b(iii). Non-bank lending, monthly 1957 - 1976 ---------------------------------------
+# Non-bank financial intermediaries (finance companies, building societies, credit unions,
+# pastoral finance companies and others): OP8 table 3.2 gives their lending each June (end-June
+# estimates from the financial flows accounts before 1977). The only monthly series is finance
+# businesses' instalment credit for retail sales (balances outstanding), from the CBCS bulletins
+# (ANU scans):
+# - Jun 1953 - Jun 1961: retail hire purchase of finance businesses (quarterly to Sep 1957,
+#   monthly after, 1959 quarterly);
+# - Mar 1960 - Apr 1972: instalment credit for retail sales, non-retail finance businesses
+#   (monthly, with quarters filling Jan-Sep 1963 and Feb-Sep 1965; seasonally adjusted from 1966).
+# The two are linked over Mar 1960 - Jun 1961. Monthly non-bank lending = this indicator x the
+# ratio of OP8 non-bank lending to it, interpolated linearly between Junes (proportional Denton).
+# From May 1972 the indicator ends, and non-bank lending is interpolated log-linearly between Junes.
+icl <- ic |> group_by(series, t) |> slice_max(d, n = 1, with_ties = FALSE) |> ungroup()
+ics <- function(s) icl |> filter(series == s) |> select(t, v)
+new <- ics("icrs_nonretail_finance"); old <- ics("rhp_finance_businesses")
+ov_ic <- inner_join(old, new, by = "t")
+k_ic <- exp(mean(log(ov_ic$v.y / ov_ic$v.x)))
+cat(sprintf("Instalment credit link: non-retail finance businesses / retail hire purchase of finance businesses, %d months %s - %s: %.3f (range %.3f - %.3f)\n",
+            nrow(ov_ic), lab(min(ov_ic$t)), lab(max(ov_ic$t)), k_ic, min(ov_ic$v.y / ov_ic$v.x), max(ov_ic$v.y / ov_ic$v.x)))
+fic <- tibble(t = mi("1953-06"):mi("1972-04")) |>
+  left_join(new |> rename(v_new = v), by = "t") |> left_join(old |> rename(v_old = v), by = "t") |>
+  left_join(ics("icrs_nonretail_finance_sa") |> rename(sa_pr = v), by = "t") |>
+  mutate(pt = coalesce(v_new, v_old * k_ic), fic = li(t, pt),
+         fic_method = case_when(!is.na(v_new) ~ "Instalment credit, non-retail finance businesses",
+                                !is.na(v_old) ~ "Retail hire purchase of finance businesses (linked)",
+                                TRUE ~ "Interpolated"))
+# seasonal factors: the bulletins' (original / SA) where printed (Jun 1966 on), else the average
+# printed factor for the month (1966-72)
+fic <- fic |> mutate(sf = if_else(!is.na(sa_pr) & !is.na(v_new), v_new / sa_pr, NA_real_), mo = t %% 12L)
+sfm <- fic |> filter(!is.na(sf)) |> group_by(mo) |> summarise(sf0 = mean(sf), n = n())
+fic <- fic |> left_join(sfm |> select(mo, sf0), by = "mo") |> mutate(sf = coalesce(sf, sf0), fic_sa = fic / sf) |> select(-sf0)
+cat(sprintf("Instalment credit seasonal factors (1966-72 average): %.3f (%s) to %.3f (%s)\n",
+            min(sfm$sf0), month.abb[sfm$mo[which.min(sfm$sf0)] + 1], max(sfm$sf0), month.abb[sfm$mo[which.max(sfm$sf0)] + 1]))
+# June benchmarks: OP8 non-bank lending, with June 1953-62 restated to the post-1963 basis
+nbj <- op_nb |> filter(june <= 1976) |>
+  transmute(t = mi(sprintf("%d-06", june)), nbfi = if_else(june <= 1962, nbfi_loans * nb62_adj / opn(1962, "nbfi_loans"), nbfi_loans))
+nb <- tibble(t = mi("1953-06"):mi("1976-12")) |> left_join(nbj, by = "t") |> left_join(fic |> select(t, fic, fic_sa), by = "t")
+rj <- nb |> filter(!is.na(nbfi), !is.na(fic_sa)) |> mutate(r = nbfi / fic_sa)
+lastr <- max(rj$t); t76 <- mi("1976-06")
+gl76 <- with(nbj |> filter(t >= mi("1975-06")), diff(log(nbfi)) / 12)
+kk <- !is.na(nb$nbfi) & nb$t >= lastr; idx <- nb$t >= lastr & nb$t <= t76
+nb$ll <- NA_real_
+nb$ll[idx] <- exp(approx(nb$t[kk], log(nb$nbfi[kk]), xout = nb$t[idx])$y)
+nb <- nb |> mutate(r = approx(rj$t, rj$r, xout = t)$y,
+                   nbfi_m = case_when(t <= lastr & !is.na(r) ~ r * fic_sa,
+                                      t <= t76 ~ ll,
+                                      TRUE ~ nbfi[t == t76][1] * exp(gl76 * (t - t76))),
+                   nbfi_method = case_when(t <= lastr & !is.na(r) ~ "OP8 June benchmarks, interpolated on finance businesses' instalment credit",
+                                           t <= t76 ~ "OP8 June benchmarks, interpolated log-linearly",
+                                           TRUE ~ "Extended at 1975-76 growth"))
+cat(sprintf("Non-bank / instalment credit ratio at June: %.2f (1957) to %.2f (%s)\n",
+            rj$r[rj$t == mi("1957-06")], rj$r[nrow(rj)], lab(max(rj$t))))
+bank <- bank |> left_join(nb |> select(t, fic, fic_sa, nbfi_m, nbfi_method), by = "t") |>
+  mutate(lending_all_fi_sa = all_bank_sa + nbfi_m)
+
 # Monthly total credit, Jun 1957 - Aug 1976: the end-June totals above (OP8 growth chained back)
 # and Sep 1976 (the first month of the RBA series), interpolated by proportional Denton (first
 # differences) on seasonally adjusted lending by all banks (major trading banks plus savings
-# banks). For stock benchmarks this interpolates the credit / bank lending ratio linearly between
-# benchmark months.
+# banks) plus the monthly non-bank estimate. For stock benchmarks this interpolates the credit /
+# indicator ratio linearly between benchmark months.
 bm <- bind_rows(lr |> filter(year_ended_june %in% 1957:1976) |> transmute(t = mi(sprintf("%d-06", year_ended_june)), b = credit_total),
                 mc |> filter(t == min(t[!is.na(credit_total)])) |> transmute(t, b = credit_total * 1000)) |>
-  inner_join(bank |> select(t, all_bank_sa), by = "t") |> mutate(r = b / all_bank_sa)
+  inner_join(bank |> select(t, lending_all_fi_sa), by = "t") |> mutate(r = b / lending_all_fi_sa)
+cat(sprintf("Credit / (all banks + non-bank) at the benchmarks: %.3f - %.3f\n", min(bm$r), max(bm$r)))
 bank <- bank |> mutate(credit_total = if_else(t >= min(bm$t) & t <= max(bm$t),
-                                              approx(bm$t, bm$r, xout = t)$y * all_bank_sa, NA_real_))
+                                              approx(bm$t, bm$r, xout = t)$y * lending_all_fi_sa, NA_real_))
 # fill the monthly credit series and rebuild the quarterly shares of GDP
 fill <- bank |> filter(t < max(bm$t), !is.na(credit_total)) |> select(t, cr_fill = credit_total)
 mc <- mc |> left_join(fill, by = "t") |> mutate(credit_total = coalesce(credit_total, cr_fill / 1000)) |> select(-cr_fill)
 q <- make_q(mc)
 # how well does trading bank lending track total credit, June to June?
 gchk <- bank |> filter(t %% 12L == 5L) |> transmute(year_ended_june = t %/% 12L, g_bank = 100 * (mtb_sa / lag(mtb_sa) - 1),
-                                                    g_all = 100 * (all_bank_sa / lag(all_bank_sa) - 1)) |>
+                                                    g_all = 100 * (all_bank_sa / lag(all_bank_sa) - 1),
+                                                    g_fi = 100 * (lending_all_fi_sa / lag(lending_all_fi_sa) - 1)) |>
   inner_join(lr |> select(year_ended_june, credit_growth), by = "year_ended_june") |> filter(!is.na(g_bank), !is.na(credit_growth))
-cat(sprintf("Lending growth vs total credit growth, years to June %d-%d: correlation trading banks %.2f, all banks %.2f; mean %.1f, %.1f vs %.1f per cent\n",
+cat(sprintf("Lending growth vs total credit growth, years to June %d-%d: correlation trading banks %.2f, all banks %.2f; mean %.1f, %.1f vs %.1f per cent (banks + non-banks %.1f)\n",
             min(gchk$year_ended_june), max(gchk$year_ended_june), cor(gchk$g_bank, gchk$credit_growth),
-            cor(gchk$g_all, gchk$credit_growth), mean(gchk$g_bank), mean(gchk$g_all), mean(gchk$credit_growth)))
+            cor(gchk$g_all, gchk$credit_growth), mean(gchk$g_bank), mean(gchk$g_all), mean(gchk$credit_growth), mean(gchk$g_fi)))
+# monthly check: does the non-bank indicator move with the finance companies' own year-ended growth?
+fchk <- fic |> transmute(t, g_fic = 100 * (fic_sa / lag(fic_sa, 12) - 1)) |>
+  inner_join(bank |> transmute(t, g_mtb = 100 * (mtb_sa / lag(mtb_sa, 12) - 1)), by = "t") |> filter(!is.na(g_fic), !is.na(g_mtb))
+cat(sprintf("Year-ended growth, %s - %s: instalment credit vs trading bank lending, correlation %.2f\n",
+            lab(min(fchk$t)), lab(max(fchk$t)), cor(fchk$g_fic, fchk$g_mtb)))
 
 # ---- 4c. Break-even inflation and inflation expectations, 1985 - 2026 ----------------------
 # The RBA's current files show only part of this history: table G3 has break-even inflation from
@@ -435,8 +521,26 @@ write_csv(bank |> transmute(month = lab(t), trading_bank_lending_m = round(mtb_o
                             savings_bank_lending_m = round(sb_total, 1), savings_bank_method = sb_method,
                             savings_bank_source = sb_issue, all_bank_lending_m = round(all_bank, 1),
                             all_bank_lending_sa_m = round(all_bank_sa, 1),
+                            finance_instalment_credit_sa_m = round(fic_sa, 1), nonbank_lending_m = round(nbfi_m),
+                            nonbank_method = nbfi_method, bank_and_nonbank_lending_sa_m = round(lending_all_fi_sa),
                             credit_total_interpolated_m = round(credit_total)),
           "output/bank_lending_monthly_1957_76.csv", na = "")
+write_csv(fic |> transmute(month = lab(t), instalment_credit_m = round(fic, 1), instalment_credit_sa_m = round(fic_sa, 1),
+                           seasonal_factor = round(sf, 4), basis = fic_method,
+                           printed_m = round(coalesce(v_new, v_old), 1)),
+          "output/instalment_credit_monthly_1953_72.csv", na = "")
+lend_nb <- op_nb |> transmute(year_ended_june = june, bank_loans_m = bank_loans, nonbank_loans_m = nbfi_loans,
+                              nonbank_loans_restated_m = if_else(june <= 1962, round(nbfi_loans * nb62_adj / opn(1962, "nbfi_loans")), nbfi_loans),
+                              all_fi_loans_m = fi_loans_total, total_credit_op8_m = total_credit, op8_note = note) |>
+  left_join(read_csv("data-raw/op8_3_12_building_societies_june.csv", show_col_types = FALSE) |>
+              select(year_ended_june = june, building_society_mortgages_m = mortgages_outstanding), by = "year_ended_june") |>
+  left_join(read_csv("data-raw/op8_3_13_finance_companies_june.csv", show_col_types = FALSE) |>
+              select(year_ended_june = june, finance_company_receivables_m = finance_agreements_all), by = "year_ended_june") |>
+  left_join(lr |> select(year_ended_june, gdp), by = "year_ended_june") |>
+  mutate(nonbank_share_pct = round(100 * nonbank_loans_restated_m / (bank_loans_m + nonbank_loans_restated_m), 1),
+         bank_pct_gdp = round(100 * bank_loans_m / gdp, 1), nonbank_pct_gdp = round(100 * nonbank_loans_restated_m / gdp, 1)) |>
+  select(-gdp)
+write_csv(lend_nb, "output/lending_banks_nonbanks_june_1953_97.csv", na = "")
 write_csv(bank_june |> transmute(year_ended_june, trading_bank_loans_m = tb_loans, savings_bank_loans_m = sb_loans_op8,
                                  savings_bank_housing_m = sb_housing_op8, all_bank_loans_m = all_bank_loans,
                                  savings_bank_share_pct = round(sb_share_pct, 1),
@@ -536,6 +640,36 @@ p6 <- ggplot(bj, aes(fyd(y), v, fill = s)) + geom_area(position = "stack", alpha
                          "from 1985 new banks took over business from building societies and finance companies."),
        x = NULL, y = NULL, caption = "Source: RBA Occasional Paper 8, tables 3.8 and 3.9") + th
 ggsave("output/bank_lending_gdp.png", p6, width = 9, height = 5, dpi = 150, bg = "white")
+
+# banks and non-banks: lending relative to GDP (end-June, 1953-97) and monthly growth (1958-72)
+NB <- c("Banks", "Non-bank financial intermediaries")
+nbg <- bind_rows(lend_nb |> transmute(y = year_ended_june, s = NB[1], v = bank_pct_gdp),
+                 lend_nb |> transmute(y = year_ended_june, s = NB[2], v = nonbank_pct_gdp)) |>
+  filter(!is.na(v)) |> mutate(s = factor(s, rev(NB)))
+p7 <- ggplot(nbg, aes(fyd(y), v, fill = s)) + geom_area(position = "stack", alpha = 0.9) +
+  geom_vline(xintercept = fyd(c(1977, 1985)), colour = "grey55", linetype = "22", linewidth = 0.3) +
+  scale_fill_manual(values = c(Banks = pal[1], "Non-bank financial intermediaries" = pal[5]), breaks = NB, name = NULL) +
+  labs(title = "Lending by banks and non-banks relative to GDP, end-June 1953 - 1997 (per cent)",
+       subtitle = paste0("Loans, advances and bills held, to the private sector. Non-banks: finance companies, building societies,\n",
+                         "credit unions, money market corporations and others; before 1963 restated to the later finance company source.\n",
+                         "Dashed: new non-bank collection (1977); new banks take over non-bank business (from 1985)."),
+       x = NULL, y = NULL, caption = "Source: RBA Occasional Paper 8, table 3.2") + th
+ggsave("output/bank_nonbank_lending_gdp.png", p7, width = 9, height = 5.2, dpi = 150, bg = "white")
+
+gr2 <- bind_rows(
+  bank |> transmute(t, v = yy(mtb_sa), s = "Major trading banks' lending"),
+  fic |> transmute(t, v = yy(fic_sa), s = "Finance businesses' instalment credit (hire purchase)"),
+  bank |> transmute(t, v = yy(nbfi_m), s = "Non-bank lending (monthly estimate)")) |>
+  filter(!is.na(v), t >= mi("1954-06"), t <= mi("1976-08"))
+gr2$s <- factor(gr2$s, unique(gr2$s))
+p8 <- ggplot(gr2, aes(dt(t), v, colour = s)) + geom_hline(yintercept = 0, colour = "grey50") +
+  geom_line(linewidth = 0.5) + scale_colour_manual(values = pal[c(2, 5, 1)], name = NULL) +
+  guides(colour = guide_legend(nrow = 2)) +
+  labs(title = "Bank and non-bank lending growth, 1954 - 1976 (per cent, year-ended)",
+       subtitle = paste0("Instalment credit for retail sales outstanding with finance businesses, seasonally adjusted (June or quarterly\n",
+                         "before Nov 1957). Non-bank lending: OP8 June levels interpolated on instalment credit to 1971, smoothly after."),
+       x = NULL, y = NULL, caption = "Sources: CBCS hire purchase and instalment credit bulletins, banking bulletins (ANU Open Research); RBA OP8") + th
+ggsave("output/nonbank_lending_growth.png", p8, width = 9, height = 5.2, dpi = 150, bg = "white")
 
 # inflation expectations: break-even (monthly) and survey measures (quarterly), with CPI inflation
 ex <- bind_rows(

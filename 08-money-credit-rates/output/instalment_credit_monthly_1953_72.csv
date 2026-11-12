@@ -1,0 +1,228 @@
+month,instalment_credit_m,instalment_credit_sa_m,seasonal_factor,basis,printed_m
+1953-06,172.2,173.7,0.9912,Retail hire purchase of finance businesses (linked),177.6
+1953-07,178,179.3,0.9926,Interpolated,
+1953-08,184,185,0.9947,Interpolated,
+1953-09,190.3,190.8,0.9974,Interpolated,
+1953-10,196.7,196.3,1.0022,Interpolated,
+1953-11,203.4,201.4,1.0099,Interpolated,
+1953-12,210.2,207.2,1.0145,Interpolated,
+1954-01,217.4,214.7,1.0125,Interpolated,
+1954-02,224.7,224.5,1.0008,Interpolated,
+1954-03,232.3,233.6,0.9946,Interpolated,
+1954-04,240.2,241.6,0.9941,Interpolated,
+1954-05,248.3,249.5,0.9951,Interpolated,
+1954-06,256.7,259,0.9912,Retail hire purchase of finance businesses (linked),264.8
+1954-07,263.7,265.7,0.9926,Interpolated,
+1954-08,270.9,272.3,0.9947,Interpolated,
+1954-09,278.2,279,0.9974,Interpolated,
+1954-10,285.8,285.2,1.0022,Interpolated,
+1954-11,293.6,290.7,1.0099,Interpolated,
+1954-12,301.6,297.3,1.0145,Interpolated,
+1955-01,309.8,306,1.0125,Interpolated,
+1955-02,318.2,318,1.0008,Interpolated,
+1955-03,326.9,328.6,0.9946,Interpolated,
+1955-04,335.8,337.8,0.9941,Interpolated,
+1955-05,344.9,346.6,0.9951,Interpolated,
+1955-06,354.3,357.4,0.9912,Retail hire purchase of finance businesses (linked),365.4
+1955-07,358.8,361.4,0.9926,Interpolated,
+1955-08,363.3,365.3,0.9947,Interpolated,
+1955-09,367.9,368.9,0.9974,Interpolated,
+1955-10,372.6,371.7,1.0022,Interpolated,
+1955-11,377.3,373.6,1.0099,Interpolated,
+1955-12,382.1,376.6,1.0145,Interpolated,
+1956-01,386.9,382.1,1.0125,Interpolated,
+1956-02,391.8,391.5,1.0008,Interpolated,
+1956-03,396.7,398.9,0.9946,Interpolated,
+1956-04,401.8,404.2,0.9941,Interpolated,
+1956-05,406.8,408.9,0.9951,Interpolated,
+1956-06,412,415.7,0.9912,Retail hire purchase of finance businesses (linked),424.9
+1956-07,416.2,419.3,0.9926,Interpolated,
+1956-08,420.4,422.6,0.9947,Interpolated,
+1956-09,424.6,425.7,0.9974,Retail hire purchase of finance businesses (linked),437.9
+1956-10,431.9,431,1.0022,Interpolated,
+1956-11,439.4,435.1,1.0099,Interpolated,
+1956-12,446.9,440.5,1.0145,Retail hire purchase of finance businesses (linked),460.9
+1957-01,447.7,442.2,1.0125,Interpolated,
+1957-02,448.5,448.1,1.0008,Interpolated,
+1957-03,449.2,451.7,0.9946,Retail hire purchase of finance businesses (linked),463.3
+1957-04,452,454.7,0.9941,Interpolated,
+1957-05,454.8,457,0.9951,Interpolated,
+1957-06,457.6,461.7,0.9912,Retail hire purchase of finance businesses (linked),471.9
+1957-07,463,466.5,0.9926,Interpolated,
+1957-08,468.6,471.1,0.9947,Interpolated,
+1957-09,474.2,475.4,0.9974,Retail hire purchase of finance businesses (linked),489
+1957-10,485.5,484.4,1.0022,Interpolated,
+1957-11,497.1,492.3,1.0099,Retail hire purchase of finance businesses (linked),512.7
+1957-12,513.4,506.1,1.0145,Retail hire purchase of finance businesses (linked),529.5
+1958-01,522.9,516.4,1.0125,Retail hire purchase of finance businesses (linked),539.3
+1958-02,531.2,530.8,1.0008,Retail hire purchase of finance businesses (linked),547.9
+1958-03,540.6,543.6,0.9946,Retail hire purchase of finance businesses (linked),557.6
+1958-04,553.3,556.6,0.9941,Retail hire purchase of finance businesses (linked),570.7
+1958-05,567.3,570.1,0.9951,Retail hire purchase of finance businesses (linked),585.1
+1958-06,574.7,579.9,0.9912,Retail hire purchase of finance businesses (linked),592.7
+1958-07,584.7,589,0.9926,Retail hire purchase of finance businesses (linked),603
+1958-08,594.2,597.4,0.9947,Retail hire purchase of finance businesses (linked),612.8
+1958-09,607.1,608.6,0.9974,Retail hire purchase of finance businesses (linked),626.1
+1958-10,621.9,620.5,1.0022,Retail hire purchase of finance businesses (linked),641.4
+1958-11,636.8,630.6,1.0099,Retail hire purchase of finance businesses (linked),656.7
+1958-12,654.4,645.1,1.0145,Retail hire purchase of finance businesses (linked),674.9
+1959-01,659.3,651.1,1.0125,Interpolated,
+1959-02,664.1,663.6,1.0008,Interpolated,
+1959-03,669,672.7,0.9946,Retail hire purchase of finance businesses (linked),690
+1959-04,675.4,679.5,0.9941,Interpolated,
+1959-05,681.9,685.3,0.9951,Interpolated,
+1959-06,688.4,694.6,0.9912,Retail hire purchase of finance businesses (linked),710
+1959-07,698,703.2,0.9926,Interpolated,
+1959-08,707.7,711.5,0.9947,Interpolated,
+1959-09,717.5,719.4,0.9974,Retail hire purchase of finance businesses (linked),740
+1959-10,736.4,734.8,1.0022,Interpolated,
+1959-11,755.8,748.4,1.0099,Interpolated,
+1959-12,775.7,764.6,1.0145,Retail hire purchase of finance businesses (linked),800
+1960-01,778.5,768.9,1.0125,Interpolated,
+1960-02,781.2,780.6,1.0008,Interpolated,
+1960-03,784,788.3,0.9946,"Instalment credit, non-retail finance businesses",784
+1960-04,799,803.7,0.9941,Retail hire purchase of finance businesses (linked),824
+1960-05,808.7,812.7,0.9951,Retail hire purchase of finance businesses (linked),834
+1960-06,806,813.2,0.9912,"Instalment credit, non-retail finance businesses",806
+1960-07,824.2,830.3,0.9926,Retail hire purchase of finance businesses (linked),850
+1960-08,830,834.4,0.9947,Retail hire purchase of finance businesses (linked),856
+1960-09,836,838.2,0.9974,"Instalment credit, non-retail finance businesses",836
+1960-10,851.3,849.4,1.0022,Retail hire purchase of finance businesses (linked),878
+1960-11,866.8,858.4,1.0099,Retail hire purchase of finance businesses (linked),894
+1960-12,876,863.5,1.0145,"Instalment credit, non-retail finance businesses",876
+1961-01,866.8,856.2,1.0125,Retail hire purchase of finance businesses (linked),894
+1961-02,841.6,841,1.0008,Retail hire purchase of finance businesses (linked),868
+1961-03,834,838.5,0.9946,"Instalment credit, non-retail finance businesses",834
+1961-04,812.5,817.4,0.9941,Retail hire purchase of finance businesses (linked),838
+1961-05,799,802.9,0.9951,Retail hire purchase of finance businesses (linked),824
+1961-06,803.4,810.6,0.9912,"Instalment credit, non-retail finance businesses",803.4
+1961-07,794.1,800,0.9926,Interpolated,
+1961-08,784.9,789.1,0.9947,Interpolated,
+1961-09,775.8,777.8,0.9974,"Instalment credit, non-retail finance businesses",775.8
+1961-10,766.8,765.1,1.0022,Interpolated,
+1961-11,758,750.6,1.0099,"Instalment credit, non-retail finance businesses",758
+1961-12,770.8,759.8,1.0145,"Instalment credit, non-retail finance businesses",770.8
+1962-01,752,742.7,1.0125,"Instalment credit, non-retail finance businesses",752
+1962-02,744,743.4,1.0008,"Instalment credit, non-retail finance businesses",744
+1962-03,752.4,756.5,0.9946,"Instalment credit, non-retail finance businesses",752.4
+1962-04,736,740.4,0.9941,"Instalment credit, non-retail finance businesses",736
+1962-05,736,739.7,0.9951,"Instalment credit, non-retail finance businesses",736
+1962-06,756.4,763.1,0.9912,"Instalment credit, non-retail finance businesses",756.4
+1962-07,750,755.6,0.9926,"Instalment credit, non-retail finance businesses",750
+1962-08,754,758,0.9947,"Instalment credit, non-retail finance businesses",754
+1962-09,777.4,779.4,0.9974,"Instalment credit, non-retail finance businesses",777.4
+1962-10,770,768.3,1.0022,"Instalment credit, non-retail finance businesses",770
+1962-11,786,778.3,1.0099,"Instalment credit, non-retail finance businesses",786
+1962-12,814.6,802.9,1.0145,"Instalment credit, non-retail finance businesses",814.6
+1963-01,816.3,806.3,1.0125,Interpolated,
+1963-02,818.1,817.4,1.0008,Interpolated,
+1963-03,819.8,824.3,0.9946,"Instalment credit, non-retail finance businesses",819.8
+1963-04,823.7,828.6,0.9941,Interpolated,
+1963-05,827.6,831.8,0.9951,Interpolated,
+1963-06,831.6,839,0.9912,"Instalment credit, non-retail finance businesses",831.6
+1963-07,844.1,850.4,0.9926,Interpolated,
+1963-08,856.7,861.3,0.9947,Interpolated,
+1963-09,869.6,871.9,0.9974,"Instalment credit, non-retail finance businesses",869.6
+1963-10,881.8,879.8,1.0022,"Instalment credit, non-retail finance businesses",881.8
+1963-11,900.4,891.6,1.0099,"Instalment credit, non-retail finance businesses",900.4
+1963-12,916.5,903.4,1.0145,"Instalment credit, non-retail finance businesses",916.5
+1964-01,921,909.6,1.0125,"Instalment credit, non-retail finance businesses",921
+1964-02,919.2,918.5,1.0008,"Instalment credit, non-retail finance businesses",919.2
+1964-03,922.8,927.8,0.9946,"Instalment credit, non-retail finance businesses",922.8
+1964-04,925.8,931.3,0.9941,"Instalment credit, non-retail finance businesses",925.8
+1964-05,933,937.6,0.9951,"Instalment credit, non-retail finance businesses",933
+1964-06,939.2,947.6,0.9912,"Instalment credit, non-retail finance businesses",939.2
+1964-07,945.6,952.6,0.9926,"Instalment credit, non-retail finance businesses",945.6
+1964-08,954.2,959.3,0.9947,"Instalment credit, non-retail finance businesses",954.2
+1964-09,974.5,977,0.9974,"Instalment credit, non-retail finance businesses",974.5
+1964-10,985.8,983.6,1.0022,"Instalment credit, non-retail finance businesses",985.8
+1964-11,1002.6,992.8,1.0099,"Instalment credit, non-retail finance businesses",1002.6
+1964-12,1025.4,1010.7,1.0145,"Instalment credit, non-retail finance businesses",1025.4
+1965-01,1028,1015.3,1.0125,"Instalment credit, non-retail finance businesses",1028
+1965-02,1028.7,1027.9,1.0008,Interpolated,
+1965-03,1029.4,1035,0.9946,"Instalment credit, non-retail finance businesses",1029.4
+1965-04,1036.3,1042.5,0.9941,Interpolated,
+1965-05,1043.3,1048.5,0.9951,Interpolated,
+1965-06,1050.3,1059.7,0.9912,"Instalment credit, non-retail finance businesses",1050.3
+1965-07,1058.3,1066.2,0.9926,Interpolated,
+1965-08,1066.4,1072.1,0.9947,Interpolated,
+1965-09,1074.5,1077.3,0.9974,"Instalment credit, non-retail finance businesses",1074.5
+1965-10,1078.6,1076.2,1.0022,"Instalment credit, non-retail finance businesses",1078.6
+1965-11,1083.2,1072.6,1.0099,"Instalment credit, non-retail finance businesses",1083.2
+1965-12,1089.2,1073.6,1.0145,"Instalment credit, non-retail finance businesses",1089.2
+1966-01,1085.7,1072.3,1.0125,"Instalment credit, non-retail finance businesses",1085.7
+1966-02,1075.2,1074.4,1.0008,"Instalment credit, non-retail finance businesses",1075.2
+1966-03,1070.1,1075.9,0.9946,"Instalment credit, non-retail finance businesses",1070.1
+1966-04,1071.6,1078,0.9941,"Instalment credit, non-retail finance businesses",1071.6
+1966-05,1070.9,1076.2,0.9951,"Instalment credit, non-retail finance businesses",1070.9
+1966-06,1070.2,1082.4,0.9887,"Instalment credit, non-retail finance businesses",1070.2
+1966-07,1069.8,1079.5,0.991,"Instalment credit, non-retail finance businesses",1069.8
+1966-08,1069,1075.6,0.9939,"Instalment credit, non-retail finance businesses",1069
+1966-09,1072.8,1074.6,0.9983,"Instalment credit, non-retail finance businesses",1072.8
+1966-10,1080.3,1078.3,1.0019,"Instalment credit, non-retail finance businesses",1080.3
+1966-11,1092.4,1082.4,1.0092,"Instalment credit, non-retail finance businesses",1092.4
+1966-12,1102.3,1084.7,1.0162,"Instalment credit, non-retail finance businesses",1102.3
+1967-01,1103.2,1088,1.014,"Instalment credit, non-retail finance businesses",1103.2
+1967-02,1090.3,1088,1.0021,"Instalment credit, non-retail finance businesses",1090.3
+1967-03,1085.1,1090.2,0.9953,"Instalment credit, non-retail finance businesses",1085.1
+1967-04,1091.6,1097,0.9951,"Instalment credit, non-retail finance businesses",1091.6
+1967-05,1096.8,1102.3,0.995,"Instalment credit, non-retail finance businesses",1096.8
+1967-06,1103.5,1115.8,0.989,"Instalment credit, non-retail finance businesses",1103.5
+1967-07,1104.1,1114.1,0.991,"Instalment credit, non-retail finance businesses",1104.1
+1967-08,1116,1123,0.9938,"Instalment credit, non-retail finance businesses",1116
+1967-09,1132.9,1134.4,0.9987,"Instalment credit, non-retail finance businesses",1132.9
+1967-10,1150.9,1148.4,1.0022,"Instalment credit, non-retail finance businesses",1150.9
+1967-11,1171.2,1159.9,1.0097,"Instalment credit, non-retail finance businesses",1171.2
+1967-12,1185.6,1167,1.0159,"Instalment credit, non-retail finance businesses",1185.6
+1968-01,1195.5,1180.2,1.013,"Instalment credit, non-retail finance businesses",1195.5
+1968-02,1193,1192,1.0008,"Instalment credit, non-retail finance businesses",1193
+1968-03,1198.9,1204.9,0.995,"Instalment credit, non-retail finance businesses",1198.9
+1968-04,1210.1,1217.9,0.9936,"Instalment credit, non-retail finance businesses",1210.1
+1968-05,1226.6,1234.3,0.9938,"Instalment credit, non-retail finance businesses",1226.6
+1968-06,1237.4,1248.4,0.9912,"Instalment credit, non-retail finance businesses",1237.4
+1968-07,1247.6,1258.4,0.9914,"Instalment credit, non-retail finance businesses",1247.6
+1968-08,1258.2,1264.5,0.995,"Instalment credit, non-retail finance businesses",1258.2
+1968-09,1269.9,1271.6,0.9987,"Instalment credit, non-retail finance businesses",1269.9
+1968-10,1294,1291,1.0023,"Instalment credit, non-retail finance businesses",1294
+1968-11,1319.3,1305.5,1.0106,"Instalment credit, non-retail finance businesses",1319.3
+1968-12,1336.6,1316.6,1.0152,"Instalment credit, non-retail finance businesses",1336.6
+1969-01,1346.5,1329,1.0132,"Instalment credit, non-retail finance businesses",1346.5
+1969-02,1342.7,1342.3,1.0003,"Instalment credit, non-retail finance businesses",1342.7
+1969-03,1347.7,1355.3,0.9944,"Instalment credit, non-retail finance businesses",1347.7
+1969-04,1359.6,1368.1,0.9938,"Instalment credit, non-retail finance businesses",1359.6
+1969-05,1377.2,1384.3,0.9949,"Instalment credit, non-retail finance businesses",1377.2
+1969-06,1388.6,1402,0.9904,"Instalment credit, non-retail finance businesses",1388.6
+1969-07,1409.5,1419.7,0.9928,"Instalment credit, non-retail finance businesses",1409.5
+1969-08,1425,1433,0.9944,"Instalment credit, non-retail finance businesses",1425
+1969-09,1438.8,1443.3,0.9969,"Instalment credit, non-retail finance businesses",1438.8
+1969-10,1460.5,1457.1,1.0023,"Instalment credit, non-retail finance businesses",1460.5
+1969-11,1476.5,1461.4,1.0103,"Instalment credit, non-retail finance businesses",1476.5
+1969-12,1496.4,1475.4,1.0142,"Instalment credit, non-retail finance businesses",1496.4
+1970-01,1506.1,1488,1.0122,"Instalment credit, non-retail finance businesses",1506.1
+1970-02,1515.1,1514.5,1.0004,"Instalment credit, non-retail finance businesses",1515.1
+1970-03,1523.6,1533.4,0.9936,"Instalment credit, non-retail finance businesses",1523.6
+1970-04,1541.8,1552.2,0.9933,"Instalment credit, non-retail finance businesses",1541.8
+1970-05,1554.6,1561.9,0.9953,"Instalment credit, non-retail finance businesses",1554.6
+1970-06,1565.8,1577.9,0.9923,"Instalment credit, non-retail finance businesses",1565.8
+1970-07,1577.8,1587.3,0.994,"Instalment credit, non-retail finance businesses",1577.8
+1970-08,1590.2,1597.9,0.9952,"Instalment credit, non-retail finance businesses",1590.2
+1970-09,1603.8,1609.9,0.9962,"Instalment credit, non-retail finance businesses",1603.8
+1970-10,1618.1,1613.4,1.0029,"Instalment credit, non-retail finance businesses",1618.1
+1970-11,1637,1620.1,1.0104,"Instalment credit, non-retail finance businesses",1637
+1970-12,1659.5,1635.8,1.0145,"Instalment credit, non-retail finance businesses",1659.5
+1971-01,1674,1654,1.0121,"Instalment credit, non-retail finance businesses",1674
+1971-02,1678.3,1677.6,1.0004,"Instalment credit, non-retail finance businesses",1678.3
+1971-03,1685.4,1694.6,0.9946,"Instalment credit, non-retail finance businesses",1685.4
+1971-04,1696.6,1706.3,0.9943,"Instalment credit, non-retail finance businesses",1696.6
+1971-05,1710.6,1716.9,0.9963,"Instalment credit, non-retail finance businesses",1710.6
+1971-06,1725.8,1733.9,0.9953,"Instalment credit, non-retail finance businesses",1725.8
+1971-07,1738.1,1746.1,0.9954,"Instalment credit, non-retail finance businesses",1738.1
+1971-08,1753.1,1760.6,0.9957,"Instalment credit, non-retail finance businesses",1753.1
+1971-09,1761.9,1769.5,0.9957,"Instalment credit, non-retail finance businesses",1761.9
+1971-10,1768.8,1765.7,1.0018,"Instalment credit, non-retail finance businesses",1768.8
+1971-11,1779.2,1763.7,1.0088,"Instalment credit, non-retail finance businesses",1779.2
+1971-12,1794.2,1774.6,1.011,"Instalment credit, non-retail finance businesses",1794.2
+1972-01,1796,1777.3,1.0105,"Instalment credit, non-retail finance businesses",1796
+1972-02,1787.7,1786.9,1.0004,"Instalment credit, non-retail finance businesses",1787.7
+1972-03,1780.4,1790,0.9946,"Instalment credit, non-retail finance businesses",1780.4
+1972-04,1783,1793,0.9944,"Instalment credit, non-retail finance businesses",1783
