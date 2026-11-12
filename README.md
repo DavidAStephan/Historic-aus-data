@@ -28,6 +28,7 @@ the latest issue is used because it carries revisions.
 | [`09-unemployment`](09-unemployment) | Monthly unemployment rate: CES registered unemployed and benefit recipients (bulletin scans), seasonally adjusted and scaled to survey benchmarks, joined to the ABS monthly Labour Force Survey | Jan 1950 – Aug 2026 | Monthly |
 | [`10-wages`](10-wages) | Male average weekly earnings and wage rates (award rates, award index, WPI), nominal and real, with annual and quarterly wage Phillips curves | 1949-50 – 2025-26 | Years ended June; quarterly male AWE 1949–2012 (bulletin scans) and WPI from 1997 |
 | [`11-housing-finance`](11-housing-finance) | Housing credit outstanding and its share of GDP (savings banks and building societies before 1977); owner-occupier loan commitments by lender; average loan in years of male earnings | 1953 – 2026 | Years ended June |
+| [`12-investment-booms`](12-investment-booms) | Investment as a share of GDP (dwellings, private business, public; mining and ICT-industry investment), Australia's investment booms ranked, and the projected data-centre build-out in that context | 1861 – 2026 | Annual (calendar years to 1900, years ended June from 1901) |
 
 Each folder has the same layout:
 
@@ -42,8 +43,8 @@ README.md   method, sources, checks and caveats
 
 [`data/aus_historic_series.csv`](data/aus_historic_series.csv) holds the headline series from
 every folder in long format: `series_id`, `date` (YYYY-MM, the last month of the period),
-`value`. That is 85 series and about 28,000 observations: 32 monthly, 27 quarterly and
-26 annual (years ended June).
+`value`. That is 91 series and about 29,000 observations: 32 monthly, 27 quarterly and
+32 annual (years ended June; the investment shares are calendar years before 1901).
 [`data/series_catalogue.csv`](data/series_catalogue.csv) gives each series' description, unit,
 seasonal adjustment, frequency, first and last date, and the output file and column it comes
 from. In R:
@@ -69,6 +70,7 @@ low/high ranges, components).
 | ![Capex](06-capex/output/capex_spliced.png) | ![Capex expectations](06-capex/output/capex_expectations.png) |
 | ![Real retail sales per person](07-retail-sales/output/retail_sales_real_per_capita.png) | ![Retail sales](07-retail-sales/output/retail_sales_spliced.png) |
 | ![Interest rates](08-money-credit-rates/output/interest_rates.png) | ![Credit and money to GDP](08-money-credit-rates/output/credit_money_gdp.png) |
+| ![Investment share of GDP since 1861](12-investment-booms/output/investment_share_gdp_1861_2026.png) | ![Investment booms ranked](12-investment-booms/output/investment_booms_ranked.png) |
 
 ## Reproducing
 
@@ -85,6 +87,7 @@ This rebuilds every output in dependency order:
 03-building-approvals ──► 04-housing-pipeline ──► 05-housing-per-capita ──► 07-retail-sales
 06-capex ──────────────────────────────────────────────► 08-money-credit-rates (uses 06's GDP)
 04, 08, 10 ──► 11-housing-finance
+12-investment-booms (self-contained)
 ```
 
 Each script prints its checks (sum checks, splice ratios, overlap comparisons) as it runs.
@@ -118,6 +121,7 @@ against the seasonally adjusted figures printed in the old bulletins.
   credit and interest-rate tables)
 - OECD copies of ABS labour force series via FRED
 - *The Canberra Times* via Trove (CES vacancy counts 1979–80)
+- Historical national accounts: N.G. Butlin (1962, 1964), M.W. Butlin (1977), Mitchell's *International Historical Statistics*, the Jordà-Schularick-Taylor Macrohistory Database; data-centre investment estimates from CBA, Oxford Economics and Westpac (2026)
 
 ABS material is used under the Creative Commons Attribution 4.0 International licence.
 

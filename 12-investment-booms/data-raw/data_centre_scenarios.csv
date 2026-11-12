@@ -1,0 +1,11 @@
+scenario,year,capex_bn,domestic_share,source
+CBA central ($150bn to 2030),2026,15,0.48,"CBA (Aug and Oct 2026): ~$150bn of data-centre investment by 2030, peaking in 2027/28-2028/29; annual path illustrative. Domestic share: Westpac (May 2026) net GDP impact ~$75bn of $155bn"
+CBA central ($150bn to 2030),2027,27,0.48,
+CBA central ($150bn to 2030),2028,36,0.48,
+CBA central ($150bn to 2030),2029,37.5,0.48,
+CBA central ($150bn to 2030),2030,34.5,0.48,
+Oxford Economics ($224bn 2025/26-2029/30),2026,18,0.35,"Oxford Economics (2026): capex from under $10bn a year in 2025 to over $60bn by 2030, $224bn over FY26-FY30, ~35% spent onshore; annual path illustrative"
+Oxford Economics ($224bn 2025/26-2029/30),2027,32,0.35,
+Oxford Economics ($224bn 2025/26-2029/30),2028,50,0.35,
+Oxford Economics ($224bn 2025/26-2029/30),2029,60,0.35,
+Oxford Economics ($224bn 2025/26-2029/30),2030,64,0.35,

@@ -105,7 +105,15 @@ man <- bind_rows(
   s("housing_commitments_number_a", "11-housing-finance", "housing_finance_annual.csv", "year_ended_june", "commitments_all_number", "A", "number", "", "Owner-occupier housing loan commitments, new and established dwellings"),
   s("housing_commitments_value_a", "11-housing-finance", "housing_finance_annual.csv", "year_ended_june", "commitments_all_m", "A", "$ million", "", "Owner-occupier housing loan commitments, value"),
   s("average_housing_loan_a", "11-housing-finance", "housing_finance_annual.csv", "year_ended_june", "average_loan", "A", "$", "", "Average new owner-occupier housing loan"),
-  s("housing_loan_to_earnings_a", "11-housing-finance", "housing_finance_annual.csv", "year_ended_june", "average_loan_years_of_male_earnings", "A", "years", "", "Average new housing loan / annual male AWE")
+  s("housing_loan_to_earnings_a", "11-housing-finance", "housing_finance_annual.csv", "year_ended_june", "average_loan_years_of_male_earnings", "A", "years", "", "Average new housing loan / annual male AWE"),
+  # 12: investment booms
+  s("investment_tangible_pct_gdp_a", "12-investment-booms", "investment_share_gdp_1861_2026.csv", "year", "total", "A", "per cent of GDP", "",
+    "Tangible fixed investment (buildings, structures, machinery and equipment; private and public) / GDP; calendar years to 1900 (dated June), years ended June from 1901; 1946-49 from Mitchell"),
+  s("investment_dwellings_pct_gdp_a", "12-investment-booms", "investment_share_gdp_1861_2026.csv", "year", "dwellings", "A", "per cent of GDP", "", "Dwelling investment / GDP (calendar years to 1900)"),
+  s("investment_business_pct_gdp_a", "12-investment-booms", "investment_share_gdp_1861_2026.csv", "year", "business", "A", "per cent of GDP", "", "Private non-dwelling tangible investment / GDP (calendar years to 1900; includes pastoral improvements before 1901)"),
+  s("investment_public_pct_gdp_a", "12-investment-booms", "investment_share_gdp_1861_2026.csv", "year", "public", "A", "per cent of GDP", "", "Public investment (general government and public corporations) / GDP (calendar years to 1900)"),
+  s("investment_mining_pct_gdp_a", "12-investment-booms", "investment_share_gdp_1861_2026.csv", "year", "mining", "A", "per cent of GDP", "", "Private mining investment / GDP: Butlin 1861-1900 (calendar years), ABS 5204.0 by industry from 1959/60 (all assets incl. exploration)"),
+  s("investment_ict_industry_pct_gdp_a", "12-investment-booms", "investment_share_gdp_1861_2026.csv", "year", "ict", "A", "per cent of GDP", "", "Private investment by the information media and telecommunications industry (includes data centres) / GDP, ABS 5204.0")
 )
 stopifnot(!any(duplicated(man$series_id)))
 
