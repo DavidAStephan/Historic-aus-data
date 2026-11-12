@@ -1,0 +1,86 @@
+series_id,description,unit,adjustment,frequency,first,last,n,section,source_file,column
+vacancies_000_q,"Job vacancies, CES (scaled) spliced onto ABS 6354.0; dated at the mid-quarter survey month",'000,SA,Q,1966-02,2026-08,238,01-job-vacancies,01-job-vacancies/output/job_vacancies_spliced_quarterly.csv,vacancies_000
+ces_vacancies_sa_m,CES registered unfilled vacancies,number,SA,M,1965-12,1979-05,162,01-job-vacancies,01-job-vacancies/output/ces_vacancies_sa_monthly.csv,vacancies_sa
+vacancy_rate_q,Vacancies as a share of the labour force; mid-quarter month,per cent,SA,Q,1966-08,2026-08,236,02-beveridge-curve,02-beveridge-curve/output/beveridge_quarterly.csv,vacancy_rate
+vacancies_per_unemployed_q,Vacancies per unemployed person; mid-quarter month,ratio,SA,Q,1966-08,2026-08,236,02-beveridge-curve,02-beveridge-curve/output/beveridge_quarterly.csv,v_per_u
+dwelling_approvals_m,"Dwelling units approved, total",number,original,M,1960-01,2026-09,801,03-building-approvals,03-building-approvals/output/dwelling_approvals_spliced_monthly.csv,total_orig
+dwelling_approvals_sa_m,"Dwelling units approved, total",number,SA,M,1960-01,2026-09,801,03-building-approvals,03-building-approvals/output/dwelling_approvals_spliced_monthly.csv,total_sa
+dwelling_approvals_private_sa_m,"Dwelling units approved, private sector",number,SA,M,1960-01,2026-09,801,03-building-approvals,03-building-approvals/output/dwelling_approvals_spliced_monthly.csv,private_sa
+dwelling_starts_q,New dwellings commenced,number,original,Q,1946-09,2026-06,320,04-housing-pipeline,04-housing-pipeline/output/housing_pipeline_quarterly.csv,starts_orig
+dwelling_starts_sa_q,New dwellings commenced,number,SA,Q,1946-09,2026-06,320,04-housing-pipeline,04-housing-pipeline/output/housing_pipeline_quarterly.csv,starts_sa
+dwelling_completions_sa_q,New dwellings completed,number,SA,Q,1946-09,2026-06,320,04-housing-pipeline,04-housing-pipeline/output/housing_pipeline_quarterly.csv,completions_sa
+population_q,"Population, total (ERP basis)",persons,,Q,1946-06,2026-06,321,05-housing-per-capita,05-housing-per-capita/output/population_quarterly.csv,pop_total
+population_15_64_q,Population aged 15-64,persons,,Q,1946-06,2026-06,321,05-housing-per-capita,05-housing-per-capita/output/population_quarterly.csv,pop_15_64
+dwelling_starts_per_1000_q,"Dwellings commenced per 1,000 people","per 1,000 people, annualised",SA,Q,1946-09,2026-06,320,05-housing-per-capita,05-housing-per-capita/output/housing_pipeline_per_capita.csv,starts_per_1000
+capex_sa_q,"Private new capital expenditure, total",$ million,SA,Q,1961-06,2026-06,261,06-capex,06-capex/output/capex_spliced_quarterly.csv,total_sa
+capex_buildings_sa_q,"Private new capex, buildings and structures",$ million,SA,Q,1961-06,2026-06,261,06-capex,06-capex/output/capex_spliced_quarterly.csv,bs_sa
+capex_equipment_sa_q,"Private new capex, equipment, plant and machinery",$ million,SA,Q,1961-06,2026-06,261,06-capex,06-capex/output/capex_spliced_quarterly.csv,epm_sa
+capex_real_q,"Private new capital expenditure, real","$ million, 2023-24 prices",SA,Q,1961-06,2026-06,261,06-capex,06-capex/output/capex_spliced_quarterly.csv,total_real_2023_24_prices
+capex_pct_gdp_q,"Private new capital expenditure, share of GDP",per cent of GDP,SA,Q,1961-06,2026-06,261,06-capex,06-capex/output/capex_spliced_quarterly.csv,share_gdp_pct
+retail_sales_m,Retail turnover,$ million,SA,M,1961-07,2025-06,768,07-retail-sales,07-retail-sales/output/retail_sales_monthly.csv,turnover_sa
+retail_sales_real_m,"Retail turnover, real","$ million, 2024-25 prices",SA,M,1961-07,2025-06,768,07-retail-sales,07-retail-sales/output/retail_sales_monthly.csv,turnover_sa_real_2024_25
+retail_sales_q,Retail turnover,$ million,SA,Q,1950-09,2025-06,300,07-retail-sales,07-retail-sales/output/retail_sales_quarterly.csv,turnover_sa
+retail_real_per_capita_q,"Retail turnover, real, per person","$ a person a year, 2024-25 prices",SA,Q,1950-09,2025-06,300,07-retail-sales,07-retail-sales/output/retail_sales_quarterly.csv,real_per_capita_annualised
+cash_rate_m,"Cash rate (target from Aug 1990, interbank overnight before)",per cent,,M,1976-05,2026-10,606,08-money-credit-rates,08-money-credit-rates/output/interest_rates_monthly.csv,cash_rate
+bill_90d_m,90-day bank bill yield,per cent,,M,1969-06,2026-10,688,08-money-credit-rates,08-money-credit-rates/output/interest_rates_monthly.csv,bill_90d
+short_rate_m,"Short-term rate: cash rate, 90-day bills before May 1976",per cent,,M,1969-06,2026-10,688,08-money-credit-rates,08-money-credit-rates/output/interest_rates_monthly.csv,short_rate
+bond_10y_m,10-year government bond yield,per cent,,M,1969-07,2026-10,688,08-money-credit-rates,08-money-credit-rates/output/interest_rates_monthly.csv,bond_10y
+housing_rate_m,Banks' standard variable housing rate,per cent,,M,1959-01,2026-10,814,08-money-credit-rates,08-money-credit-rates/output/interest_rates_monthly.csv,housing_variable
+small_business_rate_m,Small business variable overdraft indicator rate,per cent,,M,1976-02,2026-10,609,08-money-credit-rates,08-money-credit-rates/output/interest_rates_monthly.csv,small_business_overdraft
+real_short_rate_m,Short rate less year-ended CPI inflation,per cent,,M,1969-06,2026-09,687,08-money-credit-rates,08-money-credit-rates/output/interest_rates_monthly.csv,real_short_rate
+real_bond_10y_m,10-year bond yield less year-ended CPI inflation,per cent,,M,1969-07,2026-09,687,08-money-credit-rates,08-money-credit-rates/output/interest_rates_monthly.csv,real_bond_10y
+cpi_inflation_m,"CPI inflation, year-ended (quarterly, interpolated to months)",per cent,,M,1959-01,2026-09,813,08-money-credit-rates,08-money-credit-rates/output/interest_rates_monthly.csv,cpi_inflation_ye
+breakeven_10y_m,10-year break-even inflation (nominal less indexed bond yield),per cent,,M,1985-12,2026-10,486,08-money-credit-rates,08-money-credit-rates/output/breakeven_inflation_monthly.csv,breakeven_10y
+real_bond_10y_indexed_m,10-year indexed bond yield (real),per cent,,M,1986-07,2026-10,484,08-money-credit-rates,08-money-credit-rates/output/breakeven_inflation_monthly.csv,real_bond_10y_indexed
+infl_exp_consumer_1y_q,"Consumer inflation expectations, 1 year ahead (Melbourne Institute)",per cent,,Q,2010-03,2026-09,67,08-money-credit-rates,08-money-credit-rates/output/inflation_expectations_quarterly.csv,consumer_1y
+infl_exp_business_3m_q,"Business expectations of selling prices, 3 months ahead, annualised (NAB)",per cent,,Q,1989-09,2026-09,149,08-money-credit-rates,08-money-credit-rates/output/inflation_expectations_quarterly.csv,business_3m_annualised
+infl_exp_economists_1y_q,"Market economists' inflation expectations, 1 year ahead",per cent,,Q,1993-09,2026-12,116,08-money-credit-rates,08-money-credit-rates/output/inflation_expectations_quarterly.csv,market_economists_1y
+infl_exp_economists_2y_q,"Market economists' inflation expectations, 2 years ahead",per cent,,Q,1994-09,2026-12,109,08-money-credit-rates,08-money-credit-rates/output/inflation_expectations_quarterly.csv,market_economists_2y
+infl_exp_unions_1y_q,"Union officials' inflation expectations, 1 year ahead",per cent,,Q,1996-09,2023-09,109,08-money-credit-rates,08-money-credit-rates/output/inflation_expectations_quarterly.csv,union_officials_1y
+currency_m,Currency,$ billion,SA,M,1959-07,2026-09,807,08-money-credit-rates,08-money-credit-rates/output/money_credit_monthly.csv,currency_bn
+m3_m,"M3, break-adjusted",$ billion,SA from 1965,M,1959-07,2026-09,807,08-money-credit-rates,08-money-credit-rates/output/money_credit_monthly.csv,m3_bn
+broad_money_m,"Broad money, break-adjusted",$ billion,SA,M,1976-08,2026-09,602,08-money-credit-rates,08-money-credit-rates/output/money_credit_monthly.csv,broad_money_bn
+credit_total_m,"Total credit, break-adjusted (interpolated before Sep 1976)",$ billion,SA,M,1959-07,2026-09,807,08-money-credit-rates,08-money-credit-rates/output/money_credit_monthly.csv,credit_total_bn
+credit_housing_m,"Housing credit, break-adjusted",$ billion,SA,M,1976-08,2026-09,602,08-money-credit-rates,08-money-credit-rates/output/money_credit_monthly.csv,credit_housing_bn
+credit_personal_m,"Personal credit, break-adjusted",$ billion,SA,M,1976-09,2026-09,601,08-money-credit-rates,08-money-credit-rates/output/money_credit_monthly.csv,credit_personal_bn
+credit_business_m,"Business credit, break-adjusted",$ billion,SA,M,1976-09,2026-09,601,08-money-credit-rates,08-money-credit-rates/output/money_credit_monthly.csv,credit_business_bn
+credit_pct_gdp_q,Total credit / four-quarter nominal GDP,per cent of GDP,,Q,1960-06,2026-06,265,08-money-credit-rates,08-money-credit-rates/output/money_credit_pct_gdp_quarterly.csv,credit_pct_gdp
+housing_credit_pct_gdp_q,Housing credit / four-quarter nominal GDP,per cent of GDP,,Q,1976-09,2026-06,200,08-money-credit-rates,08-money-credit-rates/output/money_credit_pct_gdp_quarterly.csv,housing_credit_pct_gdp
+m3_pct_gdp_q,M3 / four-quarter nominal GDP,per cent of GDP,,Q,1960-06,2026-06,265,08-money-credit-rates,08-money-credit-rates/output/money_credit_pct_gdp_quarterly.csv,m3_pct_gdp
+trading_bank_lending_m,"Major trading banks' loans, advances and bills discounted, 1957-76 (break-adjusted)",$ million,SA,M,1957-01,1976-12,240,08-money-credit-rates,08-money-credit-rates/output/bank_lending_monthly_1957_76.csv,trading_bank_lending_sa_m
+savings_bank_lending_m,"Savings banks' loans, 1957-76 (break-adjusted; interpolated between Junes before Sep 1971)",$ million,original,M,1957-01,1976-12,240,08-money-credit-rates,08-money-credit-rates/output/bank_lending_monthly_1957_76.csv,savings_bank_lending_m
+all_bank_lending_m,"Lending by major trading banks plus savings banks, 1957-76",$ million,SA,M,1957-01,1976-12,240,08-money-credit-rates,08-money-credit-rates/output/bank_lending_monthly_1957_76.csv,all_bank_lending_sa_m
+nonbank_lending_m,"Non-bank lending, monthly estimate 1957-76",$ million,SA,M,1957-01,1976-12,240,08-money-credit-rates,08-money-credit-rates/output/bank_lending_monthly_1957_76.csv,nonbank_lending_m
+instalment_credit_m,"Finance businesses' instalment credit for retail sales outstanding, 1953-72",$ million,SA,M,1953-06,1972-04,227,08-money-credit-rates,08-money-credit-rates/output/instalment_credit_monthly_1953_72.csv,instalment_credit_sa_m
+bank_loans_a,"Lending by banks, end-June (OP8)",$ million,,A,1953-06,1997-06,45,08-money-credit-rates,08-money-credit-rates/output/lending_banks_nonbanks_june_1953_97.csv,bank_loans_m
+nonbank_loans_a,"Lending by non-bank financial intermediaries, end-June (OP8; restated before 1963)",$ million,,A,1953-06,1997-06,45,08-money-credit-rates,08-money-credit-rates/output/lending_banks_nonbanks_june_1953_97.csv,nonbank_loans_restated_m
+short_rate_a,Short-term rate (see short_rate_basis in the source file),per cent,,A,1959-06,2026-06,68,08-money-credit-rates,08-money-credit-rates/output/long_run_annual.csv,short_rate
+bond_10y_a,"10-year bond yield (end-June before 1970, average after)",per cent,,A,1950-06,2026-06,77,08-money-credit-rates,08-money-credit-rates/output/long_run_annual.csv,bond_10y
+business_rate_a,Business overdraft rate,per cent,,A,1950-06,2026-06,77,08-money-credit-rates,08-money-credit-rates/output/long_run_annual.csv,business_rate
+cpi_inflation_a,"CPI inflation, financial-year average on previous year",per cent,,A,1950-06,2026-06,77,08-money-credit-rates,08-money-credit-rates/output/long_run_annual.csv,inflation
+real_short_rate_a,Short rate less CPI inflation,per cent,,A,1959-06,2026-06,68,08-money-credit-rates,08-money-credit-rates/output/long_run_annual.csv,real_short_rate
+real_bond_10y_a,10-year bond yield less CPI inflation,per cent,,A,1950-06,2026-06,77,08-money-credit-rates,08-money-credit-rates/output/long_run_annual.csv,real_bond_10y
+m3_growth_a,"M3 growth, June to June",per cent,,A,1951-06,2026-06,76,08-money-credit-rates,08-money-credit-rates/output/long_run_annual.csv,m3_growth
+credit_growth_a,"Credit growth, June to June (break-adjusted)",per cent,,A,1954-06,2026-06,73,08-money-credit-rates,08-money-credit-rates/output/long_run_annual.csv,credit_growth
+m3_pct_gdp_a,"M3, end-June, / financial-year GDP",per cent of GDP,,A,1950-06,2026-06,77,08-money-credit-rates,08-money-credit-rates/output/long_run_annual.csv,m3_pct_gdp
+credit_pct_gdp_a,"Credit, end-June, / financial-year GDP",per cent of GDP,,A,1953-06,2026-06,74,08-money-credit-rates,08-money-credit-rates/output/long_run_annual.csv,credit_pct_gdp
+nominal_gdp_a,"Nominal GDP, financial year (ABS from 1959-60; OP8 scaled before)",$ million,,A,1950-06,2026-06,77,08-money-credit-rates,08-money-credit-rates/output/long_run_annual.csv,nominal_gdp_m
+unemployment_rate_m,"Unemployment rate (CES-based estimate to Jan 1978, ABS LFS after)",per cent,SA,M,1950-01,2026-08,920,09-unemployment,09-unemployment/output/unemployment_rate_monthly.csv,unemployment_rate
+unemployed_000_m,Unemployed persons,'000,SA,M,1950-01,2026-08,920,09-unemployment,09-unemployment/output/unemployment_rate_monthly.csv,unemployed_000
+labour_force_000_m,Labour force,'000,SA,M,1950-01,2026-08,920,09-unemployment,09-unemployment/output/unemployment_rate_monthly.csv,labour_force_000
+awe_male_a,"Average weekly earnings, males (per employed male unit to 1980-81)",$ a week,,A,1950-06,2026-06,77,10-wages,10-wages/output/wages_annual.csv,awe_male
+awe_male_growth_a,Male AWE growth,per cent,,A,1951-06,2026-06,76,10-wages,10-wages/output/wages_annual.csv,awe_growth
+wage_rates_index_a,"Wage rates: minimum award rates, award index, then WPI","index, 2024-25 = 100",,A,1950-06,2026-06,77,10-wages,10-wages/output/wages_annual.csv,wage_rates_index
+wage_rates_growth_a,Wage rates growth,per cent,,A,1951-06,2026-06,76,10-wages,10-wages/output/wages_annual.csv,wage_rates_growth
+real_awe_male_a,Real male AWE,"$ a week, 2024-25 prices",,A,1950-06,2026-06,77,10-wages,10-wages/output/wages_annual.csv,real_awe_2025_dollars
+awe_male_q,"Male AWE, quarterly, benchmarked to the annual series (to Jun 2012)",$ a week,SA,Q,1949-09,2012-06,252,10-wages,10-wages/output/wages_quarterly.csv,awe_male_sa
+wage_growth_q,"Wage growth, year-ended: male AWE to Jun 1998, WPI after",per cent,SA,Q,1950-09,2026-06,304,10-wages,10-wages/output/wages_quarterly.csv,wage_growth_ye
+wpi_q,Wage Price Index,index,SA,Q,1997-09,2026-06,116,10-wages,10-wages/output/wpi_quarterly.csv,wpi_sa
+housing_credit_a,"Housing credit outstanding, end-June (savings banks + building societies, scaled, before 1977)",$ million,,A,1960-06,2026-06,67,11-housing-finance,11-housing-finance/output/housing_finance_annual.csv,housing_credit_m
+housing_credit_pct_gdp_a,"Housing credit, end-June, / financial-year GDP",per cent of GDP,,A,1960-06,2026-06,67,11-housing-finance,11-housing-finance/output/housing_finance_annual.csv,housing_credit_pct_gdp
+housing_commitments_new_number_a,Owner-occupier housing loan commitments for new dwellings,number,,A,1953-06,1997-06,44,11-housing-finance,11-housing-finance/output/housing_finance_annual.csv,commitments_new_dwellings_number
+housing_commitments_new_value_a,"Owner-occupier housing loan commitments for new dwellings, value",$ million,,A,1953-06,1997-06,44,11-housing-finance,11-housing-finance/output/housing_finance_annual.csv,commitments_new_dwellings_m
+housing_commitments_number_a,"Owner-occupier housing loan commitments, new and established dwellings",number,,A,1967-06,2026-06,54,11-housing-finance,11-housing-finance/output/housing_finance_annual.csv,commitments_all_number
+housing_commitments_value_a,"Owner-occupier housing loan commitments, value",$ million,,A,1967-06,2026-06,54,11-housing-finance,11-housing-finance/output/housing_finance_annual.csv,commitments_all_m
+average_housing_loan_a,Average new owner-occupier housing loan,$,,A,1953-06,2026-06,68,11-housing-finance,11-housing-finance/output/housing_finance_annual.csv,average_loan
+housing_loan_to_earnings_a,Average new housing loan / annual male AWE,years,,A,1953-06,2026-06,68,11-housing-finance,11-housing-finance/output/housing_finance_annual.csv,average_loan_years_of_male_earnings

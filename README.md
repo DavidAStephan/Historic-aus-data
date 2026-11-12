@@ -26,7 +26,7 @@ the latest issue is used because it carries revisions.
 | [`07-retail-sales`](07-retail-sales) | Retail turnover, nominal and real, per person, spliced across five census re-basings onto ABS 8501.0 | 1947-48 – Jun 2025 | Monthly from 1961, quarterly from 1950, financial years from 1947-48 |
 | [`08-money-credit-rates`](08-money-credit-rates) | Cash rate, bills, 10-year bond, housing and business lending rates; currency, M3, broad money; break-adjusted credit; trading bank, savings bank and non-bank lending 1957–76 (bulletin scans); bank and non-bank lending from 1953; break-even inflation and inflation expectations from 1985; real rates and shares of GDP | 1950 – Oct 2026 | Monthly from 1959 (1969 for bills and bonds), years ended June from 1950 |
 | [`09-unemployment`](09-unemployment) | Monthly unemployment rate: CES registered unemployed and benefit recipients (bulletin scans), seasonally adjusted and scaled to survey benchmarks, joined to the ABS monthly Labour Force Survey | Jan 1950 – Aug 2026 | Monthly |
-| [`10-wages`](10-wages) | Male average weekly earnings and wage rates (award rates, award index, WPI), nominal and real, with annual and quarterly wage Phillips curves | 1949-50 – 2025-26 | Years ended June; quarterly male AWE 1947–2012 (bulletin scans) and WPI from 1997 |
+| [`10-wages`](10-wages) | Male average weekly earnings and wage rates (award rates, award index, WPI), nominal and real, with annual and quarterly wage Phillips curves | 1949-50 – 2025-26 | Years ended June; quarterly male AWE 1949–2012 (bulletin scans) and WPI from 1997 |
 | [`11-housing-finance`](11-housing-finance) | Housing credit outstanding and its share of GDP (savings banks and building societies before 1977); owner-occupier loan commitments by lender; average loan in years of male earnings | 1953 – 2026 | Years ended June |
 
 Each folder has the same layout:
@@ -37,6 +37,28 @@ data-raw/   transcriptions and downloaded source data
 output/     the finished series (CSV) and charts (PNG)
 README.md   method, sources, checks and caveats
 ```
+
+## All series in one file
+
+[`data/aus_historic_series.csv`](data/aus_historic_series.csv) holds the headline series from
+every folder in long format: `series_id`, `date` (YYYY-MM, the last month of the period),
+`value`. That is 85 series and about 28,000 observations: 32 monthly, 27 quarterly and
+26 annual (years ended June).
+[`data/series_catalogue.csv`](data/series_catalogue.csv) gives each series' description, unit,
+seasonal adjustment, frequency, first and last date, and the output file and column it comes
+from. In R:
+
+```r
+source("R/load_aus_series.R")   # from a clone; falls back to GitHub if data/ is not found
+aus_catalogue()                                  # list the series
+aus_series("unemployment_rate_m")                # one series, long format
+aus_series(c("awe_male_a", "cpi_inflation_a", "credit_pct_gdp_a"), wide = TRUE)
+aus_series(section = "08-money-credit-rates", frequency = "M")
+```
+
+The file is rebuilt by `R/build_combined.R`, which `run_all.R` runs last. The list of series
+is set in that script; the folders' output files have more columns (sources, methods,
+low/high ranges, components).
 
 ## Headline charts
 

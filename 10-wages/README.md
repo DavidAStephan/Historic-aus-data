@@ -10,7 +10,7 @@ Annual (years ended June) Australian wage series, nominal and real:
 - growth rates, CPI inflation, real earnings, and the average unemployment rate from
   [`09-unemployment`](../09-unemployment) (for the Phillips curve below).
 
-**Quarterly**, Sep 1947 – Jun 2012: male AWE (seasonally adjusted), built from the quarterly
+**Quarterly**, Sep 1949 – Jun 2012: male AWE (seasonally adjusted), built from the quarterly
 figures in the Labour Reports and the *Digest of Current Economic Statistics* and benchmarked
 to the annual series. With the WPI (quarterly from Sep 1997) and the monthly unemployment rate,
 this gives a quarterly wage Phillips curve from 1950.
@@ -59,7 +59,7 @@ first is 1957/58, and years are assigned by position.
 3. **Real earnings:** male AWE ÷ CPI (financial-year averages), in 2024-25 dollars.
 4. **Check:** year-on-year growth in the Oct/Nov survey snapshots (OP8 table 4.18) tracks the
    financial-year AWE series within 0.7 points on average over 1983–94.
-5. **Quarterly male AWE, Sep 1947 – Jun 2012.**
+5. **Quarterly male AWE, Sep 1949 – Jun 2012.** The transcriptions start in Sep 1947, but the annual benchmarks start in 1949-50.
    - **Indicator.** The quarterly series above, joined in sequence; `data-raw/anu_awe_quarterly.csv`
      records the issue and page of every value, and the latest issue is used where a quarter was
      printed more than once.
@@ -74,7 +74,7 @@ first is 1957/58, and years are assigned by position.
        side, so no definitional break enters the path.
    - **Benchmarking.** Proportional Denton: the ratio of quarterly earnings to the indicator moves
      as smoothly as possible while every financial year's four quarters average exactly to the
-     annual male AWE. The ratio stays within ±6% of its mean over 65 years, so the bulletins'
+     annual male AWE. The ratio stays within ±6% of its mean over 63 years, so the bulletins'
      quarterly series and the annual series tell the same story.
    - **Wage growth for the Phillips curve:** year-ended growth in quarterly male AWE to June
      1998, and in the WPI after.

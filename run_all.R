@@ -22,4 +22,6 @@ for (s in steps) {
   source(s[2], echo = FALSE, local = new.env())
 }
 setwd(root)
+message("\n==== combined file")
+source("R/build_combined.R", local = new.env())
 message("\nAll done.")
