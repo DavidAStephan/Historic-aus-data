@@ -10,7 +10,7 @@ Long-run Australian series in three parts:
 Each comes in levels, growth and shares of GDP, and real rates are also given.
 
 - **Monthly:** interest rates from 1959 (housing) and 1969 (bills and bonds); money and credit from 1959;
-  trading bank lending 1957–1976, transcribed from the CBCS/ABS banking bulletins; break-even
+  trading and savings bank lending 1957–1976, transcribed from the CBCS/ABS banking bulletins; break-even
   inflation from 1986 (quarterly from Dec 1985).
 - **Annual (years ended June):** everything back to 1950. These come from the RBA's
   *Australian Economic Statistics 1949–50 to 1996–97* (Occasional Paper No. 8) and the 1969
@@ -30,6 +30,8 @@ Each comes in levels, growth and shares of GDP, and real rates are also given.
 | RBA Occasional Paper 8, tables 3.1, 3.2, 3.21a, 3.22a, 3.22b, 3.23 | M3 (from 1950), total credit (from 1953), bond yields, Treasury notes, money-market dealers' rate, bank bills, overdraft rates | 1949-50 – 1996-97 |
 | RBA Annual Report 1969, *Australian Interest Rates and Security Yields* | 10-year bond yields on rebateable and non-rebateable bonds, end of quarter | Sep 1966 – Jun 1969 |
 | CBCS/ABS banking bulletins (ANU Open Research scans): *Australian Banking Statistics* monthly bulletin, *Banking Statistics*, *Banking*, and the major trading banks' preliminary statements | Major trading banks' loans, advances and bills discounted, monthly average of weekly figures, original and seasonally adjusted | Jan 1957 – Dec 1976 (plus Decembers 1947–56) |
+| The same bulletins: *Banking Statistics* (Oct 1971 – Oct 1974) and *Banking* (Dec 1975, Dec 1976), savings bank assets tables | Savings banks' loans, advances and bills discounted, housing and other, end of month | Sep – Oct 1970, Sep 1971 – Dec 1976 |
+| RBA Occasional Paper 8, tables 3.8 and 3.9 | Trading banks' loans, advances and bills discounted (June average of weekly figures); savings banks' loans, total and housing (end-June) | 1950 – 1989 (savings bank loans from 1956, housing from 1960) |
 | RBA D2 | Lending by all banks (DLCALAB), for comparison | Sep 1976 – Dec 1978 |
 | RBA F2 historical file (`f02histhist.xls`) | 10-year nominal and indexed bond yields, monthly | Jul 1986 – May 2013 |
 | RBA F2 current file (`f02hist.xlsx`), and a copy of `f02hist.xls` from 14 Nov 2016 (Internet Archive) | The same; the archived copy fills Jun 2013 – Oct 2014, which the current file lacks, and overlaps the new indexed series | Jun 2013 – Oct 2026 |
@@ -97,14 +99,32 @@ Annual Report figures are in the other `data-raw` files.
      both bases; the new basis is 1.35% lower, and earlier months are scaled down by that ratio.
    - **Seasonal adjustment.** The bulletins' own factors (X-11), taken as original ÷ seasonally
      adjusted from the same issue. 1957–59 use the 1960–64 average factor for each month.
+   - **Savings bank lending.** Savings banks' loans, advances and bills discounted, split into
+     housing and other, are transcribed in `data-raw/anu_savings_bank_loans_monthly.csv` for
+     Sep 1971 – Dec 1976 (five issues of 14 months each) and Sep – Oct 1970. The bulletins before
+     1971 print savings bank deposits but not their loans, so earlier months come from Occasional
+     Paper 8's end-June figures (table 3.9: total loans from 1956, housing from 1960), interpolated
+     log-linearly between Junes (and Sep – Oct 1970). All are put on the basis of the latest figures:
+
+     | Break | Evidence | New ÷ old |
+     |---|---|---|
+     | Papua New Guinea excluded from 1974 | Sep – Oct 1973 printed on both bases | housing 1.000, other 0.962 |
+     | One savings bank's accounting changed, June 1975 | Nov – Dec 1975 printed on both bases | housing 1.000, other 0.945 |
+     | Loans to prescribed banks other than trading banks excluded from June 1970 | No overlap; OP8 says "about $150 million" with deposits | other loans before June 1970 × 0.55 (an estimate: 1969-70 growth set to the 1970-73 average) |
+
+     The bulletins' June figures match OP8 to within $1 million (1972–74, 1976); June 1975 differs
+     by the accounting change. Savings bank loans have little seasonality and are not adjusted.
+   - **All banks.** Major trading banks plus savings banks. In Sep – Dec 1976 this is 99.4–99.7% of
+     the RBA's lending by all banks (DLCALAB), against 61% for the major trading banks alone.
    - **Monthly total credit, Jun 1957 – Aug 1976.** The end-June totals from step 5, and Sep 1976
-     from the RBA series, are interpolated by proportional Denton on seasonally adjusted trading
-     bank lending. For stocks this moves the ratio of credit to bank lending in a straight line
+     from the RBA series, are interpolated by proportional Denton on seasonally adjusted lending by
+     all banks. For stocks this moves the ratio of credit to bank lending in a straight line
      between benchmarks, so the monthly path follows the banks while every June matches.
-   - **How close is the indicator?** Over the years to June 1958–1976, trading bank lending growth
-     has a correlation of 0.89 with total credit growth, but grew more slowly (10.6% a year against
-     13.9%) as finance companies, building societies and savings banks gained share. In late 1976
-     the major trading banks held 61% of all banks' lending.
+   - **How close is the indicator?** Over the years to June 1958–1976, total credit grew 13.9% a
+     year, all banks' lending 12.1% and the major trading banks' 10.6%, as finance companies and
+     building societies gained share. The correlation with credit growth is 0.83 for all banks and
+     0.89 for trading banks alone; savings bank lending before 1971 is interpolated between Junes,
+     so it adds level rather than monthly timing.
 7. **Break-even inflation and inflation expectations.**
    - **Why the history is patchy.** The RBA's current table G3 shows break-even inflation only from
      2015 and consumer expectations only from 2022, because it keeps a rolling window of the
@@ -197,7 +217,25 @@ Over the years to June 1987–2026 break-even inflation averaged 3.3%, against C
 Trading bank lending shows the policy cycles of the period: the 1960–61 credit squeeze (lending
 fell 8% in the year to November 1961), growth of 3–15% a year from 1964 to 1970, the 1973 boom
 (44% in the year to October 1973) and the 1974 squeeze, after which growth slowed to 7% by early
-1976.
+1976. Savings bank lending, almost all housing, moved differently: it grew 10–25% a year through the
+1960s without the trading banks' swings, and accelerated to about 30% in 1975–76, when trading
+bank lending was slowing.
+
+![Bank lending relative to GDP](output/bank_lending_gdp.png)
+
+**Savings banks' share of bank lending** (end-June, levels as published):
+
+| June | Trading banks, $m | Savings banks, $m | Savings banks' share | Savings bank housing, % of GDP | Banks' share of total credit |
+|---|---|---|---|---|---|
+| 1958 | 2,060 | 456 | 18% | n.a. | 76% |
+| 1966 | 3,183 | 1,535 | 33% | 5.6% | 74% |
+| 1974 | 10,120 | 4,186 | 29% | 6.1% | 55% |
+| 1982 | 26,337 | 14,742 | 36% | 7.4% | 47% |
+| 1986 | 48,847 | 30,575 | 38% | 9.9% | 48% |
+
+From the late 1950s savings banks went from deposit-takers that held mostly government
+securities to the main source of housing finance. Banks as a whole lost ground to finance
+companies and building societies until deregulation in the mid-1980s.
 
 ## Files
 
@@ -210,10 +248,13 @@ fell 8% in the year to November 1961), growth of 3–15% a year from 1964 to 197
 | `output/bond_10y_quarterly_1966_69.csv` | The 1969 Annual Report's rebateable and non-rebateable 10-year yields |
 | `output/breakeven_inflation_monthly.csv` | Dec 1985 – Oct 2026: 10-year nominal and indexed yields (and which indexed series), their difference, the RBA quarterly break-even, the benchmarked monthly break-even and the implied real yield |
 | `output/inflation_expectations_quarterly.csv` | Dec 1985 – Dec 2026: break-even, real 10-year yield, consumer (1 year), business (3 months, annualised), market economists (1 and 2 years), union officials (1 and 2 years), CPI inflation |
-| `output/bank_lending_monthly_1957_76.csv` | Jan 1957 – Dec 1976, $ million: major trading banks' lending (break-adjusted, original and seasonally adjusted, and as printed, with the source issue), and the interpolated monthly total credit |
+| `output/bank_lending_monthly_1957_76.csv` | Jan 1957 – Dec 1976, $ million: major trading banks' lending (break-adjusted, original and seasonally adjusted, and as printed, with the source issue); savings banks' housing, other and total lending (break-adjusted, with method and source); all banks' lending (original and SA); and the interpolated monthly total credit |
+| `output/bank_lending_june_1950_89.csv` | End-June 1950 – 1989: trading and savings bank lending as published, savings banks' share, shares of GDP, banks' share of total credit, the break-adjusted savings bank figures, and OP8's notes on breaks |
 | `data-raw/rba_f2_indexed_bond_monthly.csv` | 10-year nominal yield and the old and new indexed bond yield series, monthly, with the file each came from |
 | `data-raw/rba_g3_inflation_expectations.csv` | Every G3 series by quarter, with the file (current or archived copy) each value came from |
 | `data-raw/anu_bank_loans_monthly.csv` | Every transcribed bank lending value: series, month, value, unit (£'000, £m or $m), issue, page, note |
+| `data-raw/anu_savings_bank_loans_monthly.csv` | Every transcribed savings bank loans value (housing, other): month, value, issue, page, note |
+| `data-raw/op8_3_8_trading_banks_june.csv`, `op8_3_9_savings_banks_june.csv` | OP8 tables 3.8 and 3.9 (deposits and loans at June), with the tables' notes on breaks |
 | `data-raw/` (other) | The RBA extract, the Occasional Paper 8 tables and the 1969 Annual Report figures |
 
 ## Caveats
@@ -229,9 +270,12 @@ fell 8% in the year to November 1961), growth of 3–15% a year from 1964 to 197
 - **Bond yields before 1969.** These depend on the 0.37-point rebateable adjustment, which is
   measured on only three quarters.
 - **Monthly credit before September 1976.** Only the end-June levels are measured. The months
-  between follow major trading bank lending, which covered roughly 60% of bank lending and less
-  of total credit. Savings bank and non-bank lending are assumed to grow smoothly relative to it
-  between Junes.
+  between follow all banks' lending, which was 75% of total credit in the late 1950s and about
+  55% by the mid-1970s. Non-bank lending is assumed to grow smoothly relative to it between
+  Junes. Before September 1971, savings bank lending is itself interpolated between Junes.
+- **Savings bank lending** is an end-of-month stock, while trading bank lending is an average of
+  Wednesdays; the two are added without adjustment. The June 1970 break in other loans is
+  estimated (it moves all-bank lending by about 2% before 1970).
 - **Trading bank lending** is a monthly average of Wednesday figures, not an end-of-month stock.
   It excludes loans to the authorised short-term money market dealers. Some months in the
   bulletins exclude one Wednesday (a bank holiday), and are marked so in the source.

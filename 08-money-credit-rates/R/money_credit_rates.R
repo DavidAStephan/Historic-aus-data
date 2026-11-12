@@ -229,25 +229,110 @@ d2 <- read_csv("data-raw/rba_d2_bank_loans_1976_81.csv", show_col_types = FALSE)
 ov3 <- bank |> inner_join(d2, by = "t")
 cat(sprintf("Major trading banks / RBA lending by all banks (DLCALAB), Sep-Dec 1976: %.3f - %.3f\n",
             min(ov3$mtb_orig / (1000 * ov3$DLCALAB)), max(ov3$mtb_orig / (1000 * ov3$DLCALAB))))
+
+# ---- 4b(ii). Savings bank lending, monthly 1956 - 1976 --------------------------------------
+# Savings banks' loans, advances and bills discounted (housing and other), end of month.
+# - Monthly: the savings bank assets tables of the banking bulletins, Sep-Oct 1970 and Sep 1971 -
+#   Dec 1976 (14 months per issue; the latest issue wins).
+# - End-June, 1956 - 1989: RBA Occasional Paper 8, table 3.9 (total loans from 1956, housing
+#   from 1960). Trading banks' June figures (OP8 table 3.8) are kept alongside for the long view.
+# Breaks, all put on the basis of the latest figures (excluding Papua New Guinea, after the 1975
+# accounting change):
+# - PNG excluded from June 1974: Sep-Oct 1973 were printed on both bases (BS Oct 1973, BS Oct 1974).
+# - One savings bank changed its accounting from June 1975: Nov-Dec 1975 were printed on both
+#   bases (BK Dec 1975, BK Dec 1976); OP8 also gives June 1975 on the old basis (5320).
+# - From June 1970 loans to prescribed banks other than trading banks are excluded (OP8 note (f),
+#   "about $150 million" with deposits). There is no overlap, so other loans before June 1970 are
+#   scaled so that 1969-70 growth equals the average growth of 1970-71 to 1972-73.
+sbm <- read_csv("data-raw/anu_savings_bank_loans_monthly.csv", col_types = "ccdccic") |>
+  mutate(t = mi(month), d = issue_date(issue),
+         basis = case_when(issue == "BK1976-12" ~ "C", issue %in% c("BK1975-12", "BS1974-10") ~ "B", TRUE ~ "A"))
+sbj <- op_sb <- read_csv("data-raw/op8_3_9_savings_banks_june.csv", show_col_types = FALSE)
+op_tb <- read_csv("data-raw/op8_3_8_trading_banks_june.csv", show_col_types = FALSE)
+lk <- function(s, b_old, b_new) {               # new / old ratio over the months printed on both bases
+  o <- sbm |> filter(series == s, basis == b_old); n <- sbm |> filter(series == s, basis == b_new)
+  j <- inner_join(o, n, by = "t"); exp(mean(log(j$value.y / j$value.x)))
+}
+f_ab <- c(housing = lk("sb_loans_housing", "A", "B"), other = lk("sb_loans_other", "A", "B"))
+f_bc <- c(housing = lk("sb_loans_housing", "B", "C"), other = lk("sb_loans_other", "B", "C"))
+cat(sprintf("Savings bank breaks (new/old): PNG Sep-Oct 1973 housing %.4f, other %.4f; accounting Nov-Dec 1975 housing %.4f, other %.4f\n",
+            f_ab["housing"], f_ab["other"], f_bc["housing"], f_bc["other"]))
+adj <- function(v, basis, s) v * case_when(basis == "A" ~ f_ab[s] * f_bc[s], basis == "B" ~ f_bc[s], TRUE ~ 1)
+sbl <- sbm |> group_by(series, t) |> slice_max(d, n = 1, with_ties = FALSE) |> ungroup() |>
+  mutate(s = sub("sb_loans_", "", series), v = adj(value, basis, s))
+sbw <- inner_join(sbl |> filter(s == "housing") |> select(t, v_housing = v, issue_housing = issue),
+                  sbl |> filter(s == "other") |> select(t, v_other = v), by = "t")
+# June benchmarks on the same basis: OP8 June 1950-73 include PNG (basis A), 1974 is B, 1975+ C
+sbj <- sbj |> mutate(t = mi(sprintf("%d-06", june)), other = loans_total - loans_housing,
+                     basis = case_when(june <= 1973 ~ "A", june == 1974 ~ "B", TRUE ~ "C"),
+                     housing = adj(loans_housing, basis, "housing"), other = adj(other, basis, "other"))
+gl <- with(sbj |> filter(june %in% 1970:1973), mean(diff(log(other))))
+k70 <- sbj$other[sbj$june == 1970] / exp(gl) / sbj$other[sbj$june == 1969]
+sbj <- sbj |> mutate(other = if_else(june < 1970, other * k70, other))
+# 1956-59: housing not split out. The total is put on the latest basis with the housing factors
+# (housing was about 90 per cent of loans) and the 1970 adjustment applied to its non-housing part,
+# taken as the 1960 share.
+sh60 <- with(sbj |> filter(june == 1960), other / (housing + other))
+sbj <- sbj |> mutate(total = case_when(!is.na(housing) ~ housing + other,
+                                       TRUE ~ adj(loans_total, basis, "housing") * (1 - sh60 * (1 - k70))))
+cat(sprintf("Savings bank other loans before June 1970 scaled by %.3f (break in OP8 note (f)); June 1969: %.0f -> %.0f\n",
+            k70, sbj$other[sbj$june == 1969] / k70, sbj$other[sbj$june == 1969]))
+# checks: June figures in the bulletins against OP8 (same basis)
+ckj <- sbm |> filter(t %% 12L == 5L) |> group_by(t, issue) |> summarise(v = sum(value), n = n(), .groups = "drop") |>
+  filter(n == 2) |> inner_join(op_sb |> mutate(t = mi(sprintf("%d-06", june))), by = "t")
+cat(sprintf("Savings bank June loans, bulletins vs OP8 3.9 (%s): gaps %s $m\n",
+            paste(lab(ckj$t), ckj$issue, collapse = ", "), paste(sprintf("%.1f", ckj$v - ckj$loans_total), collapse = ", ")))
+# monthly: transcribed months, and log-linear interpolation between the June benchmarks (and
+# Sep-Oct 1970) for the months not printed. Housing from Jun 1960; total from Jun 1956.
+sb <- tibble(t = mi("1956-06"):mi("1976-12")) |>
+  left_join(sbw, by = "t") |>
+  left_join(sbj |> select(t, h_j = housing, tot_j = total), by = "t") |>
+  mutate(housing_pt = coalesce(v_housing, h_j), total_pt = coalesce(v_housing + v_other, tot_j))
+li <- function(t, x) { k <- !is.na(x); out <- exp(approx(t[k], log(x[k]), xout = t)$y); out }
+sb <- sb |> mutate(sb_total = li(t, total_pt), sb_housing = li(t, housing_pt), sb_other = sb_total - sb_housing,
+                   sb_method = case_when(!is.na(v_housing) ~ "Bulletin (monthly)", !is.na(tot_j) ~ "OP8 end-June",
+                                         TRUE ~ "Interpolated between benchmarks"),
+                   sb_issue = coalesce(issue_housing, if_else(!is.na(tot_j), "OP8 table 3.9", NA_character_)))
+# all banks: major trading banks (average of weekly figures) plus savings banks (end of month).
+# Savings bank loans have little seasonality, so the original series is added to trading banks'
+# seasonally adjusted lending.
+bank <- bank |> left_join(sb |> select(t, sb_housing, sb_other, sb_total, sb_method, sb_issue), by = "t") |>
+  mutate(all_bank = mtb_orig + sb_total, all_bank_sa = mtb_sa + sb_total)
+ov5 <- bank |> inner_join(d2, by = "t")
+cat(sprintf("Major trading + savings banks / RBA lending by all banks (DLCALAB), Sep-Dec 1976: %.3f - %.3f\n",
+            min(ov5$all_bank / (1000 * ov5$DLCALAB)), max(ov5$all_bank / (1000 * ov5$DLCALAB))))
+# June table, 1950 - 1989: trading and savings bank lending, and shares of GDP
+bank_june <- op_tb |> transmute(year_ended_june = june, tb_loans = loans_advances_bills, tb_note = note) |>
+  left_join(sbj |> transmute(year_ended_june = june, sb_loans_op8 = loans_total, sb_housing_op8 = loans_housing,
+                             sb_note = note, sb_housing_adj = housing, sb_total_adj = total), by = "year_ended_june") |>
+  left_join(lr |> select(year_ended_june, gdp, credit_total), by = "year_ended_june") |>
+  mutate(all_bank_loans = tb_loans + sb_loans_op8,
+         sb_share_pct = 100 * sb_loans_op8 / all_bank_loans,
+         tb_pct_gdp = 100 * tb_loans / gdp, sb_housing_pct_gdp = 100 * sb_housing_op8 / gdp,
+         sb_other_pct_gdp = 100 * (sb_loans_op8 - sb_housing_op8) / gdp, sb_total_pct_gdp = 100 * sb_loans_op8 / gdp,
+         banks_share_of_credit_pct = 100 * all_bank_loans / credit_total)
+
 # Monthly total credit, Jun 1957 - Aug 1976: the end-June totals above (OP8 growth chained back)
-# and Sep 1976 (the first month of the RBA series), interpolated by proportional Denton (first differences) on seasonally
-# adjusted trading bank lending. For stock benchmarks this interpolates the credit / bank lending
-# ratio linearly between benchmark months.
+# and Sep 1976 (the first month of the RBA series), interpolated by proportional Denton (first
+# differences) on seasonally adjusted lending by all banks (major trading banks plus savings
+# banks). For stock benchmarks this interpolates the credit / bank lending ratio linearly between
+# benchmark months.
 bm <- bind_rows(lr |> filter(year_ended_june %in% 1957:1976) |> transmute(t = mi(sprintf("%d-06", year_ended_june)), b = credit_total),
                 mc |> filter(t == min(t[!is.na(credit_total)])) |> transmute(t, b = credit_total * 1000)) |>
-  inner_join(bank |> select(t, mtb_sa), by = "t") |> mutate(r = b / mtb_sa)
+  inner_join(bank |> select(t, all_bank_sa), by = "t") |> mutate(r = b / all_bank_sa)
 bank <- bank |> mutate(credit_total = if_else(t >= min(bm$t) & t <= max(bm$t),
-                                              approx(bm$t, bm$r, xout = t)$y * mtb_sa, NA_real_))
+                                              approx(bm$t, bm$r, xout = t)$y * all_bank_sa, NA_real_))
 # fill the monthly credit series and rebuild the quarterly shares of GDP
 fill <- bank |> filter(t < max(bm$t), !is.na(credit_total)) |> select(t, cr_fill = credit_total)
 mc <- mc |> left_join(fill, by = "t") |> mutate(credit_total = coalesce(credit_total, cr_fill / 1000)) |> select(-cr_fill)
 q <- make_q(mc)
 # how well does trading bank lending track total credit, June to June?
-gchk <- bank |> filter(t %% 12L == 5L) |> transmute(year_ended_june = t %/% 12L, g_bank = 100 * (mtb_sa / lag(mtb_sa) - 1)) |>
+gchk <- bank |> filter(t %% 12L == 5L) |> transmute(year_ended_june = t %/% 12L, g_bank = 100 * (mtb_sa / lag(mtb_sa) - 1),
+                                                    g_all = 100 * (all_bank_sa / lag(all_bank_sa) - 1)) |>
   inner_join(lr |> select(year_ended_june, credit_growth), by = "year_ended_june") |> filter(!is.na(g_bank), !is.na(credit_growth))
-cat(sprintf("Trading bank lending vs total credit growth, years to June %d-%d: correlation %.2f; mean %.1f vs %.1f per cent\n",
+cat(sprintf("Lending growth vs total credit growth, years to June %d-%d: correlation trading banks %.2f, all banks %.2f; mean %.1f, %.1f vs %.1f per cent\n",
             min(gchk$year_ended_june), max(gchk$year_ended_june), cor(gchk$g_bank, gchk$credit_growth),
-            mean(gchk$g_bank), mean(gchk$credit_growth)))
+            cor(gchk$g_all, gchk$credit_growth), mean(gchk$g_bank), mean(gchk$g_all), mean(gchk$credit_growth)))
 
 # ---- 4c. Break-even inflation and inflation expectations, 1985 - 2026 ----------------------
 # The RBA's current files show only part of this history: table G3 has break-even inflation from
@@ -346,8 +431,22 @@ write_csv(ie |> transmute(quarter = lab(t), breakeven_10y = round(breakeven_10y,
 write_csv(bank |> transmute(month = lab(t), trading_bank_lending_m = round(mtb_orig, 1),
                             trading_bank_lending_sa_m = round(mtb_sa, 1), sa_method,
                             trading_bank_lending_as_printed_m = round(mtb_orig_printed, 1), source_issue = issue,
+                            savings_bank_housing_m = round(sb_housing, 1), savings_bank_other_m = round(sb_other, 1),
+                            savings_bank_lending_m = round(sb_total, 1), savings_bank_method = sb_method,
+                            savings_bank_source = sb_issue, all_bank_lending_m = round(all_bank, 1),
+                            all_bank_lending_sa_m = round(all_bank_sa, 1),
                             credit_total_interpolated_m = round(credit_total)),
           "output/bank_lending_monthly_1957_76.csv", na = "")
+write_csv(bank_june |> transmute(year_ended_june, trading_bank_loans_m = tb_loans, savings_bank_loans_m = sb_loans_op8,
+                                 savings_bank_housing_m = sb_housing_op8, all_bank_loans_m = all_bank_loans,
+                                 savings_bank_share_pct = round(sb_share_pct, 1),
+                                 trading_bank_pct_gdp = round(tb_pct_gdp, 1), savings_bank_housing_pct_gdp = round(sb_housing_pct_gdp, 1),
+                                 savings_bank_other_pct_gdp = round(sb_other_pct_gdp, 1),
+                                 banks_share_of_total_credit_pct = round(banks_share_of_credit_pct, 1),
+                                 savings_bank_housing_break_adj_m = round(sb_housing_adj, 1),
+                                 savings_bank_loans_break_adj_m = round(sb_total_adj, 1),
+                                 trading_bank_note = tb_note, savings_bank_note = sb_note),
+          "output/bank_lending_june_1950_89.csv", na = "")
 
 # ---- 6. Charts ---------------------------------------------------------------------------
 pal <- c("#1f4e79", "#c0504d", "#7f7f7f", "#4f9a3f", "#d79b00")
@@ -407,14 +506,36 @@ ggsave("output/credit_money_gdp.png", p3, width = 9, height = 5, dpi = 150, bg =
 yy <- function(x) 100 * (x / lag(x, 12) - 1)
 gr <- bind_rows(
   bank |> transmute(t, v = yy(mtb_sa), s = "Major trading banks' lending (bulletins, 1957-76)"),
+  bank |> transmute(t, v = yy(sb_total), s = "Savings banks' lending (bulletins and OP8, 1957-76)"),
   mc |> transmute(t, v = yy(credit_total), s = "Total credit (interpolated to Aug 1976, RBA after)")) |>
   filter(!is.na(v), t <= mi("1990-12"))
+gr$s <- factor(gr$s, unique(gr$s))
 p4 <- ggplot(gr, aes(dt(t), v, colour = s)) + geom_hline(yintercept = 0, colour = "grey50") +
-  geom_line(linewidth = 0.5) + scale_colour_manual(values = pal[c(2, 1)], name = NULL) +
+  geom_line(linewidth = 0.5) + scale_colour_manual(values = pal[c(2, 4, 1)], name = NULL) +
+  guides(colour = guide_legend(nrow = 2)) +
   labs(title = "Bank lending and credit growth, 1958 - 1990 (per cent, year-ended, monthly)",
-       subtitle = "Trading bank loans, advances and bills discounted, seasonally adjusted, break-adjusted at Jul 1973",
+       subtitle = paste0("Loans, advances and bills discounted. Trading banks seasonally adjusted, break-adjusted at Jul 1973;\n",
+                         "savings banks monthly from Sep 1971, interpolated between end-June figures before"),
        x = NULL, y = NULL, caption = "Sources: CBCS/ABS banking bulletins (ANU Open Research); RBA D1, OP8") + th
-ggsave("output/bank_lending_growth.png", p4, width = 9, height = 5, dpi = 150, bg = "white")
+ggsave("output/bank_lending_growth.png", p4, width = 9, height = 5.2, dpi = 150, bg = "white")
+
+# bank lending relative to GDP, end-June 1950 - 1989: trading banks and savings banks (stacked)
+SB <- c("Trading banks", "Savings banks: housing", "Savings banks: other")
+bj0 <- bank_june |> filter(!is.na(gdp), year_ended_june <= 1988)   # June 1989: new returns, reclassified
+bj <- bind_rows(                                  # zeros before savings bank figures start, so the areas stack
+  bj0 |> transmute(y = year_ended_june, s = SB[1], v = tb_pct_gdp),
+  bj0 |> transmute(y = year_ended_june, s = SB[2], v = coalesce(sb_housing_pct_gdp, 0)),
+  bj0 |> transmute(y = year_ended_june, s = SB[3], v = coalesce(sb_other_pct_gdp, sb_total_pct_gdp, 0))) |>
+  mutate(s = factor(s, rev(SB)))
+p6 <- ggplot(bj, aes(fyd(y), v, fill = s)) + geom_area(position = "stack", alpha = 0.9) +
+  scale_fill_manual(values = c("Trading banks" = pal[1], "Savings banks: housing" = pal[4], "Savings banks: other" = "#a9d18e"),
+                    breaks = SB, name = NULL) +
+  labs(title = "Bank lending relative to GDP, end-June 1950 - 1988 (per cent)",
+       subtitle = paste0("Loans, advances and bills discounted, over the year's nominal GDP. Savings bank lending is shown\n",
+                         "from 1956 and split into housing from 1960 (1956-59 in 'other'). Levels as published, with their breaks;\n",
+                         "from 1985 new banks took over business from building societies and finance companies."),
+       x = NULL, y = NULL, caption = "Source: RBA Occasional Paper 8, tables 3.8 and 3.9") + th
+ggsave("output/bank_lending_gdp.png", p6, width = 9, height = 5, dpi = 150, bg = "white")
 
 # inflation expectations: break-even (monthly) and survey measures (quarterly), with CPI inflation
 ex <- bind_rows(

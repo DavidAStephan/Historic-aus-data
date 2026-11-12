@@ -1,0 +1,145 @@
+series,month,value,unit,issue,page,note
+sb_loans_housing,1975-11,5255.0,$m,BK1976-12,14,"Table 11 savings banks assets: loans advances and bills discounted, housing"
+sb_loans_other,1975-11,608.9,$m,BK1976-12,14,Table 11: other
+sb_loans_housing,1975-12,5394.5,$m,BK1976-12,14,"Table 11 savings banks assets: loans advances and bills discounted, housing"
+sb_loans_other,1975-12,579.0,$m,BK1976-12,14,Table 11: other
+sb_loans_housing,1976-01,5436.7,$m,BK1976-12,14,"Table 11 savings banks assets: loans advances and bills discounted, housing"
+sb_loans_other,1976-01,597.1,$m,BK1976-12,14,Table 11: other
+sb_loans_housing,1976-02,5525.2,$m,BK1976-12,14,"Table 11 savings banks assets: loans advances and bills discounted, housing"
+sb_loans_other,1976-02,616.0,$m,BK1976-12,14,Table 11: other
+sb_loans_housing,1976-03,5711.5,$m,BK1976-12,14,"Table 11 savings banks assets: loans advances and bills discounted, housing"
+sb_loans_other,1976-03,628.2,$m,BK1976-12,14,Table 11: other
+sb_loans_housing,1976-04,5816.1,$m,BK1976-12,14,"Table 11 savings banks assets: loans advances and bills discounted, housing"
+sb_loans_other,1976-04,685.8,$m,BK1976-12,14,Table 11: other
+sb_loans_housing,1976-05,5919.4,$m,BK1976-12,14,"Table 11 savings banks assets: loans advances and bills discounted, housing"
+sb_loans_other,1976-05,707.4,$m,BK1976-12,14,Table 11: other
+sb_loans_housing,1976-06,6049.7,$m,BK1976-12,14,"Table 11 savings banks assets: loans advances and bills discounted, housing"
+sb_loans_other,1976-06,695.3,$m,BK1976-12,14,Table 11: other
+sb_loans_housing,1976-07,6145.3,$m,BK1976-12,14,"Table 11 savings banks assets: loans advances and bills discounted, housing"
+sb_loans_other,1976-07,717.5,$m,BK1976-12,14,Table 11: other
+sb_loans_housing,1976-08,6232.9,$m,BK1976-12,14,"Table 11 savings banks assets: loans advances and bills discounted, housing"
+sb_loans_other,1976-08,722.4,$m,BK1976-12,14,Table 11: other
+sb_loans_housing,1976-09,6405.5,$m,BK1976-12,14,"Table 11 savings banks assets: loans advances and bills discounted, housing"
+sb_loans_other,1976-09,717.8,$m,BK1976-12,14,Table 11: other
+sb_loans_housing,1976-10,6490.2,$m,BK1976-12,14,"Table 11 savings banks assets: loans advances and bills discounted, housing"
+sb_loans_other,1976-10,749.3,$m,BK1976-12,14,Table 11: other
+sb_loans_housing,1976-11,6582.8,$m,BK1976-12,14,"Table 11 savings banks assets: loans advances and bills discounted, housing"
+sb_loans_other,1976-11,739.2,$m,BK1976-12,14,Table 11: other
+sb_loans_housing,1976-12,6725.7,$m,BK1976-12,14,"Table 11 savings banks assets: loans advances and bills discounted, housing"
+sb_loans_other,1976-12,757.6,$m,BK1976-12,14,Table 11: other
+sb_loans_housing,1973-09,3243.1,$m,BS1974-10,13,Table 10
+sb_loans_other,1973-09,353.2,$m,BS1974-10,13,Table 10
+sb_loans_housing,1973-10,3306.7,$m,BS1974-10,13,Table 10
+sb_loans_other,1973-10,364.4,$m,BS1974-10,13,Table 10
+sb_loans_housing,1973-11,3354.9,$m,BS1974-10,13,Table 10
+sb_loans_other,1973-11,374.1,$m,BS1974-10,13,Table 10
+sb_loans_housing,1973-12,3403.4,$m,BS1974-10,13,Table 10
+sb_loans_other,1973-12,401.9,$m,BS1974-10,13,Table 10
+sb_loans_housing,1974-01,3423.5,$m,BS1974-10,13,Table 10
+sb_loans_other,1974-01,422.8,$m,BS1974-10,13,Table 10
+sb_loans_housing,1974-02,3454.8,$m,BS1974-10,13,Table 10
+sb_loans_other,1974-02,441.1,$m,BS1974-10,13,Table 10
+sb_loans_housing,1974-03,3515.7,$m,BS1974-10,13,Table 10
+sb_loans_other,1974-03,469.8,$m,BS1974-10,13,Table 10
+sb_loans_housing,1974-04,3564.8,$m,BS1974-10,13,Table 10
+sb_loans_other,1974-04,517.9,$m,BS1974-10,13,Table 10
+sb_loans_housing,1974-05,3612.3,$m,BS1974-10,13,Table 10
+sb_loans_other,1974-05,517.2,$m,BS1974-10,13,Table 10
+sb_loans_housing,1974-06,3671.8,$m,BS1974-10,13,Table 10
+sb_loans_other,1974-06,513.3,$m,BS1974-10,13,Table 10
+sb_loans_housing,1974-07,3713.0,$m,BS1974-10,13,Table 10
+sb_loans_other,1974-07,495.1,$m,BS1974-10,13,Table 10
+sb_loans_housing,1974-08,3754.4,$m,BS1974-10,13,Table 10
+sb_loans_other,1974-08,519.1,$m,BS1974-10,13,Table 10
+sb_loans_housing,1974-09,3791.5,$m,BS1974-10,13,Table 10
+sb_loans_other,1974-09,550.6,$m,BS1974-10,13,Table 10
+sb_loans_housing,1974-10,3839.3,$m,BS1974-10,13,Table 10
+sb_loans_other,1974-10,594.6,$m,BS1974-10,13,Table 10
+sb_loans_housing,1972-09,2699.6,$m,BS1973-10,14,Table 10; includes PNG and external territories
+sb_loans_other,1972-09,293.3,$m,BS1973-10,14,Table 10; includes PNG and external territories
+sb_loans_housing,1972-10,2728.4,$m,BS1973-10,14,Table 10; includes PNG and external territories
+sb_loans_other,1972-10,298.1,$m,BS1973-10,14,Table 10; includes PNG and external territories
+sb_loans_housing,1972-11,2756.5,$m,BS1973-10,14,Table 10; includes PNG and external territories
+sb_loans_other,1972-11,301.8,$m,BS1973-10,14,Table 10; includes PNG and external territories
+sb_loans_housing,1972-12,2795.5,$m,BS1973-10,14,Table 10; includes PNG and external territories
+sb_loans_other,1972-12,306.5,$m,BS1973-10,14,Table 10; includes PNG and external territories
+sb_loans_housing,1973-01,2813.8,$m,BS1973-10,14,Table 10; includes PNG and external territories
+sb_loans_other,1973-01,304.9,$m,BS1973-10,14,Table 10; includes PNG and external territories
+sb_loans_housing,1973-02,2844.2,$m,BS1973-10,14,Table 10; includes PNG and external territories
+sb_loans_other,1973-02,310.3,$m,BS1973-10,14,Table 10; includes PNG and external territories
+sb_loans_housing,1973-03,2885.6,$m,BS1973-10,14,Table 10; includes PNG and external territories
+sb_loans_other,1973-03,319.7,$m,BS1973-10,14,Table 10; includes PNG and external territories
+sb_loans_housing,1973-04,2927.1,$m,BS1973-10,14,Table 10; includes PNG and external territories
+sb_loans_other,1973-04,328.0,$m,BS1973-10,14,Table 10; includes PNG and external territories
+sb_loans_housing,1973-05,2982.8,$m,BS1973-10,14,Table 10; includes PNG and external territories
+sb_loans_other,1973-05,331.8,$m,BS1973-10,14,Table 10; includes PNG and external territories
+sb_loans_housing,1973-06,3042.1,$m,BS1973-10,14,Table 10; includes PNG and external territories
+sb_loans_other,1973-06,324.4,$m,BS1973-10,14,Table 10; includes PNG and external territories
+sb_loans_housing,1973-07,3102.0,$m,BS1973-10,14,Table 10; includes PNG and external territories
+sb_loans_other,1973-07,347.1,$m,BS1973-10,14,Table 10; includes PNG and external territories
+sb_loans_housing,1973-08,3173.0,$m,BS1973-10,14,Table 10; includes PNG and external territories
+sb_loans_other,1973-08,353.0,$m,BS1973-10,14,Table 10; includes PNG and external territories
+sb_loans_housing,1973-09,3243.9,$m,BS1973-10,14,Table 10; includes PNG and external territories
+sb_loans_other,1973-09,367.5,$m,BS1973-10,14,Table 10; includes PNG and external territories
+sb_loans_housing,1973-10,3307.5,$m,BS1973-10,14,Table 10; includes PNG and external territories
+sb_loans_other,1973-10,378.7,$m,BS1973-10,14,Table 10; includes PNG and external territories
+sb_loans_housing,1971-09,2429.9,$m,BS1972-10,13,Table 10; includes PNG and external territories
+sb_loans_other,1971-09,251.5,$m,BS1972-10,13,Table 10; includes PNG and external territories
+sb_loans_housing,1971-10,2445.6,$m,BS1972-10,13,Table 10; includes PNG and external territories
+sb_loans_other,1971-10,247.2,$m,BS1972-10,13,Table 10; includes PNG and external territories
+sb_loans_housing,1971-11,2460.7,$m,BS1972-10,13,Table 10; includes PNG and external territories
+sb_loans_other,1971-11,252.3,$m,BS1972-10,13,Table 10; includes PNG and external territories
+sb_loans_housing,1971-12,2490.9,$m,BS1972-10,13,Table 10; includes PNG and external territories
+sb_loans_other,1971-12,260.1,$m,BS1972-10,13,Table 10; includes PNG and external territories
+sb_loans_housing,1972-01,2495.8,$m,BS1972-10,13,Table 10; includes PNG and external territories
+sb_loans_other,1972-01,259.6,$m,BS1972-10,13,Table 10; includes PNG and external territories
+sb_loans_housing,1972-02,2511.2,$m,BS1972-10,13,Table 10; includes PNG and external territories
+sb_loans_other,1972-02,261.8,$m,BS1972-10,13,Table 10; includes PNG and external territories
+sb_loans_housing,1972-03,2549.9,$m,BS1972-10,13,Table 10; includes PNG and external territories
+sb_loans_other,1972-03,265.9,$m,BS1972-10,13,Table 10; includes PNG and external territories
+sb_loans_housing,1972-04,2569.5,$m,BS1972-10,13,Table 10; includes PNG and external territories
+sb_loans_other,1972-04,267.6,$m,BS1972-10,13,Table 10; includes PNG and external territories
+sb_loans_housing,1972-05,2592.6,$m,BS1972-10,13,Table 10; includes PNG and external territories
+sb_loans_other,1972-05,271.6,$m,BS1972-10,13,Table 10; includes PNG and external territories
+sb_loans_housing,1972-06,2620.3,$m,BS1972-10,13,Table 10; includes PNG and external territories
+sb_loans_other,1972-06,269.3,$m,BS1972-10,13,Table 10; includes PNG and external territories
+sb_loans_housing,1972-07,2645.1,$m,BS1972-10,13,Table 10; includes PNG and external territories
+sb_loans_other,1972-07,278.9,$m,BS1972-10,13,Table 10; includes PNG and external territories
+sb_loans_housing,1972-08,2668.0,$m,BS1972-10,13,Table 10; includes PNG and external territories
+sb_loans_other,1972-08,287.7,$m,BS1972-10,13,Table 10; includes PNG and external territories
+sb_loans_housing,1972-09,2699.6,$m,BS1972-10,13,Table 10; includes PNG and external territories
+sb_loans_other,1972-09,293.3,$m,BS1972-10,13,Table 10; includes PNG and external territories
+sb_loans_housing,1972-10,2728.4,$m,BS1972-10,13,Table 10; includes PNG and external territories
+sb_loans_other,1972-10,298.1,$m,BS1972-10,13,Table 10; includes PNG and external territories
+sb_loans_housing,1970-09,2195.6,$m,BS1971-10,14,Table 14 savings banks assets within Australia; September and October only
+sb_loans_other,1970-09,208.7,$m,BS1971-10,14,Table 14 savings banks assets within Australia; September and October only
+sb_loans_housing,1970-10,2210.8,$m,BS1971-10,14,Table 14 savings banks assets within Australia; September and October only
+sb_loans_other,1970-10,206.3,$m,BS1971-10,14,Table 14 savings banks assets within Australia; September and October only
+sb_loans_housing,1974-11,3885.9,$m,BK1975-12,14,Table 11; before the June 1975 change in one savings bank's accounting
+sb_loans_other,1974-11,605.5,$m,BK1975-12,14,Table 11; before the June 1975 change in one savings bank's accounting
+sb_loans_housing,1974-12,3962.5,$m,BK1975-12,14,Table 11; before the June 1975 change in one savings bank's accounting
+sb_loans_other,1974-12,611.4,$m,BK1975-12,14,Table 11; before the June 1975 change in one savings bank's accounting
+sb_loans_housing,1975-01,4037.7,$m,BK1975-12,14,Table 11; before the June 1975 change in one savings bank's accounting
+sb_loans_other,1975-01,600.8,$m,BK1975-12,14,Table 11; before the June 1975 change in one savings bank's accounting
+sb_loans_housing,1975-02,4157.8,$m,BK1975-12,14,Table 11; before the June 1975 change in one savings bank's accounting
+sb_loans_other,1975-02,594.8,$m,BK1975-12,14,Table 11; before the June 1975 change in one savings bank's accounting
+sb_loans_housing,1975-03,4315.2,$m,BK1975-12,14,Table 11; before the June 1975 change in one savings bank's accounting
+sb_loans_other,1975-03,598.9,$m,BK1975-12,14,Table 11; before the June 1975 change in one savings bank's accounting
+sb_loans_housing,1975-04,4460.2,$m,BK1975-12,14,Table 11; before the June 1975 change in one savings bank's accounting
+sb_loans_other,1975-04,608.3,$m,BK1975-12,14,Table 11; before the June 1975 change in one savings bank's accounting
+sb_loans_housing,1975-05,4583.2,$m,BK1975-12,14,Table 11; before the June 1975 change in one savings bank's accounting
+sb_loans_other,1975-05,655.3,$m,BK1975-12,14,Table 11; before the June 1975 change in one savings bank's accounting
+sb_loans_housing,1975-06,4717.4,$m,BK1975-12,14,Table 11; before the June 1975 change in one savings bank's accounting
+sb_loans_other,1975-06,602.7,$m,BK1975-12,14,Table 11; before the June 1975 change in one savings bank's accounting
+sb_loans_housing,1975-07,4826.5,$m,BK1975-12,14,Table 11; before the June 1975 change in one savings bank's accounting
+sb_loans_other,1975-07,592.8,$m,BK1975-12,14,Table 11; before the June 1975 change in one savings bank's accounting
+sb_loans_housing,1975-08,4909.1,$m,BK1975-12,14,Table 11; before the June 1975 change in one savings bank's accounting
+sb_loans_other,1975-08,622.9,$m,BK1975-12,14,Table 11; before the June 1975 change in one savings bank's accounting
+sb_loans_housing,1975-09,5015.7,$m,BK1975-12,14,Table 11; before the June 1975 change in one savings bank's accounting
+sb_loans_other,1975-09,625.5,$m,BK1975-12,14,Table 11; before the June 1975 change in one savings bank's accounting
+sb_loans_housing,1975-10,5170.0,$m,BK1975-12,14,Table 11; before the June 1975 change in one savings bank's accounting
+sb_loans_other,1975-10,600.5,$m,BK1975-12,14,Table 11; before the June 1975 change in one savings bank's accounting
+sb_loans_housing,1975-11,5255.0,$m,BK1975-12,14,Table 11; before the June 1975 change in one savings bank's accounting
+sb_loans_other,1975-11,643.3,$m,BK1975-12,14,Table 11; before the June 1975 change in one savings bank's accounting
+sb_loans_housing,1975-12,5394.5,$m,BK1975-12,14,Table 11; before the June 1975 change in one savings bank's accounting
+sb_loans_other,1975-12,614.4,$m,BK1975-12,14,Table 11; before the June 1975 change in one savings bank's accounting
