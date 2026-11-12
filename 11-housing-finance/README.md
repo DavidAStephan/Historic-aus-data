@@ -15,6 +15,8 @@ and [`04-housing-pipeline`](../04-housing-pipeline); this section uses the comme
 
 ## Sources
 
+Links to every source used here (bulletin scans, RBA, ABS and FRED tables) are in [`SOURCES.md`](../SOURCES.md).
+
 | Series | Period | Source |
 |---|---|---|
 | Housing finance commitments to individuals for owner occupation, by lender (banks, of which savings banks; permanent building societies; other), new and established dwellings, number and value | 1952/53 – 1996/97 (established dwellings from 1966/67; building societies from 1969/70) | RBA Occasional Paper No. 8, table 3.3 |

@@ -40,6 +40,10 @@ end-of-quarter population × 1,000. Also per 1,000 aged 15–64 and per 1,000 ag
 | 2010s | 7.6 |
 | 2020–25 | 6.7 |
 
+## Sources
+
+Links to every source used here (bulletin scans, RBA, ABS and FRED tables) are in [`SOURCES.md`](../SOURCES.md).
+
 ## Files
 
 | File | What it is |

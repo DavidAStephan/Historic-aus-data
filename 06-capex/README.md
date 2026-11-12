@@ -11,6 +11,8 @@ investment plans compare with what was actually spent.
 
 ## Sources
 
+Links to every source used here (bulletin scans, RBA, ABS and FRED tables) are in [`SOURCES.md`](../SOURCES.md).
+
 | Period | Source | Coverage |
 |---|---|---|
 | Jun qtr 1961 – Sep qtr 1974 | *Capital Expenditure by Private Businesses in Australia* (pounds to Jun 1965, converted at $2 = £1) | Private businesses subject to pay-roll tax, excluding rural industries (about 77–79% of the business field) |

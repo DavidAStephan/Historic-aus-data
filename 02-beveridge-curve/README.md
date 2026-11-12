@@ -34,6 +34,10 @@ A longer write-up of the method is in the Claude Doc
      multiplied by 1.8/1.4 = 1.29 (rounding allows 1.21–1.37).
    - 1964–66 quarters: OECD quarterly unemployment and labour force (old basis × 1.29).
 
+## Sources
+
+Links to every source used here (bulletin scans, RBA, ABS and FRED tables) are in [`SOURCES.md`](../SOURCES.md).
+
 ## Files
 
 | File | What it is |

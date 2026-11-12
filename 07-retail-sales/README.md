@@ -16,6 +16,8 @@ Australia* (April 1982 to June 2025, its final release).
 
 ## Sources
 
+Links to every source used here (bulletin scans, RBA, ABS and FRED tables) are in [`SOURCES.md`](../SOURCES.md).
+
 | Period | Source | Census benchmark |
 |---|---|---|
 | 1947-48 to 1955-56 (years) | *Quarterly Summary of Australian Statistics* No. 238 (Dec 1959), No. 254 (Dec 1964) | 1956-57, then 1961-62 |

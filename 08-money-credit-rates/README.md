@@ -21,6 +21,8 @@ Each comes in levels, growth and shares of GDP, and real rates are also given.
 
 ## Sources
 
+Links to every source used here (bulletin scans, RBA, ABS and FRED tables) are in [`SOURCES.md`](../SOURCES.md).
+
 | Source | Series | Period |
 |---|---|---|
 | RBA F1.1 | Cash rate target (from Aug 1990), interbank overnight cash rate (from May 1976), 90-day bank bills (from Jun 1969); monthly averages | 1969 – Oct 2026 |

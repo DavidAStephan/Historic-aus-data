@@ -15,6 +15,8 @@ A seasonally adjusted monthly unemployment rate for Australia from January 1950.
 
 ## Sources
 
+Links to every source used here (bulletin scans, RBA, ABS and FRED tables) are in [`SOURCES.md`](../SOURCES.md).
+
 | Period | Series | Source |
 |---|---|---|
 | 1952 – Apr 1963 | Persons on unemployment benefit at the end of each month (Department of Social Services) | CBCS *Monthly Bulletin of Employment Statistics*, Dec 1952 – Apr 1963 issues (ANU Open Research) |

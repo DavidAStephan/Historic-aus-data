@@ -19,6 +19,8 @@ this gives a quarterly wage Phillips curve from 1950.
 
 ## Sources
 
+Links to every source used here (bulletin scans, RBA, ABS and FRED tables) are in [`SOURCES.md`](../SOURCES.md).
+
 | Series | Period | Source |
 |---|---|---|
 | Average weekly earnings per employed male unit (to 1980-81), then male AWE (from 1981-82), spliced by the ABS | 1949-50 – 1995-96 | RBA Occasional Paper No. 8, *Australian Economic Statistics 1949-50 to 1996-97*, table 4.17 |

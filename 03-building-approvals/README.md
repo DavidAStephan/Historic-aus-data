@@ -27,6 +27,10 @@ Both were printed monthly for November 1974 – June 1975.
    month adds about 3.5% to approvals). The two meet within 0.3% at July 1983; STL
    differs from the SA figures printed in the bulletins (1966–83) by 2.8% on average.
 
+## Sources
+
+Links to every source used here (bulletin scans, RBA, ABS and FRED tables) are in [`SOURCES.md`](../SOURCES.md).
+
 ## Files
 
 | File | What it is |

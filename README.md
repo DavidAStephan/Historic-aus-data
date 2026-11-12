@@ -120,4 +120,5 @@ against the seasonally adjusted figures printed in the old bulletins.
 - *The Canberra Times* via Trove (CES vacancy counts 1979–80)
 
 ABS material is used under the Creative Commons Attribution 4.0 International licence.
-Details of each source are in the folder READMEs.
+
+**[`SOURCES.md`](SOURCES.md) lists every source with links**: all 202 scanned bulletin issues (persistent ANU links), the RBA, ABS and FRED tables, the Internet Archive copies, and every `data-raw` file with where it came from. The same registers are in [`sources/`](sources) as CSV files.

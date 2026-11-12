@@ -8,6 +8,8 @@ New dwellings commenced (starts) and completed, Australia, from the September qu
 
 ## Sources
 
+Links to every source used here (bulletin scans, RBA, ABS and FRED tables) are in [`SOURCES.md`](../SOURCES.md).
+
 - **From 1955: ABS 8752.0 Building Activity** (June 2026 release), Tables 33 and 37,
   new houses + new other residential, total and private sector. Starts from Sep qtr
   1955, completions from Mar qtr 1955. Used unchanged.

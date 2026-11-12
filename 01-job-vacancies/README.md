@@ -31,6 +31,10 @@ Vacancies series (6354.0), giving one quarterly vacancy series from 1966 to 2026
    surveys (1974–80, as first published) gives 2.21. The chart's band is the range of
    single-date ratios from either method, **1.89–2.61**.
 
+## Sources
+
+Links to every source used here (bulletin scans, RBA, ABS and FRED tables) are in [`SOURCES.md`](../SOURCES.md).
+
 ## Files
 
 | File | What it is |
